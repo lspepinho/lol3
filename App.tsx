@@ -3,22 +3,31 @@ import { QuizStartScreen } from './components/QuizStartScreen';
 import { QuestionCard } from './components/QuestionCard';
 import { ResultsScreen } from './components/ResultsScreen';
 import { LoadingIndicator } from './components/LoadingIndicator';
-import { generateQuizQuestions } from './services/geminiService';
-import { Question } from './types';
-import { QuizState } from './types';
+import { generateQuizQuestions, ALL_QUIZZES } from './services/geminiService';
+import { Question, QuizTopic, QuizState } from './types';
 
 export default function App() {
+  const [currentQuiz, setCurrentQuiz] = useState<QuizTopic>(ALL_QUIZZES[0]);
   const [quizState, setQuizState] = useState<QuizState>(QuizState.IDLE);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [userAnswers, setUserAnswers] = useState<(string | null)[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
+  const handleSelectQuiz = (quiz: QuizTopic) => {
+    setCurrentQuiz(quiz);
+    setQuizState(QuizState.IDLE);
+    setQuestions([]);
+    setUserAnswers([]);
+    setCurrentQuestionIndex(0);
+    setError(null);
+  };
+
   const startQuiz = useCallback(async () => {
     setError(null);
     setQuizState(QuizState.LOADING);
     try {
-      const newQuestions = await generateQuizQuestions();
+      const newQuestions = await generateQuizQuestions(currentQuiz.id);
       setQuestions(newQuestions);
       setUserAnswers(Array(newQuestions.length).fill(null));
       setCurrentQuestionIndex(0);
@@ -27,7 +36,7 @@ export default function App() {
       setError(err instanceof Error ? err.message : 'Ocorreu um erro desconhecido.');
       setQuizState(QuizState.IDLE);
     }
-  }, []);
+  }, [currentQuiz.id]);
 
   const handleAnswer = (answer: string) => {
     const newUserAnswers = [...userAnswers];
@@ -67,22 +76,37 @@ export default function App() {
           />
         );
       case QuizState.RESULTS:
-        return <ResultsScreen questions={questions} userAnswers={userAnswers} onRestart={restartQuiz} />;
+        return (
+          <ResultsScreen
+            questions={questions}
+            userAnswers={userAnswers}
+            onRestart={restartQuiz}
+            currentQuiz={currentQuiz}
+            onSelectQuiz={handleSelectQuiz}
+          />
+        );
       case QuizState.IDLE:
       default:
-        return <QuizStartScreen onStart={startQuiz} error={error} />;
+        return (
+          <QuizStartScreen
+            onStart={startQuiz}
+            error={error}
+            currentQuiz={currentQuiz}
+            onSelectQuiz={handleSelectQuiz}
+          />
+        );
     }
   };
 
   return (
     <main className="min-h-screen flex flex-col items-center bg-white overflow-hidden relative">
-      {/* Increased max-width significantly to fill screen */}
+      {/* Container */}
       <div className="w-full max-w-[95vw] xl:max-w-[1600px] mx-auto p-4 flex-grow flex flex-col justify-center relative z-10">
         {renderContent()}
       </div>
-      
+
       {/* Footer mimic */}
-      <footer className="w-full text-center py-4 text-sm md:text-xl font-bold text-black bg-white z-10">
+      <footer className="w-full text-center py-4 text-sm md:text-xl font-bold text-black bg-white z-10 border-t-2 border-gray-200">
         Todos direitos reservados &copy; {new Date().getFullYear()} André Birnfeld (Homenagem Educativa)
       </footer>
     </main>
