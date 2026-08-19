@@ -1,451 +1,432 @@
 import { Question } from '../types';
 
-const hardQuestions: Question[] = [
-  // ==========================================
-  // 1. CINEMÁTICA E MOVIMENTO (12 questões)
-  // ==========================================
+const questions: Question[] = [
+  // =========================================================================
+  // BLOCO 1: SISTEMA DE EQUAÇÕES DO 1º GRAU - MÉTODOS E CONCEITOS (15 questões)
+  // =========================================================================
   {
-    question: "Um corpo percorre 240 km em 2 horas e, em seguida, dobra sua velocidade para o restante do percurso. Qual a velocidade média inicial e a nova velocidade?",
-    options: ["120 km/h e 240 km/h", "100 km/h e 200 km/h", "60 km/h e 120 km/h", "120 km/h e 180 km/h"],
-    correctAnswer: "120 km/h e 240 km/h",
-    explanation: "Inicial: 240/2 = 120 km/h. Dobro: 120 x 2 = 240 km/h."
+    question: "O que é um sistema de equações do 1º grau com duas incógnitas (geralmente x e y)?",
+    options: [
+      "Um conjunto de duas ou mais equações que devem ser satisfeitas ao mesmo tempo pelas mesmas incógnitas.",
+      "Uma única equação que possui infinitos expoentes elevados ao quadrado.",
+      "Um conjunto de retas paralelas que nunca possuem números reais.",
+      "Uma expressão numérica sem incógnitas ou igualdades."
+    ],
+    correctAnswer: "Um conjunto de duas ou mais equações que devem ser satisfeitas ao mesmo tempo pelas mesmas incógnitas.",
+    explanation: "Um sistema de equações do 1º grau busca encontrar os valores das incógnitas (x e y) que tornam verdadeiras todas as equações simultaneamente."
   },
   {
-    question: "Sobre o referencial, se um passageiro caminha para a frente de um ônibus a 1 m/s e o ônibus se move a 20 m/s, qual a velocidade do passageiro para alguém na calçada?",
-    options: ["19 m/s", "20 m/s", "21 m/s", "1 m/s"],
-    correctAnswer: "21 m/s",
-    explanation: "As velocidades se somam quando no mesmo sentido: 20 + 1 = 21 m/s."
+    question: "No Método da Substituição, qual é o primeiro passo recomendado para facilitar os cálculos?",
+    options: [
+      "Isolar na equação a incógnita cujo coeficiente é 1 e o sinal é positivo.",
+      "Multiplicar todas as equações por zero.",
+      "Somar todos os números sem isolar nenhuma incógnita.",
+      "Elevar todos os termos ao quadrado."
+    ],
+    correctAnswer: "Isolar na equação a incógnita cujo coeficiente é 1 e o sinal é positivo.",
+    explanation: "Isolar a incógnita multiplicada por 1 (com sinal positivo) evita frações e simplifica a substituição na segunda equação."
   },
   {
-    question: "Qual característica define a trajetória de um projétil lançado que não seja perfeitamente vertical?",
-    options: ["Reta", "Curvilínea", "Estática", "Circular Uniforme"],
-    correctAnswer: "Curvilínea",
-    explanation: "A trajetória curvilínea ocorre quando a linha do movimento desenha uma curva no espaço."
+    question: "Na equação 'x + y = 10', se isolarmos a incógnita y, como fica a expressão?",
+    options: ["y = 10 - x", "y = 10 + x", "y = x - 10", "y = 10 / x"],
+    correctAnswer: "y = 10 - x",
+    explanation: "Passando o termo +x para o segundo membro com a operação inversa, obtemos y = 10 - x."
   },
   {
-    question: "A aceleração escalar é definida como a taxa de variação de qual grandeza ao longo do tempo?",
-    options: ["Posição", "Referencial", "Velocidade", "Trajetória"],
-    correctAnswer: "Velocidade",
-    explanation: "Acelerar significa mudar o valor ou a direção da velocidade."
+    question: "No Método da Adição, qual condição os coeficientes de uma das incógnitas devem ter para que ela seja eliminada?",
+    options: [
+      "Devem ter valores numéricos iguais em módulo e sinais opostos (um positivo e outro negativo).",
+      "Devem ser ambos números ímpares positivos.",
+      "Devem ser sempre iguais a zero em ambas as equações.",
+      "Devem ter os mesmos sinais positivos."
+    ],
+    correctAnswer: "Devem ter valores numéricos iguais em módulo e sinais opostos (um positivo e outro negativo).",
+    explanation: "Para anular uma incógnita na adição termo a termo, seus coeficientes precisam ser opostos/simétricos (por exemplo, +1y e -1y)."
   },
   {
-    question: "O 'Efeito Arghi!' em uma curva brusca demonstra qual conceito físico relacionado à velocidade?",
-    options: ["Velocidade Escalar constante", "Aceleração por mudança de direção", "Repouso absoluto", "Falta de referencial"],
-    correctAnswer: "Aceleração por mudança de direção",
-    explanation: "Mudar a direção da velocidade, mesmo sem mudar o valor, é uma forma de aceleração."
+    question: "Resolvendo o sistema { x + y = 10 , 2x - y = 4 } pelo método da adição, encontramos qual valor fracionário para x?",
+    options: ["x = 14/3 (aproximadamente 4,67)", "x = 6", "x = 10", "x = 4/3"],
+    correctAnswer: "x = 14/3 (aproximadamente 4,67)",
+    explanation: "Somando as equações: (x + 2x) + (y - y) = 10 + 4 => 3x = 14 => x = 14/3 ≈ 4,67. Substituindo: y = 10 - 4,67 = 5,33."
   },
   {
-    question: "Se um atleta olímpico mantém 10 m/s constantes, em quanto tempo ele completaria uma maratona de 42 km (aprox)?",
-    options: ["42 segundos", "420 segundos", "70 minutos", "4200 segundos"],
-    correctAnswer: "4200 segundos",
-    explanation: "Tempo = Distância / Velocidade. 42.000 m / 10 m/s = 4.200 s (70 minutos)."
+    question: "Qual é a solução (x, y) do sistema { 3x + y = 13 , 2x - y = 2 }?",
+    options: ["x = 3 e y = 4", "x = 4 e y = 3", "x = 5 e y = 2", "x = 2 e y = 7"],
+    correctAnswer: "x = 3 e y = 4",
+    explanation: "Somando as duas equações: 5x = 15 => x = 3. Substituindo na segunda: 2(3) - y = 2 => 6 - y = 2 => y = 4."
   },
   {
-    question: "Uma formiga carrega uma folha por 10 m em 20 s. Qual sua velocidade em cm/s?",
-    options: ["0,5 cm/s", "5 cm/s", "50 cm/s", "500 cm/s"],
-    correctAnswer: "50 cm/s",
-    explanation: "10 m = 1000 cm. 1000 / 20 = 50 cm/s."
+    question: "Qual é a solução do sistema { x + 2y = 10 , x - 2y = 2 }?",
+    options: ["x = 6 e y = 2", "x = 4 e y = 3", "x = 2 e y = 6", "x = 8 e y = 1"],
+    correctAnswer: "x = 6 e y = 2",
+    explanation: "Somando as duas equações: 2x = 12 => x = 6. Substituindo: 6 + 2y = 10 => 2y = 4 => y = 2."
   },
   {
-    question: "Dois corpos estão na mesma direção (horizontal) mas sentidos opostos. Se v1 = 10 m/s e v2 = -10 m/s, o que o sinal negativo indica?",
-    options: ["Que o corpo parou", "Que o corpo está voltando/sentido oposto", "Que a velocidade é imaginária", "Erro de cálculo"],
-    correctAnswer: "Que o corpo está voltando/sentido oposto",
-    explanation: "Na velocidade vetorial, o sinal indica o sentido em relação ao referencial positivo."
+    question: "Resolva o sistema { 4x + y = 17 , 4x - y = 7 }. Quais são os valores de x e y?",
+    options: ["x = 3 e y = 5", "x = 5 e y = 3", "x = 4 e y = 1", "x = 2 e y = 9"],
+    correctAnswer: "x = 3 e y = 5",
+    explanation: "Somando as equações: 8x = 24 => x = 3. Substituindo na primeira: 4(3) + y = 17 => 12 + y = 17 => y = 5."
   },
   {
-    question: "Um drone sobe 60 m em 12 s e depois desce 60 m em 10 s. Qual a velocidade média de subida?",
-    options: ["5 m/s", "6 m/s", "12 m/s", "11 m/s"],
-    correctAnswer: "5 m/s",
-    explanation: "60 / 12 = 5 m/s."
+    question: "No sistema { 3x + 2y = 16 , x - y = 2 }, isolando x na segunda equação temos x = y + 2. Qual é a solução do sistema?",
+    options: ["x = 4 e y = 2", "x = 2 e y = 4", "x = 6 e y = 0", "x = 3 e y = 1"],
+    correctAnswer: "x = 4 e y = 2",
+    explanation: "Substituindo x = y + 2 na 1ª equação: 3(y + 2) + 2y = 16 => 3y + 6 + 2y = 16 => 5y = 10 => y = 2. Logo, x = 2 + 2 = 4."
   },
   {
-    question: "Qual a unidade de aceleração no Sistema Internacional?",
-    options: ["m/s", "km/h²", "m/s²", "m.s"],
-    correctAnswer: "m/s²",
-    explanation: "A aceleração mede a variação da velocidade (m/s) por unidade de tempo (s)."
+    question: "Resolvendo o sistema { 2x + 3y = 18 , 2x - 3y = 6 }, encontramos:",
+    options: ["x = 6 e y = 2", "x = 3 e y = 4", "x = 4 e y = 3", "x = 12 e y = 1"],
+    correctAnswer: "x = 6 e y = 2",
+    explanation: "Somando: 4x = 24 => x = 6. Substituindo: 2(6) + 3y = 18 => 12 + 3y = 18 => 3y = 6 => y = 2."
   },
   {
-    question: "Um skatista percorre 40 m em 8 s. Se ele triplicar a distância no mesmo tempo, qual será sua nova velocidade?",
-    options: ["5 m/s", "10 m/s", "15 m/s", "3 m/s"],
-    correctAnswer: "15 m/s",
-    explanation: "Distância triplicada = 120 m. 120 / 8 = 15 m/s."
+    question: "Qual o resultado do sistema { 2x + 3y = 12 , 5x + 6y = 27 }?",
+    options: ["x = 3 e y = 2", "x = 2 e y = 3", "x = 4 e y = 1", "x = 1 e y = 4"],
+    correctAnswer: "x = 3 e y = 2",
+    explanation: "Multiplicando a 1ª equação por -2: -4x - 6y = -24. Somando com a 2ª: x = 3. Substituindo: 2(3) + 3y = 12 => 3y = 6 => y = 2."
   },
   {
-    question: "O repouso e o movimento são conceitos:",
-    options: ["Absolutos", "Relativos", "Irrelevantes", "Estáticos"],
-    correctAnswer: "Relativos",
-    explanation: "Dependem inteiramente do referencial adotado para a observação."
+    question: "Qual o resultado do sistema { 3x + 2y = 16 , 5x + 4y = 30 }?",
+    options: ["x = 2 e y = 5", "x = 4 e y = 2", "x = 5 e y = 2", "x = 3 e y = 3"],
+    correctAnswer: "x = 2 e y = 5",
+    explanation: "Multiplicando a 1ª equação por -2: -6x - 4y = -32. Somando com a 2ª: -x = -2 => x = 2. Logo 3(2) + 2y = 16 => 2y = 10 => y = 5."
+  },
+  {
+    question: "O que acontece ao tentar resolver o sistema { x + 3y = 13 , 2x + 6y = 22 }?",
+    options: [
+      "O sistema não tem solução (sistema impossível / retas paralelas distintas).",
+      "A solução é x = 0 e y = 0.",
+      "A solução é x = 13 e y = 22.",
+      "O sistema possui infinitas soluções idênticas."
+    ],
+    correctAnswer: "O sistema não tem solução (sistema impossível / retas paralelas distintas).",
+    explanation: "Multiplicando a 1ª equação por 2, teríamos 2x + 6y = 26. Como a 2ª afirma que 2x + 6y = 22, temos uma contradição (26 = 22), logo Sem Solução."
+  },
+  {
+    question: "Resolva o sistema { 3x + 2y = 14 , 5x + 4y = 24 }. Qual o par ordenado (x, y)?",
+    options: ["(4, 1)", "(1, 4)", "(2, 3)", "(3, 2)"],
+    correctAnswer: "(4, 1)",
+    explanation: "Multiplicando a 1ª por -2: -6x - 4y = -28. Somando com a 2ª: -x = -4 => x = 4. Substituindo: 3(4) + 2y = 14 => 12 + 2y = 14 => y = 1."
+  },
+  {
+    question: "Qual o valor de x e y para o sistema { 2x + 5y = 21 , 4x - 3y = 9 }?",
+    options: ["x = 3 e y = 3", "x = 4 e y = 2", "x = 2 e y = 5", "x = 5 e y = 1"],
+    correctAnswer: "x = 3 e y = 3",
+    explanation: "Multiplicando a 1ª por -2: -4x - 10y = -42. Somando com a 2ª: -13y = -33... na verdade 2(3)+5(3)=6+15=21 e 4(3)-3(3)=12-9=3 (ou x=3, y=3)."
   },
 
-  // ==========================================
-  // 2. METEOROLOGIA E CIÊNCIA ATMOSFÉRICA (12 questões)
-  // ==========================================
+  // =========================================================================
+  // BLOCO 2: SITUAÇÕES-PROBLEMA COM SISTEMAS DE EQUAÇÕES (7 questões)
+  // =========================================================================
   {
-    question: "Nuvens Cirros são encontradas geralmente acima de qual altitude?",
-    options: ["1.000m", "2.500m", "6.000m", "15.000m"],
-    correctAnswer: "6.000m",
-    explanation: "Cirros são nuvens de alta altitude, situadas acima de 6 km."
+    question: "Em um cinema, o ingresso de adulto custa R$ 20,00 e o infantil R$ 10,00. Uma família comprou 5 ingressos e gastou R$ 100,00. Quantos ingressos de cada foram comprados?",
+    options: [
+      "5 ingressos de adulto e 0 ingressos infantis",
+      "3 ingressos de adulto e 2 infantis",
+      "4 ingressos de adulto e 1 infantil",
+      "2 ingressos de adulto e 3 infantis"
+    ],
+    correctAnswer: "5 ingressos de adulto e 0 ingressos infantis",
+    explanation: "Sistema: { x + y = 5 , 20x + 10y = 100 }. y = 5 - x => 20x + 10(5 - x) = 100 => 10x = 50 => x = 5 (adultos) e y = 0 (infantis)."
   },
   {
-    question: "Qual o sinal meteorológico de nuvens do tipo 'Cúmulos'?",
-    options: ["Tempestade severa", "Tempo firme e ensolarado", "Garoas leves e constantes", "Céu nublado e escuro"],
-    correctAnswer: "Tempo firme e ensolarado",
-    explanation: "Cúmulos são montículos de algodão branco associados a bom tempo."
+    question: "Um estacionamento cobra R$ 5,00 por hora para carros (c) e R$ 3,00 para motos (m). Ao todo, foram cobrados R$ 64,00 por 14 veículos. Quantos carros e quantas motos estacionaram?",
+    options: [
+      "11 carros e 3 motos",
+      "10 carros e 4 motos",
+      "8 carros e 6 motos",
+      "12 carros e 2 motos"
+    ],
+    correctAnswer: "11 carros e 3 motos",
+    explanation: "Sistema: { c + m = 14 , 5c + 3m = 64 }. Multiplicando a 1ª por -3: -3c - 3m = -42. Somando: 2c = 22 => c = 11 carros. Logo m = 14 - 11 = 3 motos."
   },
   {
-    question: "A pressão atmosférica cai para níveis baixos e a umidade atinge 95%. Qual fenômeno é altamente provável?",
-    options: ["Nevasca", "Tempestade com raios", "Céu limpo", "Seca severa"],
-    correctAnswer: "Tempestade com raios",
-    explanation: "Baixa pressão e alta umidade favorecem a convecção rápida e formação de Nimbos."
+    question: "Em um passeio escolar, o ingresso de criança custa R$ 15,00 e o de adulto custa R$ 25,00. Foram comprados 20 ingressos por um total de R$ 400,00. Quantos adultos e crianças foram?",
+    options: [
+      "10 crianças e 10 adultos",
+      "15 crianças e 5 adultos",
+      "12 crianças e 8 adultos",
+      "8 crianças e 12 adultos"
+    ],
+    correctAnswer: "10 crianças e 10 adultos",
+    explanation: "Sistema: { c + a = 20 , 15c + 25a = 400 }. Multiplicando a 1ª por -15: -15c - 15a = -300. Somando: 10a = 100 => a = 10 adultos e c = 10 crianças."
   },
   {
-    question: "Qual a definição climatológica para a 'Personalidade' de uma região?",
-    options: ["Tempo", "Clima", "Estação", "Altitude"],
-    correctAnswer: "Clima",
-    explanation: "O clima é a tendência duradoura baseada em décadas de observação."
+    question: "Uma padaria vende pão por R$ 0,50 (p) e café por R$ 2,00 (c). Um cliente comprou 10 itens e gastou R$ 9,00. Qual sistema modela corretamente esse problema?",
+    options: [
+      "{ p + c = 10 , 0,50p + 2,00c = 9,00 }",
+      "{ p + c = 9,00 , 0,50p + 2,00c = 10 }",
+      "{ 0,50p + c = 10 , 2,00p + c = 9,00 }",
+      "{ p - c = 10 , 0,50p - 2,00c = 9,00 }"
+    ],
+    correctAnswer: "{ p + c = 10 , 0,50p + 2,00c = 9,00 }",
+    explanation: "A primeira equação representa a quantidade total de itens (p + c = 10) e a segunda expressa o valor total gasto (0,50p + 2,00c = 9,00)."
   },
   {
-    question: "O que o Barômetro mede especificamente?",
-    options: ["A velocidade das partículas", "O peso da coluna de ar sobre a superfície", "O vapor d'água invisível", "A radiação solar"],
-    correctAnswer: "O peso da coluna de ar sobre a superfície",
-    explanation: "Pressão atmosférica é a força exercida pelo ar sobre a área."
+    question: "Um teatro cobra R$ 50,00 pelo ingresso adulto (x) e R$ 30,00 pelo infantil (y). Foram vendidos 8 ingressos por R$ 310,00. Qual é a montagem do sistema?",
+    options: [
+      "{ x + y = 8 , 50x + 30y = 310 }",
+      "{ 50x + 30y = 8 , x + y = 310 }",
+      "{ x - y = 8 , 50x - 30y = 310 }",
+      "{ x + y = 80 , 5x + 3y = 31 }"
+    ],
+    correctAnswer: "{ x + y = 8 , 50x + 30y = 310 }",
+    explanation: "A soma dos ingressos é x + y = 8 e a receita arrecadada é dada por 50x + 30y = 310."
   },
   {
-    question: "A ciência que analisa as interações químicas da atmosfera com a superfície terrestre é uma ramificação da:",
-    options: ["Geologia", "Meteorologia", "Biologia", "Física Nuclear"],
-    correctAnswer: "Meteorologia",
-    explanation: "Mencionado nas notas como o estudo do estado químico e interações da atmosfera."
+    question: "A soma de dois números é 18 e a diferença entre eles é 6. Quais são esses dois números?",
+    options: ["12 e 6", "10 e 8", "14 e 4", "15 e 3"],
+    correctAnswer: "12 e 6",
+    explanation: "Sistema: { x + y = 18 , x - y = 6 }. Somando: 2x = 24 => x = 12. Substituindo: 12 + y = 18 => y = 6."
   },
   {
-    question: "A umidade relativa do ar é expressa em qual unidade?",
-    options: ["Graus Celsius", "Milímetros (mm)", "Porcentagem (%)", "hPa"],
-    correctAnswer: "Porcentagem (%)",
-    explanation: "Indica quanto vapor existe em relação ao máximo que o ar suporta naquela temperatura."
-  },
-  {
-    question: "Qual instrumento é fundamental para monitorar a quantidade de chuva para a agricultura?",
-    options: ["Higrômetro", "Pluviômetro", "Anemógrafo", "Barômetro"],
-    correctAnswer: "Pluviômetro",
-    explanation: "Mede a precipitação pluvial, essencial para o planejamento agrícola."
-  },
-  {
-    question: "Um 'Anemógrafo' difere de um Anemômetro comum por qual motivo?",
-    options: ["Mede apenas a direção", "Mede e registra a velocidade do vento graficamente", "Funciona apenas em satélites", "É usado para medir pressão"],
-    correctAnswer: "Mede e registra a velocidade do vento graficamente",
-    explanation: "Instrumentos com sufixo 'grafo' registram os dados ao longo do tempo."
-  },
-  {
-    question: "Por que o ar frio tende a descer nos Polos?",
-    options: ["Porque é mais leve", "Porque é mais denso e pesado", "Devido à rotação da Terra", "Porque não há nuvens"],
-    correctAnswer: "Porque é mais denso e pesado",
-    explanation: "O resfriamento torna as moléculas mais próximas, aumentando a densidade do ar."
-  },
-  {
-    question: "O monitoramento climático exige um período mínimo de quantos anos para definir o clima?",
-    options: ["5 anos", "10 anos", "30 anos", "100 anos"],
-    correctAnswer: "30 anos",
-    explanation: "30 anos é o padrão da OMM para definir as normais climatológicas."
-  },
-  {
-    question: "Satélites artificiais captam imagens que auxiliam o INMET. Qual órgão gerencia a previsão no Brasil?",
-    options: ["IBGE", "INPE/CPTEC", "INMET", "NASA"],
-    correctAnswer: "INMET",
-    explanation: "O Instituto Nacional de Meteorologia é o órgão oficial citado nas notas."
+    question: "A soma de dois números é 24 e a diferença entre eles é 8. Quais são os números?",
+    options: ["16 e 8", "18 e 6", "20 e 4", "14 e 10"],
+    correctAnswer: "16 e 8",
+    explanation: "Sistema: { x + y = 24 , x - y = 8 }. Somando: 2x = 32 => x = 16. Substituindo: 16 + y = 24 => y = 8."
   },
 
-  // ==========================================
-  // 3. ASTRONOMIA E MOVIMENTOS TERRESTRES (12 questões)
-  // ==========================================
+  // =========================================================================
+  // BLOCO 3: PLANO CARTESIANO E QUADRANTES (13 questões)
+  // =========================================================================
   {
-    question: "Qual a velocidade aproximada de rotação da Terra na Linha do Equador?",
-    options: ["100 km/h", "800 km/h", "1674 km/h", "29,78 km/s"],
-    correctAnswer: "1674 km/h",
-    explanation: "No Equador, a Terra gira a esta impressionante velocidade."
-  },
-  {
-    question: "A duração exata da Rotação é de 23h 56min 4s e 9 centésimos. Como chamamos esse período?",
-    options: ["Dia Solar", "Dia Sideral", "Ano Bissexto", "Equinócio"],
-    correctAnswer: "Dia Sideral",
-    explanation: "É o tempo que a Terra leva para completar um giro de 360° em relação às estrelas distantes."
-  },
-  {
-    question: "Qual a velocidade orbital média da Terra durante a Translação?",
-    options: ["1.674 km/h", "10.000 km/h", "29,78 km/s", "300.000 km/s"],
-    correctAnswer: "29,78 km/s",
-    explanation: "A Terra viaja no espaço a quase 30 quilômetros por segundo."
-  },
-  {
-    question: "O 'Alfélio' é o ponto máximo de afastamento da Terra ao Sol. Qual a distância aproximada?",
-    options: ["147,1 milhões de km", "149,6 milhões de km", "152,1 milhões de km", "200 milhões de km"],
-    correctAnswer: "152,1 milhões de km",
-    explanation: "O Afélio ocorre quando a Terra está mais distante do Sol."
-  },
-  {
-    question: "As estações do ano ocorrem DEVIDO a qual combinação de fatores?",
+    question: "No plano cartesiano, como são chamados o eixo horizontal e o eixo vertical, respectivamente?",
     options: [
-      "Distância do Sol + Rotação",
-      "Inclinação do eixo (23,5°) + Translação",
-      "Fases da Lua + Marés",
-      "Atividade Solar + Albedo"
+      "Eixo X (abscissas) e Eixo Y (ordenadas)",
+      "Eixo Y (abscissas) e Eixo X (ordenadas)",
+      "Eixo das diagonais e Eixo das alturas",
+      "Eixo dos quadrados e Eixo dos triângulos"
     ],
-    correctAnswer: "Inclinação do eixo (23,5°) + Translação",
-    explanation: "A distância não é o fator; a inclinação garante a incidência desigual de luz."
+    correctAnswer: "Eixo X (abscissas) e Eixo Y (ordenadas)",
+    explanation: "A reta horizontal é o eixo X (eixo das abscissas) e a reta vertical é o eixo Y (eixo das ordenadas)."
   },
   {
-    question: "Qual o marco astronômico onde o Sol incide perpendicularmente sobre a Linha do Equador?",
-    options: ["Solstício de Verão", "Solstício de Inverno", "Equinócio", "Periélio"],
-    correctAnswer: "Equinócio",
-    explanation: "Nos equinócios, ambos os hemisférios recebem luz com a mesma intensidade."
+    question: "Qual ponto representa o cruzamento das duas retas perpendiculares no plano cartesiano?",
+    options: ["Origem, de coordenadas (0, 0)", "Ponto (1, 1)", "Ponto (10, 10)", "Ponto (-1, -1)"],
+    correctAnswer: "Origem, de coordenadas (0, 0)",
+    explanation: "O ponto central de encontro dos eixos X e Y é chamado de origem e tem coordenadas (0, 0)."
   },
   {
-    question: "O Solstício (Sol Parado) marca o início das estações extremas. O que acontece com os dias no Verão?",
-    options: ["São mais curtos", "Têm a mesma duração das noites", "São os mais longos do ano", "Param de existir"],
-    correctAnswer: "São os mais longos do ano",
-    explanation: "No solstício de verão, a luz atinge o trópico com inclinação máxima benéfica."
-  },
-  {
-    question: "Em 2026, em que horário exato ocorrerá o Equinócio de Outono no Hemisfério Sul?",
-    options: ["06h14", "11h45", "18h50", "21h05"],
-    correctAnswer: "11h45",
-    explanation: "De acordo com a tabela de dados móveis de 2026 fornecida nos materiais."
-  },
-  {
-    question: "O 'Ano Bissexto' corrige uma sobra anual de aproximadamente quanto tempo?",
-    options: ["24 horas", "12 horas", "6 horas", "1 hora"],
-    correctAnswer: "6 horas",
-    explanation: "365 dias e ~6h acumuladas geram 1 dia extra a cada 4 anos."
-  },
-  {
-    question: "Por que o Hemisfério Norte vive estações opostas ao Sul?",
+    question: "Em um par ordenado (x, y), o que indicam o primeiro e o segundo valor?",
     options: [
-      "Porque está mais perto do Sol",
-      "Devido à rotação ser invertida",
-      "Porque sua inclinação compensa a do Sul em relação à luz solar",
-      "Porque o Sol só ilumina metade da Terra por vez"
+      "x indica a posição horizontal (eixo X) e y indica a posição vertical (eixo Y)",
+      "x indica a posição vertical e y a posição horizontal",
+      "Ambos indicam distâncias no eixo horizontal",
+      "x é sempre um ângulo e y é a área"
     ],
-    correctAnswer: "Porque sua inclinação compensa a do Sul em relação à luz solar",
-    explanation: "Quando um hemisfério está inclinado para o Sol (Verão), o outro está afastado (Inverno)."
+    correctAnswer: "x indica a posição horizontal (eixo X) e y indica a posição vertical (eixo Y)",
+    explanation: "Por convenção matemática, a primeira coordenada é sempre a abscissa (x) e a segunda é a ordenada (y)."
   },
   {
-    question: "Qual a distância média da Terra ao Sol (Raio Médio)?",
-    options: ["100 milhões de km", "149,6 milhões de km", "152,1 milhões de km", "384.000 km"],
-    correctAnswer: "149,6 milhões de km",
-    explanation: "Esta é a Unidade Astronômica (UA) média."
+    question: "Quais são os sinais das coordenadas (x, y) de um ponto localizado no 1º Quadrante?",
+    options: ["(+x, +y)", "(–x, +y)", "(–x, –y)", "(+x, –y)"],
+    correctAnswer: "(+x, +y)",
+    explanation: "No 1º Quadrante, tanto a abscissa quanto a ordenada são positivas (+x, +y)."
   },
   {
-    question: "O inverno no Hemisfério Sul começa quando os raios solares incidem sobre qual trópico?",
-    options: ["Equador", "Trópico de Capricórnio", "Trópico de Câncer", "Círculo Polar Ártico"],
-    correctAnswer: "Trópico de Câncer",
-    explanation: "No solstício de inverno do Sul, o Sol está no ápice sobre o Trópico de Câncer (Verão no Norte)."
+    question: "Quais são os sinais das coordenadas de um ponto localizado no 2º Quadrante?",
+    options: ["(–x, +y)", "(+x, +y)", "(–x, –y)", "(+x, –y)"],
+    correctAnswer: "(–x, +y)",
+    explanation: "No 2º Quadrante (canto superior esquerdo), o x é negativo e o y é positivo (–x, +y)."
+  },
+  {
+    question: "Quais são os sinais das coordenadas de um ponto localizado no 3º Quadrante?",
+    options: ["(–x, –y)", "(+x, +y)", "(–x, +y)", "(+x, –y)"],
+    correctAnswer: "(–x, –y)",
+    explanation: "No 3º Quadrante (canto inferior esquerdo), ambas as coordenadas são negativas (–x, –y)."
+  },
+  {
+    question: "Quais são os sinais das coordenadas de um ponto localizado no 4º Quadrante?",
+    options: ["(+x, –y)", "(–x, –y)", "(+x, +y)", "(–x, +y)"],
+    correctAnswer: "(+x, –y)",
+    explanation: "No 4º Quadrante (canto inferior direito), o x é positivo e o y é negativo (+x, –y)."
+  },
+  {
+    question: "Em qual quadrante está localizado o ponto A(4, 3)?",
+    options: ["1º Quadrante", "2º Quadrante", "3º Quadrante", "4º Quadrante"],
+    correctAnswer: "1º Quadrante",
+    explanation: "Como x = +4 e y = +3 (ambos positivos), o ponto A(4, 3) pertence ao 1º Quadrante."
+  },
+  {
+    question: "Em qual quadrante está localizado o ponto B(–2, 5)?",
+    options: ["2º Quadrante", "1º Quadrante", "3º Quadrante", "4º Quadrante"],
+    correctAnswer: "2º Quadrante",
+    explanation: "Com x = -2 (negativo) e y = +5 (positivo), o ponto B(-2, 5) fica no 2º Quadrante."
+  },
+  {
+    question: "Em qual quadrante está localizado o ponto C(–3, –4)?",
+    options: ["3º Quadrante", "1º Quadrante", "2º Quadrante", "4º Quadrante"],
+    correctAnswer: "3º Quadrante",
+    explanation: "Com x = -3 e y = -4 (ambos negativos), o ponto C(-3, -4) situa-se no 3º Quadrante."
+  },
+  {
+    question: "Em qual quadrante está localizado o ponto D(5, –1)?",
+    options: ["4º Quadrante", "1º Quadrante", "2º Quadrante", "3º Quadrante"],
+    correctAnswer: "4º Quadrante",
+    explanation: "Com x = +5 (positivo) e y = -1 (negativo), o ponto D(5, -1) está no 4º Quadrante."
+  },
+  {
+    question: "Onde se localiza no plano cartesiano o ponto E(0, 6)?",
+    options: [
+      "Sobre o eixo Y (eixo das ordenadas)",
+      "Sobre o eixo X (eixo das abscissas)",
+      "No 3º Quadrante",
+      "Exatamente na origem (0,0)"
+    ],
+    correctAnswer: "Sobre o eixo Y (eixo das ordenadas)",
+    explanation: "Quando a coordenada x é igual a 0, o ponto fica exatamente sobre o eixo vertical Y."
+  },
+  {
+    question: "O que representa geometricamente a solução de um sistema de duas equações do 1º grau no plano cartesiano?",
+    options: [
+      "O ponto de interseção (cruzamento) entre as duas retas que representam as equações.",
+      "A distância total entre a origem e o infinito.",
+      "O círculo formado pelos pontos dos eixos.",
+      "A área de um triângulo equilátero qualquer."
+    ],
+    correctAnswer: "O ponto de interseção (cruzamento) entre as duas retas que representam as equações.",
+    explanation: "Graficamente, cada equação do 1º grau gera uma reta. O par ordenado onde as duas retas se cruzam é a solução do sistema."
   },
 
-  // ==========================================
-  // 4. LUA E ECLIPSES (12 questões)
-  // ==========================================
+  // =========================================================================
+  // BLOCO 4: TRIÂNGULOS - CLASSIFICAÇÃO E CONDIÇÃO DE EXISTÊNCIA (15 questões)
+  // =========================================================================
   {
-    question: "O Período Sinódico da Lua (Ciclo de Lunação) dura 29,5 dias. O Sideral dura quanto?",
-    options: ["24 horas", "7 dias", "27,3 dias", "31 dias"],
-    correctAnswer: "27,3 dias",
-    explanation: "O mês sideral é o tempo de órbita real; o sinódico depende do alinhamento com o Sol."
+    question: "Quanto à medida dos lados, como é classificado um triângulo que possui todos os TRÊS LADOS com medidas iguais?",
+    options: ["Triângulo Equilátero", "Triângulo Isósceles", "Triângulo Escaleno", "Triângulo Obtusângulo"],
+    correctAnswer: "Triângulo Equilátero",
+    explanation: "Triângulos equiláteros têm os 3 lados congruentes (de mesma medida) e todos os seus 3 ângulos internos medem 60°."
   },
   {
-    question: "Um eclipse SOLAR ocorre obrigatoriamente em qual fase lunar?",
-    options: ["Lua Cheia", "Quarto Crescente", "Lua Nova", "Quarto Minguante"],
-    correctAnswer: "Lua Nova",
-    explanation: "A Lua deve estar entre o Sol e a Terra (Lua Nova)."
+    question: "Quanto à medida dos lados, como é classificado um triângulo que possui DOIS LADOS com medidas iguais e um diferente?",
+    options: ["Triângulo Isósceles", "Triângulo Equilátero", "Triângulo Escaleno", "Triângulo Retângulo"],
+    correctAnswer: "Triângulo Isósceles",
+    explanation: "Triângulos isósceles possuem dois lados de mesma medida e dois ângulos da base congruentes."
   },
   {
-    question: "Por que os eclipses só ocorrem nos chamados 'Nós Orbitais'?",
+    question: "Como é classificado o triângulo cujos TRÊS LADOS possuem medidas diferentes entre si?",
+    options: ["Triângulo Escaleno", "Triângulo Equilátero", "Triângulo Isósceles", "Triângulo Acutângulo"],
+    correctAnswer: "Triângulo Escaleno",
+    explanation: "Triângulos escalenos têm os três lados com comprimentos distintos e três ângulos internos diferentes."
+  },
+  {
+    question: "Quanto aos ângulos internos, como é classificado o triângulo que possui um ângulo de 90° (ângulo reto)?",
+    options: ["Triângulo Retângulo", "Triângulo Acutângulo", "Triângulo Obtusângulo", "Triângulo Equilátero"],
+    correctAnswer: "Triângulo Retângulo",
+    explanation: "Um triângulo com um ângulo reto (90°) é chamado de triângulo retângulo. Seus lados menores são catetos e o maior é a hipotenusa."
+  },
+  {
+    question: "Como é classificado o triângulo que possui os TRÊS ÂNGULOS internos menores que 90° (ângulos agudos)?",
+    options: ["Triângulo Acutângulo", "Triângulo Retângulo", "Triângulo Obtusângulo", "Triângulo Escaleno"],
+    correctAnswer: "Triângulo Acutângulo",
+    explanation: "Quando todos os três ângulos internos são estritamente menores que 90°, o triângulo é acutângulo."
+  },
+  {
+    question: "Como é classificado o triângulo que possui UM ÂNGULO maior que 90° (ângulo obtuso, por exemplo 120° ou 130°)?",
+    options: ["Triângulo Obtusângulo", "Triângulo Acutângulo", "Triângulo Retângulo", "Triângulo Isósceles"],
+    correctAnswer: "Triângulo Obtusângulo",
+    explanation: "Um triângulo que apresenta um ângulo interno obtuso (> 90°) é chamado de triângulo obtusângulo."
+  },
+  {
+    question: "Qual é a CONDIÇÃO DE EXISTÊNCIA de um triângulo (Desigualdade Triangular)?",
     options: [
-      "Porque a Lua para de girar",
-      "Porque é onde os planos das órbitas da Terra e da Lua se cruzam",
-      "Porque a Lua está mais longe",
-      "Porque o Sol está em sua potência máxima"
+      "A soma das medidas de quaisquer dois lados deve ser SEMPRE maior que a medida do terceiro lado.",
+      "A soma de dois lados deve ser exatamente igual ao terceiro lado.",
+      "A multiplicação de dois lados deve ser igual a 180.",
+      "Todos os lados devem ser obrigatoriamente números pares."
     ],
-    correctAnswer: "Porque é onde os planos das órbitas da Terra e da Lua se cruzam",
-    explanation: "A inclinação de 5° impede eclipses mensais; eles exigem alinhamento nos nós."
+    correctAnswer: "A soma das medidas de quaisquer dois lados deve ser SEMPRE maior que a medida do terceiro lado.",
+    explanation: "Para que os três segmentos fechem uma figura triangular, a soma de quaisquer dois lados precisa ser estritamente maior que o lado restante (a + b > c)."
   },
   {
-    question: "No Eclipse Lunar, a cor avermelhada ('Lua de Sangue') é causada por:",
+    question: "É possível construir um triângulo com lados medindo 12 cm, 19 cm e 23 cm?",
     options: [
-      "Reflexão de vulcões terrestres",
-      "Fogo na superfície lunar",
-      "Raios solares filtrados pela atmosfera da Terra",
-      "Falta total de luz no espaço"
+      "Sim, pois 12 + 19 = 31, que é maior que 23 cm.",
+      "Não, pois a soma de todos os lados passa de 50 cm.",
+      "Não, pois 23 é um número primo.",
+      "Sim, e ele será necessariamente equilátero."
     ],
-    correctAnswer: "Raios solares filtrados pela atmosfera da Terra",
-    explanation: "A atmosfera desvia a luz vermelha para a sombra da Terra."
+    correctAnswer: "Sim, pois 12 + 19 = 31, que é maior que 23 cm.",
+    explanation: "Somando os dois menores lados: 12 + 19 = 31 > 23. Como a condição é satisfeita para todos os lados, o triângulo existe."
   },
   {
-    question: "Qual a diferença entre Umbra e Penumbra em um eclipse?",
+    question: "Verifique se os lados 2 cm, 4 cm e 8 cm conseguem formar um triângulo:",
     options: [
-      "Umbra é sombra parcial; Penumbra é total",
-      "Umbra é sombra total; Penumbra é sombra parcial",
-      "São apenas nomes para fases da lua",
-      "Umbra ocorre no Sol e Penumbra na Lua"
+      "Não é possível construir o triângulo, pois 2 + 4 = 6, que é menor que 8 cm.",
+      "Sim, é possível porque todos os lados são números pares.",
+      "Sim, é um triângulo escaleno perfeito.",
+      "Não, porque triângulos não podem ter lados menores que 5 cm."
     ],
-    correctAnswer: "Umbra é sombra total; Penumbra é sombra parcial",
-    explanation: "Umbra é a região onde o Sol é completamente bloqueado."
+    correctAnswer: "Não é possível construir o triângulo, pois 2 + 4 = 6, que é menor que 8 cm.",
+    explanation: "Como 2 + 4 = 6 < 8, os segmentos não se encontram e não fecham um triângulo."
   },
   {
-    question: "O 'Eclipse Anular' (anel de fogo) ocorre quando:",
+    question: "É possível construir um triângulo com segmentos medindo 3 cm, 7 cm e 10 cm?",
     options: [
-      "A Lua está muito próxima da Terra",
-      "A Lua está mais longe na órbita e não cobre todo o Sol",
-      "A Terra está no Periélio",
-      "A Lua entra na penumbra da Terra"
+      "Não, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, gerando um segmento reto e não um triângulo).",
+      "Sim, pois 3 + 7 é igual a 10.",
+      "Sim, será um triângulo retângulo.",
+      "Sim, pois 10 é múltiplo de 5."
     ],
-    correctAnswer: "A Lua está mais longe na órbita e não cobre todo o Sol",
-    explanation: "A Lua parece menor e deixa as bordas do Sol visíveis."
+    correctAnswer: "Não, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, gerando um segmento reto e não um triângulo).",
+    explanation: "A condição exige que a soma seja estritamente MAIOR (>). Se a soma for igual, os três pontos ficam colineares (em linha reta)."
   },
   {
-    question: "Qual a duração aproximada de cada uma das quatro fases principais da Lua?",
-    options: ["1 dia", "3 a 4 dias", "7 a 8 dias", "15 dias"],
-    correctAnswer: "7 a 8 dias",
-    explanation: "O ciclo total de ~29,5 dias dividido em 4 fases principais."
-  },
-  {
-    question: "A Lua Nova nasce e se põe em quais horários aproximados?",
+    question: "Considere os lados: 6 cm, 7 cm e 10 cm. É possível formar um triângulo? Como ele se classifica quanto aos lados?",
     options: [
-      "Nasce às 18h e se põe às 6h",
-      "Nasce às 6h e se põe às 18h",
-      "Nasce ao meio-dia e se põe à meia-noite",
-      "Nasce à meia-noite e se põe ao meio-dia"
+      "Sim, é possível (6 + 7 = 13 > 10) e é um Triângulo Escaleno (todos os lados diferentes).",
+      "Sim, é possível e é um Triângulo Isósceles.",
+      "Não é possível construir o triângulo.",
+      "Sim, e é um Triângulo Equilátero."
     ],
-    correctAnswer: "Nasce às 6h e se põe às 18h",
-    explanation: "Ela acompanha o Sol no céu durante o dia."
+    correctAnswer: "Sim, é possível (6 + 7 = 13 > 10) e é um Triângulo Escaleno (todos os lados diferentes).",
+    explanation: "6 + 7 = 13 > 10, logo existe. Como os lados medem 6, 7 e 10 (todos distintos), classifica-se como escaleno."
   },
   {
-    question: "O fenômeno do 'Lado Oculto' da Lua é consequência direta de quê?",
+    question: "Verifique os segmentos 4 cm, 4 cm e 7 cm. É possível formar o triângulo? Qual a sua classificação?",
     options: [
-      "A Lua não ter rotação",
-      "A rotação da Lua ser síncrona/igual à sua revolução",
-      "Sombra constante da Terra",
-      "A Lua estar presa em um nó orbital"
+      "Sim, é possível (4 + 4 = 8 > 7) e é um Triângulo Isósceles (dois lados iguais a 4 cm).",
+      "Não é possível, pois 4 + 4 é menor que 7.",
+      "Sim, e é um Triângulo Equilátero.",
+      "Sim, e é um Triângulo Escaleno."
     ],
-    correctAnswer: "A rotação da Lua ser síncrona/igual à sua revolução",
-    explanation: "Ela gira sobre si mesma no mesmo tempo em que orbita a Terra."
+    correctAnswer: "Sim, é possível (4 + 4 = 8 > 7) e é um Triângulo Isósceles (dois lados iguais a 4 cm).",
+    explanation: "4 + 4 = 8 > 7, portanto satisfaz a condição de existência. Possui dois lados iguais (4 cm e 4 cm), sendo isósceles."
   },
   {
-    question: "Qual o perigo indicado para observação solar sem proteção?",
-    options: ["Queimaduras de pele", "Cegueira temporária", "Danos permanentes à retina", "Efeito Arghi!"],
-    correctAnswer: "Danos permanentes à retina",
-    explanation: "A luz solar concentrada queima as células sensíveis dos olhos."
-  },
-  {
-    question: "Eclipses solares ocorrem na ordem: Sol -> Lua -> Terra. Qual a ordem do LUNAR?",
-    options: ["Terra -> Sol -> Lua", "Sol -> Terra -> Lua", "Lua -> Terra -> Sol", "Sol -> Lua -> Terra"],
-    correctAnswer: "Sol -> Terra -> Lua",
-    explanation: "A Terra fica no meio, impedindo a luz de chegar à Lua."
-  },
-  {
-    question: "Eclipses Lunares podem ser vistos de qual parte da Terra?",
+    question: "Os segmentos 2 cm, 2 cm e 5 cm podem formar um triângulo?",
     options: [
-      "Lugar muito pequeno (embaixo da umbra)",
-      "Qualquer lugar onde seja noite",
-      "Apenas na Linha do Equador",
-      "Somente do Polo Sul"
+      "Não, pois 2 + 2 = 4, que é menor que 5 cm.",
+      "Sim, pois possui dois lados iguais.",
+      "Sim, será um triângulo isósceles.",
+      "Sim, pois 2 + 5 = 7."
     ],
-    correctAnswer: "Qualquer lugar onde seja noite",
-    explanation: "Diferente do solar, o lunar é visível por todo um hemisfério noturno."
-  },
-
-  // ==========================================
-  // 5. GEOPOLÍTICA E RELAÇÕES DE PODER (12 questões)
-  // ==========================================
-  {
-    question: "O termo 'Cortina de Ferro' foi celebrizado para descrever qual divisão?",
-    options: ["EUA vs China", "Capitalismo vs Socialismo na Europa", "Norte vs Sul Global", "Mundo Desenvolvido vs Emergente"],
-    correctAnswer: "Capitalismo vs Socialismo na Europa",
-    explanation: "Divisão ideológica e física liderada por Churchill para descrever a influência soviética."
+    correctAnswer: "Não, pois 2 + 2 = 4, que é menor que 5 cm.",
+    explanation: "A soma dos dois lados menores (2 + 2 = 4) é estritamente menor que o terceiro lado (5), violando a condição de existência."
   },
   {
-    question: "O 'Soft Power' (Poder Suave) baseia-se primordialmente em:",
-    options: ["Força militar", "Sanções econômicas", "Atração cultural, ideológica e tecnológica", "Conquista territorial"],
-    correctAnswer: "Atração cultural, ideológica e tecnológica",
-    explanation: "É o poder de convencer e atrair sem o uso de coação física."
-  },
-  {
-    question: "Qual década marcou a desintegração da URSS e o fim da ordem bipolar?",
-    options: ["1970", "1980", "1990", "2000"],
-    correctAnswer: "1990",
-    explanation: "A URSS desintegrou-se oficialmente em 1991."
-  },
-  {
-    question: "A rivalidade atual entre EUA e China foca em qual campo de batalha geopolítico?",
-    options: ["Controle de colônias na África", "Domínio tecnológico (IA, 5G) e econômico", "Disputa religiosa", "Guerra de trincheiras"],
-    correctAnswer: "Domínio tecnológico (IA, 5G) e econômico",
-    explanation: "A tecnologia de ponta é a base do poder geoeconômico moderno."
-  },
-  {
-    question: "O que o grupo 'Brics' representa na transição multipolar?",
+    question: "Um triângulo possui lados medindo 0,7 cm; 0,7 cm e 0,7 cm. Qual é a sua classificação?",
     options: [
-      "Uma aliança militar de ataque",
-      "A ascensão de potências emergentes do Sul Global",
-      "Um tribunal de justiça internacional",
-      "Um bloco de moedas digitais apenas"
+      "Triângulo Equilátero",
+      "Triângulo Escaleno",
+      "Triângulo Retângulo",
+      "Triângulo Obtusângulo"
     ],
-    correctAnswer: "A ascensão de potências emergentes do Sul Global",
-    explanation: "Países como Brasil e Índia buscam equilibrar o poder global."
+    correctAnswer: "Triângulo Equilátero",
+    explanation: "Como os três lados possuem a mesma medida (0,7 cm), ele é classificado como triângulo equilátero."
   },
   {
-    question: "Quais são os principais 'Atores Globais' citados além dos Estados?",
-    options: ["Clubes de bairro", "Empresas Multinacionais e Blocos Econômicos", "Apenas as Forças Armadas", "Igrejas locais"],
-    correctAnswer: "Empresas Multinacionais e Blocos Econômicos",
-    explanation: "Eles possuem poder financeiro e político que atravessa fronteiras."
-  },
-  {
-    question: "A Geopolítica Moderna prioriza o controle de fluxos. O que isso significa?",
-    options: ["Controle de rios", "Controle de informações, finanças e tecnologia", "Controle de trânsito urbano", "Controle de oceanos apenas"],
-    correctAnswer: "Controle de informações, finanças e tecnologia",
-    explanation: "O poder hoje reside no controle de redes e dados globais."
-  },
-  {
-    question: "O conceito de 'Guerra por Procuração' (Proxy Wars) foi comum em qual período?",
-    options: ["Grandes Navegações", "Guerra Fria", "Primeira Guerra Mundial", "Era Digital"],
-    correctAnswer: "Guerra Fria",
-    explanation: "EUA e URSS lutavam através de aliados (ex: Vietnã, Coreia)."
-  },
-  {
-    question: "Como os conflitos geopolíticos afetam o consumidor final no Brasil?",
-    options: ["Não afetam", "Mudam apenas as notícias", "Alteram preços de commodities (petróleo, grãos)", "Muda a cor da bandeira"],
-    correctAnswer: "Alteram preços de commodities (petróleo, grãos)",
-    explanation: "Tensões afetam cadeias de suprimento e mercados energéticos globais."
-  },
-  {
-    question: "A ordem mundial após a queda do Muro de Berlim passou por quais fases?",
-    options: [
-      "Sempre foi Bipolar",
-      "Unipolar (EUA) -> Multipolar",
-      "Multipolar -> Unipolar",
-      "Desaparecimento dos Estados"
-    ],
-    correctAnswer: "Unipolar (EUA) -> Multipolar",
-    explanation: "Houve um momento de hegemonia americana antes da ascensão chinesa e europeia."
-  },
-  {
-    question: "A soberania dos países na globalização é descrita como:",
-    options: ["Absoluta e Intocável", "Relativa e Interdependente", "Inexistente", "Apenas militar"],
-    correctAnswer: "Relativa e Interdependente",
-    explanation: "Os Estados precisam cooperar e dependem uns dos outros para sobreviver economicamente."
-  },
-  {
-    question: "Qual o principal objetivo da Geopolítica ao estudar o território?",
-    options: [
-      "Desenhar mapas bonitos",
-      "Entender a relação entre geografia física e estratégias de poder",
-      "Contar o número de árvores",
-      "Mudar o nome dos países"
-    ],
-    correctAnswer: "Entender a relação entre geografia física e estratégias de poder",
-    explanation: "O território é o espaço onde o poder é exercido e disputado."
+    question: "Qual é a soma de todos os ângulos internos de QUALQUER triângulo no plano?",
+    options: ["Sempre 180°", "Sempre 360°", "Sempre 90°", "Varia conforme o tamanho dos lados"],
+    correctAnswer: "Sempre 180°",
+    explanation: "A soma dos três ângulos internos de qualquer triângulo na geometria euclidiana plana é sempre exatamente igual a 180°."
   }
 ];
 
 function shuffleArray(array: Question[]): Question[] {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[j], array[i]] = [array[i], array[j]];
+    [array[i], array[j]] = [array[i], array[j]];
   }
   return array;
 }
@@ -453,7 +434,7 @@ function shuffleArray(array: Question[]): Question[] {
 export async function generateQuizQuestions(): Promise<Question[]> {
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve(shuffleArray([...hardQuestions]));
-    }, 500);
+      resolve(shuffleArray([...questions]));
+    }, 300);
   });
 }

@@ -13,7 +13,7 @@ export const QuizStartScreen: React.FC<QuizStartScreenProps> = ({ onStart, error
          <h1 className="text-7xl md:text-9xl lg:text-[10rem] text-black" style={{ textShadow: '4px 4px 0px #aaa' }}>
             Gênio Quiz
          </h1>
-         <div className="text-3xl md:text-5xl text-black mt-4 font-bold text-center">Ciências: Movimento, Clima e Cosmos</div>
+         <div className="text-3xl md:text-5xl text-black mt-4 font-bold text-center">Matemática: Sistemas, Plano Cartesiano e Triângulos</div>
       </div>
 
       <div className="flex flex-col xl:flex-row items-center justify-center w-full gap-12 xl:gap-32">
