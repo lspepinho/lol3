@@ -1,5 +1,6 @@
 {
   "name": "Gênio Quiz: História & Matérias Escolares do 8º Ano",
   "description": "Quiz interativo de História com a Vinda da Família Real (1808), Inconfidência Mineira (1789), Conjuração Baiana (1798) e Período Napoleônico, com seletor e biblioteca de quizzes anteriores (Matemática, Artes, Português, Inglês).",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

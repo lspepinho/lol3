@@ -2,568 +2,938 @@ import { QuizTopic } from '../types';
 
 export const ALL_QUIZZES: QuizTopic[] = [
   // =========================================================================
-  // QUIZ 1: HISTÓRIA (NOVO - FAMÍLIA REAL, INCONFIDÊNCIA, CONJURAÇÃO & NAPOLEÃO)
+  // QUIZ 1: HISTÓRIA GERAL & DO BRASIL - 50 QUESTÕES (10 POR PDF)
   // =========================================================================
   {
-    id: 'historia-brasil-napoleao',
-    title: 'História: Vinda da Família Real, Inconfidência, Conjuração & Napoleão',
+    id: 'historia-50-questoes-pdf',
+    title: 'História: 50 Questões Completas (10 por PDF)',
     subject: 'História',
-    description: 'Causas da vinda da Família Real (1808), tratados com a Inglaterra, Inconfidência Mineira (1789), Conjuração Baiana (1798), Fases de Napoleão e Congresso de Viena.',
+    description: '50 questões baseadas fielmente nos 5 PDFs: Inconfidência Mineira (10), Conjuração Baiana (10), Período Napoleônico (10), Revolução Francesa (10) e Vinda da Família Real/Independência (10).',
     icon: 'fa-landmark',
     badgeColor: 'bg-amber-500',
     questions: [
-      // --- BLOCO A: CAUSAS E VINDA DA FAMÍLIA REAL (1808) ---
+      // ---------------------------------------------------------------------
+      // PDF 1: A INCONFIDÊNCIA MINEIRA / CONJURAÇÃO MINEIRA (1789) - 10 QUESTÕES
+      // ---------------------------------------------------------------------
       {
-        question: "Qual medida decretada por Napoleão Bonaparte em 1806 determinava que os países europeus fechassem seus portos ao comércio com a Inglaterra?",
+        question: "[Inconfidência Mineira] A partir de 1760, qual fator gerou grande crise e insatisfação na capitania de Minas Gerais em relação a Portugal?",
         options: [
-          "Bloqueio Continental",
-          "Tratado de Fontainebleau",
-          "Tratado de Tordesilhas",
-          "Congresso de Viena"
+          "A produção de ouro começou a cair anualmente, mas a Coroa continuou cobrando o quinto e exigindo a mesma arrecadação",
+          "A descoberta de minas de prata no litoral que esvaziou a capitania de Minas Gerais",
+          "A invasão de tropas francesas na cidade de Vila Rica expulsando os mineradores",
+          "A decretação do fim imediato da escravidão pela Coroa Portuguesa"
         ],
-        correctAnswer: "Bloqueio Continental",
-        explanation: "Em 1806, Napoleão instituiu o Bloqueio Continental visando isolar e sufocar a economia britânica ao proibir o comércio dos países europeus com o Reino Unido."
+        correctAnswer: "A produção de ouro começou a cair anualmente, mas a Coroa continuou cobrando o quinto e exigindo a mesma arrecadação",
+        explanation: "Mesmo com o esgotamento natural das jazidas auríferas a partir de 1760, o sistema e o valor de cobrança do quinto continuaram inalterados por Portugal."
       },
       {
-        question: "Qual foi o tratado secreto assinado entre a França de Napoleão e a Espanha em 1807 para invadir e dividir o território português?",
+        question: "[Inconfidência Mineira] O que era a 'derrama' decretada pela Coroa Portuguesa quando a arrecadação anual de ouro não atingia a cota fixada?",
         options: [
-          "Tratado de Fontainebleau",
-          "Tratado de Aliança e Amizade",
-          "Tratado de Utrecht",
-          "Tratado de Madri"
+          "A cobrança pela força das armas da quantidade que faltava para alcançar 100 arrobas (cerca de 1500 kg) de ouro",
+          "Um imposto voluntário pago exclusivamente pelos padres e religiosos da capitania",
+          "Uma taxa alfandegária cobrada apenas sobre produtos importados da Inglaterra",
+          "A doação forçada de terras férteis dos mineradores para a coroa espanhola"
         ],
-        correctAnswer: "Tratado de Fontainebleau",
-        explanation: "O Tratado de Fontainebleau (1807) permitia às tropas francesas cruzarem a Espanha para invadir Portugal em troca de parte do território lusitano para a Espanha."
+        correctAnswer: "A cobrança pela força das armas da quantidade que faltava para alcançar 100 arrobas (cerca de 1500 kg) de ouro",
+        explanation: "Quando a entrega de ouro não alcançava 100 arrobas (1500 kg) anuais, a derrama era decretada para confiscar bens da população à força."
       },
       {
-        question: "Por qual razão principal o reino de Portugal não aderiu ao Bloqueio Continental imposto por Napoleão Bonaparte?",
+        question: "[Inconfidência Mineira] Como o aumento do custo de vida e a redução da extração de ouro afetaram a economia de Minas Gerais?",
         options: [
-          "Devido à longa aliança política e comercial com a Inglaterra",
-          "Porque Portugal pretendia colonizar a França",
-          "Por falta de navios mercantes para navegar no Atlântico",
-          "Porque a Espanha já havia conquistado todo o território de Portugal"
+          "Grande parcela da população se endividou e os mineradores deixaram de pagar comerciantes, agricultores e traficantes de escravizados",
+          "Provocou o enriquecimento maciço dos pequenos artesãos e o fechamento do comércio",
+          "Fez com que a Inglaterra assumisse o controle direto das minas de ouro",
+          "Gerou a substituição do ouro pela exportação imediata de café"
         ],
-        correctAnswer: "Devido à longa aliança política e comercial com a Inglaterra",
-        explanation: "Portugal mantinha uma aliança histórica e dependência comercial com a Grã-Bretanha, tornando inviável o rompimento com os britânicos."
+        correctAnswer: "Grande parcela da população se endividou e os mineradores deixaram de pagar comerciantes, agricultores e traficantes de escravizados",
+        explanation: "A crise generalizou dívidas em cascata, afetando mineradores, comerciantes, agricultores e traficantes que vendiam escravizados na região."
       },
       {
-        question: "O que estabelecia a convenção secreta assinada em 22 de outubro de 1807 entre o príncipe regente D. João e o rei inglês Jorge III?",
+        question: "[Inconfidência Mineira] De que forma as ideias do Iluminismo (liberdade e soberania popular) chegaram a Minas Gerais?",
         options: [
-          "A transferência da sede da corte portuguesa para o Brasil com escolta naval britânica",
-          "A entrega imediata de todas as minas de ouro para a França",
-          "A abolição total da escravidão nas colônias portuguesas naquele mesmo ano",
-          "A transformação de Portugal em república subordinada a Londres"
+          "Foram trazidas por estudantes brasileiros que fizeram cursos superiores na Europa, por meio de livros e pelo exemplo da Independência dos Estados Unidos",
+          "Foram transmitidas por cartas oficiais enviadas pelo próprio rei de Portugal",
+          "Chegaram por panfletos distribuídos abertamente pelo governador Visconde de Barbacena",
+          "Foram trazidas por missionários jesuítas expulsos da Espanha"
         ],
-        correctAnswer: "A transferência da sede da corte portuguesa para o Brasil com escolta naval britânica",
-        explanation: "A convenção assegurava a transferência segura da família real e da corte para o Brasil, com apoio da marinha inglesa."
+        correctAnswer: "Foram trazidas por estudantes brasileiros que fizeram cursos superiores na Europa, por meio de livros e pelo exemplo da Independência dos Estados Unidos",
+        explanation: "Apesar da censura colonial, filhos da elite letrada formados em universidades europeias (como Coimbra) introduziram livros e ideais iluministas e da independência americana."
       },
       {
-        question: "Quanto tempo durou a insalubre travessia marítima da corte portuguesa até o desembarque em Salvador (Bahia) em 22 de janeiro de 1808?",
-        options: ["54 dias de viagem", "10 dias de viagem", "6 meses de viagem", "1 ano de viagem"],
-        correctAnswer: "54 dias de viagem",
-        explanation: "A travessia marítima durou 54 dias em condições precárias e insalubres até a chegada na capital baiana."
-      },
-      {
-        question: "Qual documento histórico de grande impacto econômico D. João assinou ainda em Salvador, logo após desembarcar em 1808?",
+        question: "[Inconfidência Mineira] Quais eram as principais propostas dos Inconfidentes para a capitania de Minas Gerais?",
         options: [
-          "Carta Régia de Abertura dos Portos às Nações Amigas",
-          "Constituição Imperial de 1824",
-          "Código Civil Napoleônico",
-          "Tratado de Fontainebleau"
+          "Romper com Portugal, adotar a república, criar indústrias, fundar uma universidade em Vila Rica, acabar com o monopólio comercial e criar o serviço militar obrigatório",
+          "Instituir uma monarquia absolutista independente e manter o monopólio comercial com Lisboa",
+          "Transferir a capital de Minas Gerais para Salvador e entregar o comércio aos franceses",
+          "Declarar a anexação imediata de Minas Gerais ao território dos Estados Unidos"
         ],
-        correctAnswer: "Carta Régia de Abertura dos Portos às Nações Amigas",
-        explanation: "A Abertura dos Portos às Nações Amigas rompeu o pacto colonial português, beneficiando diretamente o comércio com a Inglaterra."
+        correctAnswer: "Romper com Portugal, adotar a república, criar indústrias, fundar uma universidade em Vila Rica, acabar com o monopólio comercial e criar o serviço militar obrigatório",
+        explanation: "Os inconfidentes defendiam independência republicana, fomento fabril, universidade em Vila Rica, fim das amarras mercantis e defesa militar compulsória."
       },
       {
-        question: "Ao chegarem ao Rio de Janeiro em março de 1808, os imóveis requisitados para a nobreza recebiam a sigla 'P.R.' (Príncipe Regente). Como a população carioca interpretava ironicamente a sigla?",
-        options: ["'Ponha-se na Rua'", "'Pátria Real'", "'Povo Revoltado'", "'Prédio Reformado'"],
-        correctAnswer: "'Ponha-se na Rua'",
-        explanation: "Como os moradores tinham que desocupar suas casas às pressas para abrigar a comitiva real, ironizavam a sigla P.R. como 'Ponha-se na Rua'."
-      },
-      {
-        question: "Quais importantes instituições e melhoramentos públicos foram criados por D. João após a instalação da corte no Rio de Janeiro?",
-        options: [
-          "Banco do Brasil, Real Academia Militar, Jardim Botânico, Real Fábrica de Pólvora e Imprensa Régia",
-          "Congresso Nacional, Petrobras e Usina de Itaipu",
-          "Assembleia Constituinte de Versalhes e Bastilha",
-          "Universidade Federal de Vila Rica e MASP"
-        ],
-        correctAnswer: "Banco do Brasil, Real Academia Militar, Jardim Botânico, Real Fábrica de Pólvora e Imprensa Régia",
-        explanation: "D. João modernizou o Rio de Janeiro com a fundação do Banco do Brasil (1808), Jardim Botânico (1808), Real Academia Militar (1810), etc."
-      },
-      {
-        question: "Pelo Tratado de Aliança e Amizade, de Comércio e Navegação (1810), qual era a taxa alfandegária cobrada sobre os produtos ingleses importados pelo Brasil?",
-        options: [
-          "15% para produtos ingleses (inferior aos 16% dos portugueses e 24% de outros países)",
-          "50% para produtos ingleses e 0% para portugueses",
-          "24% para todos os países sem nenhuma distinção",
-          "Isenção total de 0% apenas para a Espanha"
-        ],
-        correctAnswer: "15% para produtos ingleses (inferior aos 16% dos portugueses e 24% de outros países)",
-        explanation: "A Inglaterra obteve privilégios aduaneiros inéditos (15%), pagando tarifas menores que os próprios produtos da metrópole portuguesa (16%)."
-      },
-      {
-        question: "O que significava a cláusula de 'extraterritorialidade' concedida aos ingleses no Tratado de 1810?",
-        options: [
-          "Ingleses que cometessem crimes em terras portuguesas seriam julgados por magistrados ingleses segundo as leis da Inglaterra",
-          "Ingleses eram obrigados a se converter ao catolicismo",
-          "Ingleses não podiam desembarcar em portos brasileiros",
-          "Ingleses perderiam suas propriedades caso viajassem para o Brasil"
-        ],
-        correctAnswer: "Ingleses que cometessem crimes em terras portuguesas seriam julgados por magistrados ingleses segundo as leis da Inglaterra",
-        explanation: "A extraterritorialidade dava aos súditos britânicos o privilégio de julgamento por juízes ingleses conforme a legislação britânica."
-      },
-      {
-        question: "O que ocorreu em 1815 que fez o Brasil deixar juridicamente a condição de colônia?",
-        options: [
-          "O Brasil foi elevado à categoria de Reino Unido a Portugal e Algarves",
-          "Foi proclamada a primeira República Federalista do Brasil",
-          "D. Pedro I assinou a Lei Áurea",
-          "A capital foi transferida de volta para Salvador"
-        ],
-        correctAnswer: "O Brasil foi elevado à categoria de Reino Unido a Portugal e Algarves",
-        explanation: "Em 1815, com o fim das guerras napoleônicas, o Brasil passou a integrar o Reino Unido de Portugal, Brasil e Algarves."
-      },
-      {
-        question: "Qual movimento ocorrido em Portugal em 1820 exigiu a volta de D. João VI e a elaboração de uma constituição, ameaçando recolonizar o Brasil?",
-        options: [
-          "Revolução Liberal do Porto",
-          "Revolução dos Cravos",
-          "Revolução Francesa de 1789",
-          "Inconfidência Mineira"
-        ],
-        correctAnswer: "Revolução Liberal do Porto",
-        explanation: "A Revolução Liberal do Porto (1820) forçou o retorno do rei D. João VI e acelerou a marcha da independência brasileira sob liderança de D. Pedro I."
-      },
-
-      // --- BLOCO B: INCONFIDÊNCIA MINEIRA (1789) ---
-      {
-        question: "A partir de 1760, qual fator econômico agravou a tensão entre a Coroa Portuguesa e a Capitania de Minas Gerais?",
-        options: [
-          "A queda acentuada na produção anual de ouro mantendo-se a cobrança abusiva do quinto e tributos",
-          "A descoberta de petróleo no litoral fluminense",
-          "A proibição do plantio de café em São Paulo",
-          "A invasão de tropas inglesas em Ouro Preto"
-        ],
-        correctAnswer: "A queda acentuada na produção anual de ouro mantendo-se a cobrança abusiva do quinto e tributos",
-        explanation: "Com o esgotamento das jazidas de ouro, os colonos não conseguiam bater a cota fixada por Portugal, gerando endividamento e revolta."
-      },
-      {
-        question: "O que era a 'derrama' na capitania de Minas Gerais?",
-        options: [
-          "A cobrança forçada pelas armas para atingir a cota anual de 100 arrobas (1500 kg) de ouro devida à Coroa",
-          "Uma festa religiosa tradicional realizada na Semana Santa",
-          "O desvio legal de diamantes para a Espanha",
-          "A libertação imediata de todos os escravizados das minas"
-        ],
-        correctAnswer: "A cobrança forçada pelas armas para atingir a cota anual de 100 arrobas (1500 kg) de ouro devida à Coroa",
-        explanation: "A derrama era a execução armada e confisco de bens da população caso o volume do quinto não alcançasse 100 arrobas anuais."
-      },
-      {
-        question: "Quais ideias e acontecimentos externos influenciaram diretamente os inconfidentes mineiros em 1789?",
-        options: [
-          "O Iluminismo europeu (liberdade e soberania popular) e a Independência dos Estados Unidos (1776)",
-          "O Socialismo Científico e a Revolução Russa",
-          "A Guerra do Paraguai e a Revolução Industrial Alemã",
-          "O Tratado de Madri e a União Ibérica"
-        ],
-        correctAnswer: "O Iluminismo europeu (liberdade e soberania popular) e a Independência dos Estados Unidos (1776)",
-        explanation: "Estudantes brasileiros formados na Europa trouxeram os ideais iluministas e a inspiração da independência americana."
-      },
-      {
-        question: "Qual era a frase latina escrita na bandeira idealizada pelos inconfidentes mineiros?",
+        question: "[Inconfidência Mineira] Qual era a frase latina que estaria na bandeira do novo país projetada pelos inconfidentes e que inspirou a bandeira de Minas Gerais?",
         options: [
           "Libertas quae sera tamen (Liberdade ainda que tardia)",
           "Ordem e Progresso",
-          "In hoc signo vinces",
-          "Non ducor, duco"
+          "Independência ou Morte",
+          "Vox populi, vox Dei"
         ],
         correctAnswer: "Libertas quae sera tamen (Liberdade ainda que tardia)",
-        explanation: "'Libertas quae sera tamen' tornou-se o célebre lema dos inconfidentes e está até hoje na bandeira de Minas Gerais."
+        explanation: "'Libertas quae sera tamen' é o lema histórico dos inconfidentes presente no triângulo da bandeira de Minas Gerais."
       },
       {
-        question: "Por que a Inconfidência Mineira NÃO incluiu a proposta de abolição da escravidão em seu programa?",
+        question: "[Inconfidência Mineira] Por que a Inconfidência Mineira NÃO propôs a abolição da escravidão?",
         options: [
-          "Porque os líderes faziam parte das elites locais e eram proprietários de pessoas escravizadas",
-          "Porque a escravidão já havia sido extinta em Minas Gerais em 1750",
-          "Porque a Coroa Portuguesa já proibia escravizados nas minas",
-          "Porque a Igreja Católica de Vila Rica proibiu qualquer discussão sobre o tema"
+          "Porque muitos dos seus idealizadores faziam parte das elites locais e eram proprietários de pessoas escravizadas",
+          "Porque a escravidão já havia sido abolida em Minas Gerais antes de 1789",
+          "Porque as leis do Iluminismo proibiam a libertação de trabalhadores braçais",
+          "Porque a Coroa Portuguesa já havia libertado todos os escravizados das minas"
         ],
-        correctAnswer: "Porque os líderes faziam parte das elites locais e eram proprietários de pessoas escravizadas",
-        explanation: "Composto majoritariamente por membros da elite agrária, mineradora e letrada, o movimento não tinha interesse na abolição."
+        correctAnswer: "Porque muitos dos seus idealizadores faziam parte das elites locais e eram proprietários de pessoas escravizadas",
+        explanation: "Composta por latifundiários, mineradores e letrados proprietários de escravizados, a elite conspiradora não teve interesse em incluir o fim da escravidão."
       },
       {
-        question: "Quem foi o delator da Inconfidência Mineira que traiu seus companheiros denunciando o plano ao governador Visconde de Barbacena em troca do perdão de dívidas?",
+        question: "[Inconfidência Mineira] Quem foi o delator que traiu o movimento ao governador Visconde de Barbacena em troca de perdão de dívidas, pensão vitalícia e títulos?",
         options: [
           "Joaquim Silvério dos Reis",
-          "Tomás Antônio Gonzaga",
           "Cláudio Manuel da Costa",
+          "Tomás Antônio Gonzaga",
           "Alvarenga Peixoto"
         ],
         correctAnswer: "Joaquim Silvério dos Reis",
-        explanation: "Joaquim Silvério dos Reis delatou a conspiração ao Visconde de Barbacena para obter perdão de suas vultosas dívidas fiscais, pensão e títulos."
+        explanation: "Joaquim Silvério dos Reis, coronel e grande devedor da Fazenda Real, delatou os companheiros em troca de vantagens financeiras e perdão de suas dívidas."
       },
       {
-        question: "Qual dos inconfidentes foi o único condenado à morte por enforcamento e esquartejamento, tornando-se mártir cívico do movimento?",
+        question: "[Inconfidência Mineira] Qual era o perfil social de Joaquim José da Silva Xavier (Tiradentes) e qual foi o seu papel na conspiração?",
         options: [
-          "Joaquim José da Silva Xavier (Tiradentes)",
+          "Filho de pequeno fazendeiro, atuou como militar, dentista, tropeiro e comerciante; foi o mais popular na propagação das ideias revolucionárias",
+          "Grande fazendeiro e latifundiário rico que financiou a compra de navios de guerra",
+          "Juiz e ouvidor de Vila Rica formado em direito na Universidade de Coimbra",
+          "Padre e bispo católico que liderava as reuniões secretas na igreja matriz"
+        ],
+        correctAnswer: "Filho de pequeno fazendeiro, atuou como militar, dentista, tropeiro e comerciante; foi o mais popular na propagação das ideias revolucionárias",
+        explanation: "Tiradentes tinha origem modesta em relação à cúpula conspiradora e destacou-se pela intensa agitação e contato direto com a população."
+      },
+      {
+        question: "[Inconfidência Mineira] Em que contexto histórico a memória da Inconfidência e a figura de Tiradentes foram resgatadas como símbolo cívico de mártir da pátria?",
+        options: [
+          "Após a Proclamação da República (1889), quando o novo governo construiu a imagem de Tiradentes como mártir que deu a vida pela liberdade e pela república",
+          "Durante a chegada de D. João VI ao Rio de Janeiro em 1808",
+          "Pelo próprio rei de Portugal logo após a execução em 1792",
+          "Durante a Revolução Francesa pelos deputados jacobinos em Paris"
+        ],
+        correctAnswer: "Após a Proclamação da República (1889), quando o novo governo construiu a imagem de Tiradentes como mártir que deu a vida pela liberdade e pela república",
+        explanation: "A República de 1889 precisava de heróis cívicos e republicanos, elevando Tiradentes à condição de mártir fundador da nação livre."
+      },
+
+      // ---------------------------------------------------------------------
+      // PDF 2: A CONJURAÇÃO BAIANA (1798) - 10 QUESTÕES
+      // ---------------------------------------------------------------------
+      {
+        question: "[Conjuração Baiana] Em que cidade e ano ocorreu o movimento conhecido como Conjuração Baiana?",
+        options: [
+          "Em Salvador (Bahia), no ano de 1798",
+          "Em Vila Rica (Minas Gerais), no ano de 1789",
+          "No Rio de Janeiro, no ano de 1808",
+          "Em Recife (Pernambuco), no ano de 1817"
+        ],
+        correctAnswer: "Em Salvador (Bahia), no ano de 1798",
+        explanation: "A Conjuração Baiana eclodiu em Salvador em 1798, antiga capital colonial do Brasil."
+      },
+      {
+        question: "[Conjuração Baiana] Quais eram os três objetivos fundamentais da Conjuração Baiana?",
+        options: [
+          "Separar a Bahia de Portugal, abolir a escravatura e atender às reivindicações das camadas pobres",
+          "Manter a escravidão, pagar a derrama e jurar lealdade absoluta ao rei de Portugal",
+          "Transformar a Bahia em uma colônia francesa subordinada a Napoleão",
+          "Expulsar a população pobre de Salvador e proibir o artesanato"
+        ],
+        correctAnswer: "Separar a Bahia de Portugal, abolir a escravatura e atender às reivindicações das camadas pobres",
+        explanation: "Diferente de revoltas elitistas, a Conjuração Baiana tinha forte caráter popular, separatista e antiescravista."
+      },
+      {
+        question: "[Conjuração Baiana] Por qual outro nome a Conjuração Baiana também ficou historicamente conhecida?",
+        options: [
+          "Revolta dos Alfaiates",
+          "Guerra dos Emboabas",
+          "Revolta dos Mascates",
+          "Noite das Garrafadas"
+        ],
+        correctAnswer: "Revolta dos Alfaiates",
+        explanation: "O movimento ficou conhecido como Revolta dos Alfaiates devido à profissão de destaque de líderes como João de Deus e Manuel Faustino."
+      },
+      {
+        question: "[Conjuração Baiana] Qual importante acontecimento internacional exerceu forte influência sobre os rebeldes baianos?",
+        options: [
+          "A Independência do Haiti, onde escravizados se organizaram e venceram os colonizadores franceses",
+          "A Unificação da Alemanha sob liderança prussiana",
+          "A Revolução Industrial inglesa e a invenção da máquina a vapor",
+          "A Guerra do Paraguai no Cone Sul"
+        ],
+        correctAnswer: "A Independência do Haiti, onde escravizados se organizaram e venceram os colonizadores franceses",
+        explanation: "O levante bem-sucedido de negros escravizados no Haiti inspirou diretamente o desejo de liberdade e igualdade racial em Salvador."
+      },
+      {
+        question: "[Conjuração Baiana] Qual era o contexto socioeconômico de Salvador no final do século XVIII que motivou a revolta?",
+        options: [
+          "Uma grave crise social e econômica marcada por fome, miséria e carestia de alimentos",
+          "Um período de riqueza sem precedentes gerado pela descoberta de diamantes",
+          "Uma época de paz e fartura com distribuição gratuita de trigo pela Coroa",
+          "O pleno emprego e a isenção de impostos concedida a todos os habitantes"
+        ],
+        correctAnswer: "Uma grave crise social e econômica marcada por fome, miséria e carestia de alimentos",
+        explanation: "Após a transferência da capital para o RJ (1763), Salvador enfrentou estagnação, escassez de alimentos e inflação galopante."
+      },
+      {
+        question: "[Conjuração Baiana] Quais segmentos sociais formavam a base da liderança da Conjuração Baiana?",
+        options: [
+          "Classes sem destaque na sociedade: alfaiates, soldados de baixa patente, escravizados libertos e brancos pobres",
+          "Grandes latifundiários e donos de engenhos de açúcar",
+          "Altos desembargadores e membros da nobreza portuguesa",
+          "Bispos da Igreja Católica e oficiais generais da cavalaria"
+        ],
+        correctAnswer: "Classes sem destaque na sociedade: alfaiates, soldados de baixa patente, escravizados libertos e brancos pobres",
+        explanation: "A Conjuração Baiana diferenciou-se por sua liderança eminentemente popular, mestiça e trabalhadora."
+      },
+      {
+        question: "[Conjuração Baiana] Qual médico e político baiano destacou-se pela confecção de panfletos revolucionários colados nas portas das igrejas?",
+        options: [
           "Cipriano Barata",
-          "José Bonifácio de Andrada e Silva",
-          "Luís XVI"
+          "Tiradentes",
+          "Joaquim Silvério dos Reis",
+          "Visconde de Barbacena"
         ],
-        correctAnswer: "Joaquim José da Silva Xavier (Tiradentes)",
-        explanation: "Tiradentes assumiu a culpa pela conspiração e foi o único executado e esquartejado no Rio de Janeiro em 21 de abril de 1792."
-      },
-      {
-        question: "Qual era a composição social preponderante entre a liderança da Inconfidência Mineira?",
-        options: [
-          "Elite colonial: grandes proprietários, mineradores, magistrados, poetas, padres e letrados",
-          "Apenas escravos libertos e artesãos pobres",
-          "Trabalhadores rurais sem terra e índios catequizados",
-          "Soldados rasos e alfaiates de baixa renda exclusivamente"
-        ],
-        correctAnswer: "Elite colonial: grandes proprietários, mineradores, magistrados, poetas, padres e letrados",
-        explanation: "A Inconfidência Mineira foi uma conspiração de caráter elitista, organizada por letrados, magistrados e ricos devedores da Coroa."
-      },
-
-      // --- BLOCO C: CONJURAÇÃO BAIANA (1798) ---
-      {
-        question: "Em que ano e cidade ocorreu a Conjuração Baiana, também conhecida como Revolta dos Alfaiates?",
-        options: [
-          "Em 1798, na cidade de Salvador (Bahia)",
-          "Em 1789, em Vila Rica (Minas Gerais)",
-          "Em 1808, no Rio de Janeiro",
-          "Em 1822, em São Paulo"
-        ],
-        correctAnswer: "Em 1798, na cidade de Salvador (Bahia)",
-        explanation: "A Conjuração Baiana ocorreu em Salvador em 1798, mobilizando setores populares da antiga capital colonial."
-      },
-      {
-        question: "Diferente da Inconfidência Mineira, a Conjuração Baiana destacou-se por ter quais reivindicações sociais profundas?",
-        options: [
-          "Fim da escravidão, igualdade social e racial, liberdade e melhoria nas condições de vida da população pobre",
-          "Manutenção rigorosa dos privilégios da nobreza portuguesa",
-          "Cobrança obrigatória da derrama sobre o ouro",
-          "Submissão total da Bahia ao rei da Inglaterra"
-        ],
-        correctAnswer: "Fim da escravidão, igualdade social e racial, liberdade e melhoria nas condições de vida da população pobre",
-        explanation: "A Conjuração Baiana foi um movimento de base popular com forte pauta abolicionista, republicana e antirracista."
-      },
-      {
-        question: "Por que a Conjuração Baiana também ficou historicamente conhecida como 'Revolta dos Alfaiates'?",
-        options: [
-          "Por conta da profissão exercida por importantes líderes do movimento, como João de Deus e Manuel Faustino",
-          "Porque os revoltosos teciam uniformes militares para Napoleão Bonaparte",
-          "Porque a revolta começou dentro de uma tecelagem inglesa",
-          "Porque todos os participantes eram comerciantes de tecidos finos importados"
-        ],
-        correctAnswer: "Por conta da profissão exercida por importantes líderes do movimento, como João de Deus e Manuel Faustino",
-        explanation: "Muitos dos principais líderes e artesãos envolvidos exerciam o ofício de alfaiate em Salvador."
-      },
-      {
-        question: "Qual levante externo vitorioso serviu de forte inspiração para os participantes da Conjuração Baiana?",
-        options: [
-          "A Revolução e Independência do Haiti (levante vitorioso de escravizados contra os franceses)",
-          "A Revolução Meiji no Japão",
-          "A Unificação da Itália",
-          "A Guerra dos Cem Anos"
-        ],
-        correctAnswer: "A Revolução e Independência do Haiti (levante vitorioso de escravizados contra os franceses)",
-        explanation: "A revolta de escravizados no Haiti (1791) inspirou os negros e pardos baianos a lutarem pelo fim do cativeiro e pela igualdade."
-      },
-      {
-        question: "Qual médico e político baiano foi responsável por redigir e confeccionar panfletos revolucionários colados nas portas das igrejas de Salvador?",
-        options: ["Cipriano Barata", "Tiradentes", "Joaquim Silvério dos Reis", "Tomás Antônio Gonzaga"],
         correctAnswer: "Cipriano Barata",
-        explanation: "Cipriano Barata redigiu manifestos e panfletos republicanos afixados nas igrejas e locais públicos da capital baiana."
+        explanation: "O médico e intelectual iluminista Cipriano Barata redigia boletins e manifestos sediciosos espalhados pela cidade."
       },
       {
-        question: "Como o governo colonial baiano agiu contra os líderes da Conjuração Baiana?",
+        question: "[Conjuração Baiana] O que ocorreu no dia 12 de agosto de 1798 que impediu a deflagração armada da revolta?",
         options: [
-          "Prendeu os panfleteiros antes do ato concreto e condenou os quatro líderes populares à forca e ao esquartejamento público em 1799",
-          "Aceitou todas as propostas e declarou a república na Bahia",
-          "Permitiu que todos fugissem para a Inglaterra sem punição",
-          "Ofereceu cargos de ministros a todos os alfaiates"
+          "Tropas governamentais prenderam integrantes que estavam distribuindo folhetos, e as delatações subsequentes desarticularam o movimento antes do início",
+          "Os conspiradores fugiram em navios ingleses em direção à Europa",
+          "O governador de Salvador aceitou todas as reivindicações dos alfaiates pacificamente",
+          "Um terremoto destruiu as fortificações e adiou o confronto"
         ],
-        correctAnswer: "Prendeu os panfleteiros antes do ato concreto e condenou os quatro líderes populares à forca e ao esquartejamento público em 1799",
-        explanation: "A Coroa agiu com violência desmedida contra os líderes negros e pardos pobres, enforcando-os na Praça da Piedade para intimidar a população."
+        correctAnswer: "Tropas governamentais prenderam integrantes que estavam distribuindo folhetos, e as delatações subsequentes desarticularam o movimento antes do início",
+        explanation: "As prisões flagrantes durante a panfletagem levaram à prisão dos demais conspiradores antes de qualquer combate armado."
+      },
+      {
+        question: "[Conjuração Baiana] Qual foi a punição imposta pela Coroa aos líderes populares da revolta julgados em 1799?",
+        options: [
+          "Foram condenados à morte, enforcados em praça pública e esquartejados como forma de intimidação",
+          "Receberam apenas advertências verbais e continuaram trabalhando em suas alfaiatarias",
+          "Foram nomeados para altos cargos públicos em Portugal",
+          "Foram transferidos como diplomatas para a França revolucionária"
+        ],
+        correctAnswer: "Foram condenados à morte, enforcados em praça pública e esquartejados como forma de intimidação",
+        explanation: "A Coroa puniu com rigor exemplar os líderes negros e populares (Lucas Dantas, Manuel Faustino, Luiz Gonzaga e João de Deus), executando-os e esquartejando-os."
+      },
+      {
+        question: "[Conjuração Baiana] O que a violenta repressão portuguesa demonstrou e qual legado a Conjuração Baiana deixou?",
+        options: [
+          "Demonstrou a intolerância da Coroa contra contestações ao pacto colonial, mas suas ideias lançaram sementes para futuras lutas separatistas e abolicionistas",
+          "Conseguiu eliminar para sempre qualquer desejo de independência no território brasileiro",
+          "Provocou a renúncia imediata do príncipe regente de Portugal",
+          "Transformou Salvador em sede monárquica do império lusitano"
+        ],
+        correctAnswer: "Demonstrou a intolerância da Coroa contra contestações ao pacto colonial, mas suas ideias lançaram sementes para futuras lutas separatistas e abolicionistas",
+        explanation: "Apesar da brutalidade da Coroa, a Conjuração Baiana sedimentou os ideais republicanos e de igualdade racial no Brasil."
       },
 
-      // --- BLOCO D: O PERÍODO NAPOLEÔNICO (1799-1815) ---
+      // ---------------------------------------------------------------------
+      // PDF 3: O PERÍODO NAPOLEÔNICO (1799–1815) - 10 QUESTÕES
+      // ---------------------------------------------------------------------
       {
-        question: "Quais são as três fases cronológicas em que se divide o Período Napoleônico?",
+        question: "[Período Napoleônico] Quais são as três fases cronológicas do Período Napoleônico?",
         options: [
           "Consulado (1799-1804), Império Napoleônico (1804-1815) e Governo dos Cem Dias (1815)",
-          "Monarquia Absoluta, República Jacobina e Diretório",
-          "Primeiro Reinado, Período Regencial e Segundo Reinado",
-          "Idade Antiga, Média e Moderna"
+          "Monarquia Constitucional, Convenção Nacional e Diretório",
+          "República Jacobina, Terror e Reação Termidoriana",
+          "Primeiro Reinado, Regência Trina e Segundo Reinado"
         ],
         correctAnswer: "Consulado (1799-1804), Império Napoleônico (1804-1815) e Governo dos Cem Dias (1815)",
-        explanation: "O Período Napoleônico se organiza em Consulado (1799-1804), Império (1804-1815) e o Governo dos Cem Dias (1815)."
+        explanation: "O Período Napoleônico é didaticamente dividido em Consulado (1799-1804), Império (1804-1815) e Governo dos Cem Dias (1815)."
       },
       {
-        question: "Qual acontecimento em 1799 encerrou o Diretório da Revolução Francesa e levou Napoleão Bonaparte ao poder?",
+        question: "[Período Napoleônico] Como teve início o período do Consulado em 1799?",
         options: [
-          "Golpe do 18 de Brumário",
-          "Tomada da Bastilha",
-          "Batalha de Waterloo",
-          "Congresso de Viena"
+          "Com o Golpe de 18 de Brumário, quando a França passou a ser governada por três cônsules, sendo Napoleão o primeiro-cônsul e o mais poderoso",
+          "Com a invasão da França por tropas absolutistas da Prússia e Rússia",
+          "Com a coroação pacífica de Napoleão pelo Papa em Roma",
+          "Com uma votação unânime da população camponesa em praça pública"
         ],
-        correctAnswer: "Golpe do 18 de Brumário",
-        explanation: "No 18 de Brumário (9 de novembro de 1799), a burguesia apoiou Napoleão para estabilizar a França e conter rebeliões."
+        correctAnswer: "Com o Golpe de 18 de Brumário, quando a França passou a ser governada por três cônsules, sendo Napoleão o primeiro-cônsul e o mais poderoso",
+        explanation: "Em 1799, com o Golpe de 18 de Brumário, Napoleão derrubou o Diretório e assumiu como Primeiro-Cônsul."
       },
       {
-        question: "Durante a fase do Consulado, quais importantes medidas foram implementadas por Napoleão Bonaparte?",
+        question: "[Período Napoleônico] Quais importantes medidas internas foram tomadas por Napoleão durante a fase do Consulado?",
         options: [
-          "Criação do Código Civil, acordo com a Igreja Católica, fim de privilégios da nobreza e reforma agrária",
-          "Restauração do absolutismo medieval e queima de todas as leis",
-          "Fechamento de todas as universidades francesas",
-          "Entrega do governo francês para a rainha da Inglaterra"
+          "Acordo com a Igreja Católica, criação do novo Código Civil, fim de privilégios da nobreza e distribuição de terras por reforma agrária (com censura à imprensa)",
+          "Restauração do absolutismo dos Bourbons e devolução de terras à antiga nobreza feudal",
+          "Abolição de todas as leis escritas e extinção da moeda francesa",
+          "Proibição do comércio marítimo e fechamento de todas as escolas da França"
         ],
-        correctAnswer: "Criação do Código Civil, acordo com a Igreja Católica, fim de privilégios da nobreza e reforma agrária",
-        explanation: "Napoleão pacificou as relações com a Igreja, consolidou a igualdade jurídica burguesa no Código Civil e modernizou o Estado."
+        correctAnswer: "Acordo com a Igreja Católica, criação do novo Código Civil, fim de privilégios da nobreza e distribuição de terras por reforma agrária (com censura à imprensa)",
+        explanation: "O Consulado consolidou conquistas burguesas (Código Napoleônico, paz com a Igreja, reforma agrária), acompanhado do controle da imprensa e da oposição."
       },
       {
-        question: "Em 1804, Napoleão consolidou ainda mais seu poder com qual ato solene na Catedral de Notre-Dame?",
+        question: "[Período Napoleônico] O que ocorreu em 1804 que deu início à fase do Império Napoleônico?",
         options: [
-          "Autocoroou-se Imperador dos Franceses",
-          "Renunciou ao exército e virou bispo",
-          "Restaurou a dinastia de Luís XVI",
-          "Proclamou a dissolução da França"
+          "Napoleão deixou de ser cônsul vitalício e se auto-coroou Imperador dos Franceses, ampliando expressivamente seus poderes",
+          "A monarquia absolutista foi restaurada com a posse de Luís XVIII",
+          "A França perdeu a guerra para a Espanha e foi desmembrada",
+          "O parlamento francês dissolveu o exército e aboliu o cargo de chefe de Estado"
         ],
-        correctAnswer: "Autocoroou-se Imperador dos Franceses",
-        explanation: "Em 1804, Napoleão coroou a si mesmo e a sua esposa Josefina na presença do Papa Pio VII, inaugurando o Império."
+        correctAnswer: "Napoleão deixou de ser cônsul vitalício e se auto-coroou Imperador dos Franceses, ampliando expressivamente seus poderes",
+        explanation: "Em 1804, na Catedral de Notre-Dame, Napoleão coroou a si mesmo como imperador, consolidando a fase imperial."
       },
       {
-        question: "Qual famosa batalha naval em 1805 impediu a invasão francesa da Inglaterra ao demonstrar a superioridade da marinha britânica?",
-        options: ["Batalha de Trafalgar", "Batalha de Waterloo", "Batalha de Leipzig", "Batalha de Valmy"],
-        correctAnswer: "Batalha de Trafalgar",
-        explanation: "A Marinha Real Britânica, comandada pelo Almirante Horatio Nelson, destruiu a esquadra franco-espanhola na Batalha de Trafalgar."
-      },
-      {
-        question: "Como Napoleão Bonaparte reagiu à incapacidade de invadir a Inglaterra por via marítima?",
+        question: "[Período Napoleônico] O que a França de Napoleão e a Inglaterra disputavam no cenário europeu do início do século XIX?",
         options: [
-          "Decretou o Bloqueio Continental para enfraquecer a economia britânica pelo comércio",
-          "Assinou um tratado de paz perpétua com Londres",
-          "Doou as terras da França para a Espanha",
-          "Desistiu do comando militar e exilou-se"
+          "A hegemonia política, militar e econômica na Europa",
+          "O monopólio das rotas marítimas para o polo sul",
+          "A posse exclusiva das colônias de povoamento na Austrália",
+          "A liderança religiosa da Igreja Ortodoxa Russa"
         ],
-        correctAnswer: "Decretou o Bloqueio Continental para enfraquecer a economia britânica pelo comércio",
-        explanation: "Sem supremacia naval, Napoleão tentou a guerra econômica por meio do Bloqueio Continental (1806)."
+        correctAnswer: "A hegemonia política, militar e econômica na Europa",
+        explanation: "A rivalidade anglo-francesa era uma disputa central pelo controle dos mercados, poder militar e influência geopolítica continental."
       },
       {
-        question: "Qual país europeu furou o Bloqueio Continental em 1810, motivando a desastrosa invasão francesa em 1812?",
-        options: ["Rússia", "Itália", "Alemanha", "Estados Unidos"],
-        correctAnswer: "Rússia",
-        explanation: "A Rússia do czar Alexandre I voltou a comercializar com os ingleses, sofrendo a invasão napoleônica de 1812 que dizimou a Grande Armada francesa."
-      },
-      {
-        question: "Após a derrota na Rússia e o colapso de suas forças em 1814, para qual ilha no mar Mediterrâneo Napoleão foi exilado pela primeira vez?",
-        options: ["Ilha de Elba", "Ilha de Santa Helena", "Ilha de Madagascar", "Ilha de Marajó"],
-        correctAnswer: "Ilha de Elba",
-        explanation: "Napoleão abdicou e foi levado para a Ilha de Elba, de onde conseguiu escapar em março de 1815."
-      },
-      {
-        question: "O que caracterizou o chamado 'Governo dos Cem Dias' (março a julho de 1815)?",
+        question: "[Período Napoleônico] Por que a Batalha de Trafalgar (1805) foi decisiva nas guerras napoleônicas?",
         options: [
-          "O breve retorno de Napoleão ao poder na França após sua fuga do exílio na Ilha de Elba",
-          "O período em que D. João VI governou Salvador antes de ir ao Rio",
-          "O tempo de duração do julgamento dos inconfidentes mineiros",
-          "A duração do Bloqueio Continental"
+          "Foi a primeira grande derrota de Napoleão, impedindo a invasão da Inglaterra ao comprovar a supremacia da Marinha Real Britânica no mar",
+          "Marcou a vitória total da França e a conquista de Londres por terra",
+          "Resultou na destruição completa dos navios mercantes dos Estados Unidos",
+          "Foi a batalha que colocou fim ao Governo dos Cem Dias"
         ],
-        correctAnswer: "O breve retorno de Napoleão ao poder na França após sua fuga do exílio na Ilha de Elba",
-        explanation: "Napoleão reassumiu o trono francês por cerca de cem dias até sua derrota final."
+        correctAnswer: "Foi a primeira grande derrota de Napoleão, impedindo a invasão da Inglaterra ao comprovar a supremacia da Marinha Real Britânica no mar",
+        explanation: "Com a derrota naval em Trafalgar, Napoleão percebeu que não conseguiria derrotar os britânicos militarmente pelo mar."
       },
       {
-        question: "Em qual célebre batalha militar de 1815 Napoleão foi definitivamente derrotado pelas forças aliadas comandadas pelos ingleses?",
-        options: ["Batalha de Waterloo", "Batalha de Trafalgar", "Batalha de Stalingrado", "Batalha de Guararapes"],
-        correctAnswer: "Batalha de Waterloo",
-        explanation: "Na Batalha de Waterloo (na atual Bélgica), as forças do Duque de Wellington derrotaram de vez as tropas de Napoleão."
-      },
-      {
-        question: "Para onde Napoleão foi enviado após a derrota em Waterloo, onde permaneceu preso até falecer em 1821?",
+        question: "[Período Napoleônico] Qual foi o objetivo de Napoleão ao decretar o Bloqueio Continental em 1806?",
         options: [
-          "Ilha de Santa Helena (no Oceano Atlântico Sul)",
-          "Ilha de Elba (no Mediterrâneo)",
-          "Palácio de Versalhes em Paris",
-          "Vila Rica em Minas Gerais"
+          "Proibir as nações europeias de comercializarem com o Reino Unido, visando sufocar e arruinar a economia britânica",
+          "Impedir a entrada de escravizados africanos no continente europeu",
+          "Fechar os portos franceses para a importação de trigo russo",
+          "Unificar as moedas de todos os países da Europa sob o franco francês"
         ],
-        correctAnswer: "Ilha de Santa Helena (no Oceano Atlântico Sul)",
-        explanation: "Napoleão foi exilado na remota Ilha de Santa Helena, no meio do Atlântico Sul, onde morreu em maio de 1821."
+        correctAnswer: "Proibir as nações europeias de comercializarem com o Reino Unido, visando sufocar e arruinar a economia britânica",
+        explanation: "O Bloqueio Continental foi uma medida de guerra econômica para enfraquecer o comércio e a indústria da Inglaterra."
       },
       {
-        question: "Qual foi o objetivo principal do Congresso de Viena (1814–1815) organizado pelas potências absolutistas vencedoras?",
+        question: "[Período Napoleônico] Por que Napoleão decidiu invadir a Rússia em 1812 e qual foi o resultado dessa campanha militar?",
         options: [
-          "Restaurar o equilíbrio monárquico e conter as transformações revolucionárias na Europa pós-Napoleão",
-          "Expandir as leis da Revolução Francesa para a Ásia e África",
-          "Apoiar as revoltas republicanas na América Latina",
-          "Declarar a independência de todas as colônias portuguesas"
+          "Porque a Rússia desobedeceu e furou o Bloqueio Continental em 1810; a invasão resultou na trágica derrota francesa, iniciando a derrocada de Napoleão",
+          "Porque a Rússia pretendia invadir Portugal; a França venceu e anexou Moscou permanentemente",
+          "Porque a Rússia havia se aliado à Espanha; a invasão terminou com um tratado pacífico de paz",
+          "Porque Napoleão queria converter o czar russo ao catolicismo romano"
         ],
-        correctAnswer: "Restaurar o equilíbrio monárquico e conter as transformações revolucionárias na Europa pós-Napoleão",
-        explanation: "O Congresso de Viena buscou restaurar dinastias do Antigo Regime (Princípio da Legitimidade) e restabelecer as fronteiras europeias."
+        correctAnswer: "Porque a Rússia desobedeceu e furou o Bloqueio Continental em 1810; a invasão resultou na trágica derrota francesa, iniciando a derrocada de Napoleão",
+        explanation: "A quebra do bloqueio pelo czar Alexandre I motivou a Campanha da Rússia, na qual o rigoroso inverno e a tática da terra arrasada dizimaram o exército napoleônico."
       },
       {
-        question: "Quem assumiu o trono francês após a queda de Napoleão, instaurando uma monarquia constitucional?",
-        options: ["Luís XVIII", "Luís XVI", "Robespierre", "Dom Pedro I"],
-        correctAnswer: "Luís XVIII",
-        explanation: "Luís XVIII, irmão de Luís XVI, assumiu o trono sob o modelo de monarquia constitucional limitada."
+        question: "[Período Napoleônico] O que caracterizou o Governo dos Cem Dias (março a julho de 1815) e como ele terminou?",
+        options: [
+          "Napoleão fugiu do exílio na Ilha de Elba, retomou o poder na França por 100 dias e foi derrotado em definitivo na Batalha de Waterloo, sendo exilado em Santa Helena",
+          "Foi o período em que a rainha da Inglaterra governou a França provisoriamente",
+          "Foi uma trégua de 100 dias assinada entre França, Prússia e Áustria",
+          "Foi o governo estabelecido pelos generais russos em Paris"
+        ],
+        correctAnswer: "Napoleão fugiu do exílio na Ilha de Elba, retomou o poder na França por 100 dias e foi derrotado em definitivo na Batalha de Waterloo, sendo exilado em Santa Helena",
+        explanation: "Napoleão escapou de Elba, governou por cerca de 100 dias, foi derrotado pelo Duque de Wellington em Waterloo (1815) e exilado na remota Santa Helena até sua morte em 1821."
+      },
+      {
+        question: "[Período Napoleônico] Qual foi o objetivo do Congresso de Viena (1814–1815) e como a monarquia foi restaurada na França?",
+        options: [
+          "Colocar fim às mudanças revolucionárias na Europa, restaurar fronteiras e entronizar Luís XVIII sob uma monarquia constitucional limitada",
+          "Expandir as leis da Revolução Francesa para todas as monarquias absolutistas",
+          "Dividir a Europa em repúblicas populares comandadas por camponeses",
+          "Criar uma confederação militar governada pelo irmão de Napoleão"
+        ],
+        correctAnswer: "Colocar fim às mudanças revolucionárias na Europa, restaurar fronteiras e entronizar Luís XVIII sob uma monarquia constitucional limitada",
+        explanation: "O Congresso de Viena buscou restaurar a ordem conservadora na Europa pós-Napoleão, restaurando Luís XVIII na França com poderes limitados por uma constituição."
+      },
+
+      // ---------------------------------------------------------------------
+      // PDF 4: A REVOLUÇÃO FRANCESA (1789–1799) - 10 QUESTÕES
+      // ---------------------------------------------------------------------
+      {
+        question: "[Revolução Francesa] No final do século XVIII, qual era o quadro socioeconômico e político da França no Antigo Regime?",
+        options: [
+          "País agrário de herança feudal, nobreza e clero isentos de impostos e donos das terras, camponeses pagando pesados tributos e Monarquia Absolutista sob Luís XVI",
+          "País altamente industrializado, com sufrágio universal e igualdade tributária",
+          "República democrática parlamentarista com distribuição igualitária de terras",
+          "Império comercial comandado por comerciantes e operários fabris"
+        ],
+        correctAnswer: "País agrário de herança feudal, nobreza e clero isentos de impostos e donos das terras, camponeses pagando pesados tributos e Monarquia Absolutista sob Luís XVI",
+        explanation: "A França pré-revolucionária mantinha fortes amarras feudais, privilégios fiscais para os dois primeiros estamentos e absolutismo régio."
+      },
+      {
+        question: "[Revolução Francesa] Como a sociedade francesa pré-revolucionária estava dividida em três estamentos?",
+        options: [
+          "Primeiro Estado (Clero), Segundo Estado (Nobreza) e Terceiro Estado (Burguesia, camponeses e trabalhadores urbanos)",
+          "Primeiro Estado (Rei), Segundo Estado (Exército) e Terceiro Estado (Igreja)",
+          "Primeiro Estado (Operários), Segundo Estado (Burgueses) e Terceiro Estado (Senadores)",
+          "Primeiro Estado (Ingleses), Segundo Estado (Franceses) e Terceiro Estado (Espanhóis)"
+        ],
+        correctAnswer: "Primeiro Estado (Clero), Segundo Estado (Nobreza) e Terceiro Estado (Burguesia, camponeses e trabalhadores urbanos)",
+        explanation: "A sociedade de ordens era estratificada em 1º Estado (Clero), 2º Estado (Nobreza) e 3º Estado (mais de 95% da população, liderada pela burguesia)."
+      },
+      {
+        question: "[Revolução Francesa] Qual foi o motivo do impasse na Assembleia dos Estados Gerais convocada por Luís XVI em 1789?",
+        options: [
+          "O Terceiro Estado queria votação individual por representante (cabeça), enquanto o Primeiro e Segundo Estados exigiam votação por Estado",
+          "A nobreza exigia pagar o dobro de impostos da burguesia",
+          "O clero recusou-se a comparecer à reunião no Palácio de Versalhes",
+          "O rei exigia a proclamação imediata da República Francesa"
+        ],
+        correctAnswer: "O Terceiro Estado queria votação individual por representante (cabeça), enquanto o Primeiro e Segundo Estados exigiam votação por Estado",
+        explanation: "Com o voto por Estado, nobreza e clero se uniam (2 a 1) contra o 3º Estado. O voto individual daria a maioria ao 3º Estado com o apoio do baixo clero."
+      },
+      {
+        question: "[Revolução Francesa] O que os representantes do Terceiro Estado fizeram após o impasse dos Estados Gerais no Palácio de Versalhes?",
+        options: [
+          "Separaram-se, autodeclararam-se Assembleia Nacional Constituinte e juraram ficar reunidos até redigir a Constituição da França",
+          "Aceitaram a decisão do rei e retornaram pacificamente às suas casas",
+          "Entregaram o governo aos diplomatas da Inglaterra e da Áustria",
+          "Coroaram um novo monarca absolutista espanhol"
+        ],
+        correctAnswer: "Separaram-se, autodeclararam-se Assembleia Nacional Constituinte e juraram ficar reunidos até redigir a Constituição da França",
+        explanation: "No célebre Juramento do Jogo da Péla, os deputados do 3º Estado formaram a Assembleia Nacional Constituinte."
+      },
+      {
+        question: "[Revolução Francesa] Qual marco popular ocorrido em 14 de julho de 1789 simbolizou o início da queda do absolutismo na França?",
+        options: [
+          "A Tomada da Bastilha (prisão e fortaleza símbolo do poder absolutista)",
+          "A execução do rei Luís XVI na guilhotina",
+          "A assinatura do Código Civil Napoleônico",
+          "O Golpe do 18 de Brumário"
+        ],
+        correctAnswer: "A Tomada da Bastilha (prisão e fortaleza símbolo do poder absolutista)",
+        explanation: "A Tomada da Bastilha pelo povo parisiense em 14 de julho de 1789 é o marco fundamental da Revolução Francesa."
+      },
+      {
+        question: "[Revolução Francesa] Quais princípios foram consagrados na 'Declaração dos Direitos do Homem e do Cidadão' aprovada na 1ª fase?",
+        options: [
+          "Princípios de liberdade, igualdade perante a lei, fraternidade e o direito inviolável à propriedade",
+          "O direito divino dos reis absolutistas governarem sem parlamento",
+          "A proibição do comércio livre e o confisco compulsório de todas as propriedades",
+          "A obrigatoriedade de todos os cidadãos ingressarem nas ordens religiosas"
+        ],
+        correctAnswer: "Princípios de liberdade, igualdade perante a lei, fraternidade e o direito inviolável à propriedade",
+        explanation: "A Declaração universalizou os ideais burgueses e iluministas de liberdade civil, igualdade jurídica e direito de propriedade."
+      },
+      {
+        question: "[Revolução Francesa] O que marcou a 2ª fase da Revolução Francesa (Convenção Nacional, 1792–1795)?",
+        options: [
+          "Abolição da Monarquia, Proclamação da República, execução de Luís XVI e Maria Antonieta (1793) e o período do Terror Jacobino",
+          "A coroação de Napoleão como imperador absolutista",
+          "O retorno voluntário dos privilégios da nobreza feudal",
+          "A aliança militar com a corte britânica contra os camponeses"
+        ],
+        correctAnswer: "Abolição da Monarquia, Proclamação da República, execução de Luís XVI e Maria Antonieta (1793) e o período do Terror Jacobino",
+        explanation: "A Convenção foi a fase mais radical, com o fim da monarquia, a decapitação dos monarcas e o comitê de salvação pública jacobino."
+      },
+      {
+        question: "[Revolução Francesa] Quais foram as principais medidas sociais aprovadas pelos Jacobinos durante a Convenção Nacional?",
+        options: [
+          "Voto universal masculino, abolição da escravidão nas colônias francesas e congelamento de preços de produtos básicos",
+          "Voto censitário baseado em renda e expulsão dos trabalhadores do exército",
+          "Instituição do trabalho forçado para camponeses e aumento de tributos feudais",
+          "Fechamento de todos os hospitais e fim da educação pública"
+        ],
+        correctAnswer: "Voto universal masculino, abolição da escravidão nas colônias francesas e congelamento de preços de produtos básicos",
+        explanation: "Os jacobinos implementaram o sufrágio universal masculino, a Lei do Máximo (congelamento de preços) e o fim da escravidão colonial."
+      },
+      {
+        question: "[Revolução Francesa] Como a alta burguesia reorganizou o poder na 3ª fase (Diretório, 1795–1799)?",
+        options: [
+          "Revogou as medidas radicais jacobinas, restabeleceu o controle moderado e enfrentou instabilidades internas e ameaças externas",
+          "Restaurou o Antigo Regime Absolutista com a família real austríaca",
+          "Entregou o governo diretamente aos líderes do movimento camponês sans-culottes",
+          "Declarou a França uma província do Império Russo"
+        ],
+        correctAnswer: "Revogou as medidas radicais jacobinas, restabeleceu o controle moderado e enfrentou instabilidades internas e ameaças externas",
+        explanation: "O Diretório representou a consolidação da alta burguesia (girondinos), reprimindo a esquerda jacobina e a direita monarquista."
+      },
+      {
+        question: "[Revolução Francesa] Por que a alta burguesia aliou-se ao general Napoleão Bonaparte no Golpe do 18 de Brumário (1799)?",
+        options: [
+          "Para recuperar a estabilidade e a ordem no país, proteger a riqueza da burguesia e conter as manifestações populares",
+          "Para coroar um novo rei absolutista da dinastia dos Bourbons",
+          "Para abolir a propriedade privada e instaurar uma sociedade sem classes",
+          "Para vender o território francês à Inglaterra"
+        ],
+        correctAnswer: "Para recuperar a estabilidade e a ordem no país, proteger a riqueza da burguesia e conter as manifestações populares",
+        explanation: "Napoleão foi visto pela burguesia como a liderança militar enérgica capaz de garantir a estabilidade das conquistas econômicas da revolução."
+      },
+
+      // ---------------------------------------------------------------------
+      // PDF 5: CAUSAS E CONSEQUÊNCIAS DA VINDA DA FAMÍLIA REAL & INDEPENDÊNCIA (10 QUESTÕES)
+      // ---------------------------------------------------------------------
+      {
+        question: "[Família Real no Brasil] Por qual razão principal Portugal não aderiu ao Bloqueio Continental decretado por Napoleão em 1806?",
+        options: [
+          "Devido à longa aliança política e comercial que Portugal mantinha com a Inglaterra",
+          "Porque Portugal pretendia formar um império militar conjunto com a França",
+          "Porque a economia portuguesa não dependia de nenhum país estrangeiro",
+          "Porque a Espanha já havia conquistado e governava Lisboa desde 1750"
+        ],
+        correctAnswer: "Devido à longa aliança política e comercial que Portugal mantinha com a Inglaterra",
+        explanation: "A economia portuguesa era profundamente entrelaçada ao comércio britânico, tornando impossível a adesão ao bloqueio napoleônico."
+      },
+      {
+        question: "[Família Real no Brasil] O que previa o Tratado secreto de Fontainebleau (1807) firmado entre França e Espanha?",
+        options: [
+          "Permitir que as tropas francesas atravessassem a Espanha para invadir Portugal e partilhar seu território",
+          "A união das marinhas portuguesa e francesa contra a Inglaterra",
+          "A transferência da corte espanhola para o Rio de Janeiro",
+          "A devolução imediata do Brasil ao reino da Espanha"
+        ],
+        correctAnswer: "Permitir que as tropas francesas atravessassem a Espanha para invadir Portugal e partilhar seu território",
+        explanation: "Napoleão negociou com os espanhóis a passagem de suas tropas para ocupar e desmembrar o território lusitano."
+      },
+      {
+        question: "[Família Real no Brasil] O que garantia a convenção secreta de 22 de outubro de 1807 entre D. João e o rei Jorge III da Inglaterra?",
+        options: [
+          "A transferência segura da sede monárquica de Portugal para o Brasil com a proteção e escolta da marinha britânica",
+          "A entrega de todas as reservas de ouro do Brasil para a coroa inglesa",
+          "A transformação de Portugal em república subordinada ao parlamento inglês",
+          "A cessão de Salvador como território britânico permanente"
+        ],
+        correctAnswer: "A transferência segura da sede monárquica de Portugal para o Brasil com a proteção e escolta da marinha britânica",
+        explanation: "Os ingleses garantiram a escolta da frota real portuguesa através do Atlântico em troca de concessões comerciais futuras."
+      },
+      {
+        question: "[Família Real no Brasil] Quanto tempo durou a viagem marítima até o desembarque em Salvador (BA) em 22 de janeiro de 1808?",
+        options: [
+          "54 dias de viagem em condições insalubres",
+          "10 dias de viagem tranquila",
+          "6 meses de navegação",
+          "1 ano de viagem"
+        ],
+        correctAnswer: "54 dias de viagem em condições insalubres",
+        explanation: "A travessia durou 54 dias sob forte superlotação, tempestades, escassez de água potável e surto de piolhos."
+      },
+      {
+        question: "[Família Real no Brasil] Qual medida econômica de grande impacto foi assinada pelo Príncipe Regente D. João logo em sua chegada à Bahia em 1808?",
+        options: [
+          "A Abertura dos Portos às Nações Amigas, que rompeu o pacto colonial e beneficiou diretamente a Inglaterra",
+          "A proibição total do comércio com qualquer nação estrangeira",
+          "O restabelecimento do monopólio exclusivo dos comerciantes de Lisboa",
+          "A criação da moeda única ibérica"
+        ],
+        correctAnswer: "A Abertura dos Portos às Nações Amigas, que rompeu o pacto colonial e beneficiou diretamente a Inglaterra",
+        explanation: "A Carta Régia de Abertura dos Portos de 1808 pôs fim ao exclusivo metropolitano (pacto colonial)."
+      },
+      {
+        question: "[Família Real no Brasil] O que significava a sigla 'P.R.' gravada nas casas requisitadas no Rio de Janeiro e como a população a interpretou ironicamente?",
+        options: [
+          "Significava 'Príncipe Regente' (para desocupação do imóvel), interpretada pelo povo como 'Ponha-se na Rua'",
+          "Significava 'Propriedade Real', interpretada como 'Povo Revolucionário'",
+          "Significava 'Pátria Restaurada', interpretada como 'Prédio Renovado'",
+          "Significava 'Porto Rico', interpretada como 'Pague Rápido'"
+        ],
+        correctAnswer: "Significava 'Príncipe Regente' (para desocupação do imóvel), interpretada pelo povo como 'Ponha-se na Rua'",
+        explanation: "Com a escassez de moradia para os nobres, as casas marcadas com P.R. tinham que ser evacuadas às pressas pelos moradores cariocas."
+      },
+      {
+        question: "[Família Real no Brasil] Quais importantes instituições e órgãos foram criados por D. João após a transferência da capital para o Rio de Janeiro?",
+        options: [
+          "Banco do Brasil (1808), Jardim Botânico (1808), Real Fábrica de Pólvora (1808), Real Academia Militar (1810) e Imprensa Régia",
+          "Petrobras, Embraer e Companhia Siderúrgica Nacional",
+          "Assembleia Constituinte de Versalhes e Tribunal de Haia",
+          "Universidade de Coimbra e Casa das Índias"
+        ],
+        correctAnswer: "Banco do Brasil (1808), Jardim Botânico (1808), Real Fábrica de Pólvora (1808), Real Academia Militar (1810) e Imprensa Régia",
+        explanation: "D. João estruturou a nova capital imperial fundando o Banco do Brasil, Jardim Botânico, Imprensa Régia (Gazeta do RJ), Academia Militar, etc."
+      },
+      {
+        question: "[Família Real no Brasil] Pelo Tratado de Aliança e Amizade, de Comércio e Navegação (1810), qual era a taxa alfandegária cobrada sobre os produtos ingleses importados pelo Brasil?",
+        options: [
+          "15% para produtos ingleses (inferior aos 16% cobrados sobre os produtos portugueses e 24% de outros países)",
+          "50% para produtos ingleses e isenção de 0% para produtos portugueses",
+          "24% igual para todos os países sem exceções",
+          "30% para a Inglaterra e 10% para os Estados Unidos"
+        ],
+        correctAnswer: "15% para produtos ingleses (inferior aos 16% cobrados sobre os produtos portugueses e 24% de outros países)",
+        explanation: "O Tratado de 1810 deu privilégios alfandegários extraordinários à Inglaterra (15%), tornando seus artigos mais baratos até que os de Portugal (16%)."
+      },
+      {
+        question: "[Família Real no Brasil] O que determinou a elevação do Brasil a Reino Unido de Portugal, Brasil e Algarves em 1815?",
+        options: [
+          "O Brasil deixou formalmente de ser uma colônia, passando a integrar o reino de forma paritária com Portugal",
+          "O Brasil foi vendido para os bancos britânicos para pagar despesas de guerra",
+          "O território brasileiro foi dividido em dez repúblicas independentes",
+          "D. João abdicou do trono e proclamou a república socialista"
+        ],
+        correctAnswer: "O Brasil deixou formalmente de ser uma colônia, passando a integrar o reino de forma paritária com Portugal",
+        explanation: "Com o fim das guerras napoleônicas e o Congresso de Viena, a elevação a Reino Unido legalizou a sede monárquica no Rio de Janeiro."
+      },
+      {
+        question: "[Família Real no Brasil] Como a vinda da Família Real acelerou a Independência do Brasil (1822) e quais foram os traços da Constituição de 1824?",
+        options: [
+          "Rompeu o pacto colonial, unificou as elites em torno de D. Pedro I contra as tentativas de recolonização das Cortes de Lisboa; a Carta de 1824 manteve a monarquia, a escravidão e o catolicismo oficial",
+          "Resultou na criação de uma república federalista que aboliu a escravidão imediatamente em 1822",
+          "Fez o Brasil retornar à condição de colônia subordinada ao rei de Napoleão",
+          "Extinguiu as Forças Armadas e entregou o poder ao clero católico"
+        ],
+        correctAnswer: "Rompeu o pacto colonial, unificou as elites em torno de D. Pedro I contra as tentativas de recolonização das Cortes de Lisboa; a Carta de 1824 manteve a monarquia, a escravidão e o catolicismo oficial",
+        explanation: "A experiência autonômica desde 1808 impediu a volta ao status colonial após a Revolução do Porto de 1820, culminando no 7 de setembro de 1822 e na Constituição outorgada de 1824."
       }
     ]
   },
 
   // =========================================================================
-  // QUIZ 2: MATEMÁTICA (SISTEMAS, PLANO CARTESIANO E TRIÂNGULOS)
+  // QUIZ 2: MATEMÁTICA - 30 QUESTÕES FIÉIS AOS 3 PDFs (10 POR PDF)
   // =========================================================================
   {
-    id: 'matematica-sistemas-triangulos',
-    title: 'Matemática: Sistemas de Equações, Plano Cartesiano & Triângulos',
+    id: 'matematica-30-questoes-pdf',
+    title: 'Matemática: 30 Questões Féis aos PDFs (10 por PDF)',
     subject: 'Matemática',
-    description: 'Método da Substituição, Método da Adição, Problemas de 1º Grau, Quadrantes e Coordenadas, Classificação de Triângulos e Desigualdade Triangular.',
+    description: '30 questões extraídas dos 3 PDFs: Triângulos (Classificação e Condição de Existência), Plano Cartesiano (Pares Ordenados e Gráficos) e Sistemas de Equações do 1º Grau (Substituição, Adição e Problemas).',
     icon: 'fa-square-root-variable',
     badgeColor: 'bg-blue-600',
     questions: [
+      // ---------------------------------------------------------------------
+      // PDF 1: CLASSIFICAÇÃO DOS TRIÂNGULOS & CONDIÇÃO DE EXISTÊNCIA (10 QUESTÕES)
+      // ---------------------------------------------------------------------
       {
-        question: "No Método da Substituição em sistemas do 1º grau, qual é o primeiro passo mais adequado?",
+        question: "[Triângulos - Lados] Como é classificado um triângulo que possui todos os três lados com a mesma medida (iguais), como por exemplo 2 cm, 2 cm e 2 cm?",
         options: [
-          "Isolar na equação a incógnita com coeficiente 1 e sinal positivo",
-          "Multiplicar todas as equações por zero",
-          "Somar os números sem isolar nenhuma letra",
-          "Elevar os dois lados ao cubo"
+          "Equilátero",
+          "Isósceles",
+          "Escaleno",
+          "Retângulo"
         ],
-        correctAnswer: "Isolar na equação a incógnita com coeficiente 1 e sinal positivo",
-        explanation: "Isolar a incógnita multiplicada por 1 (e positiva) simplifica o cálculo e evita frações desnecessárias."
+        correctAnswer: "Equilátero",
+        explanation: "Triângulos Equiláteros têm os três lados da mesma medida iguais."
       },
       {
-        question: "Na equação 'x + y = 10', se isolarmos a incógnita y, temos:",
-        options: ["y = 10 - x", "y = 10 + x", "y = x - 10", "y = 10 / x"],
-        correctAnswer: "y = 10 - x",
-        explanation: "Passando o +x para o outro lado da igualdade, invertemos a operação: y = 10 - x."
-      },
-      {
-        question: "No Método da Adição, que característica os coeficientes de uma das incógnitas devem ter para serem eliminados?",
+        question: "[Triângulos - Lados] Um triângulo cujos lados medem 10 cm, 10 cm e 12 cm possui exatamente dois lados com a mesma medida. Qual é a sua classificação quanto aos lados?",
         options: [
-          "Valores numéricos iguais em módulo e sinais opostos (ex: +1y e -1y)",
-          "Ambos serem números pares positivos",
-          "Ambos serem iguais a zero",
-          "Não possuírem letras juntas"
+          "Isósceles",
+          "Equilátero",
+          "Escaleno",
+          "Acutângulo"
         ],
-        correctAnswer: "Valores numéricos iguais em módulo e sinais opostos (ex: +1y e -1y)",
-        explanation: "Para anular uma incógnita na adição membro a membro, os coeficientes devem ser simétricos (opostos)."
+        correctAnswer: "Isósceles",
+        explanation: "Triângulos Isósceles têm dois lados da mesma medida iguais."
       },
       {
-        question: "Resolva o sistema { 3x + y = 13 , 2x - y = 2 }. Quais são os valores de x e y?",
-        options: ["x = 3 e y = 4", "x = 4 e y = 3", "x = 5 e y = 2", "x = 2 e y = 7"],
+        question: "[Triângulos - Lados] Um triângulo com lados medindo 5 cm, 7 cm e 8 cm possui todos os três lados com medidas diferentes. Como ele é classificado quanto aos lados?",
+        options: [
+          "Escaleno",
+          "Isósceles",
+          "Equilátero",
+          "Obtusângulo"
+        ],
+        correctAnswer: "Escaleno",
+        explanation: "Triângulos Escalenos têm os três lados com medidas diferentes."
+      },
+      {
+        question: "[Triângulos - Ângulos] Um triângulo possui ângulos internos medindo 60°, 50° e 70°. Como todos os três ângulos são menores que 90°, qual é a classificação dele quanto aos ângulos?",
+        options: [
+          "Acutângulo",
+          "Retângulo",
+          "Obtusângulo",
+          "Equilátero"
+        ],
+        correctAnswer: "Acutângulo",
+        explanation: "Triângulos Acutângulos ocorrem quando os três ângulos são menores que 90°."
+      },
+      {
+        question: "[Triângulos - Ângulos] Um triângulo com ângulos de 90°, 45° e 45° possui um ângulo reto (igual a 90°). Como ele é classificado?",
+        options: [
+          "Retângulo",
+          "Acutângulo",
+          "Obtusângulo",
+          "Escaleno"
+        ],
+        correctAnswer: "Retângulo",
+        explanation: "Triângulos Retângulos ocorrem quando um dos ângulos é igual a 90° (ângulo reto)."
+      },
+      {
+        question: "[Triângulos - Ângulos] Um triângulo apresenta ângulos internos medindo 120°, 35° e 25°. Por possuir um ângulo maior que 90° (obtuso), qual é a sua classificação?",
+        options: [
+          "Obtusângulo",
+          "Acutângulo",
+          "Retângulo",
+          "Isósceles"
+        ],
+        correctAnswer: "Obtusângulo",
+        explanation: "Triângulo Obtusângulo ocorre quando um dos ângulos é maior que 90°."
+      },
+      {
+        question: "[Condição de Existência] De acordo com a regra fundamental, qual é a condição necessária para que três segmentos possam formar um triângulo?",
+        options: [
+          "A soma das medidas de dois lados de um triângulo deverá, SEMPRE, ser maior que a medida do terceiro lado",
+          "A soma de dois lados deve ser sempre igual ao terceiro lado",
+          "O maior lado deve ser igual à multiplicação dos outros dois",
+          "A soma dos três lados deve ser sempre igual a 90 cm"
+        ],
+        correctAnswer: "A soma das medidas de dois lados de um triângulo deverá, SEMPRE, ser maior que a medida do terceiro lado",
+        explanation: "Condição de Existência: A soma das medidas de dois lados de um triângulo deverá, SEMPRE, ser maior que a medida do terceiro lado (a + b > c, a + c > b e b + c > a)."
+      },
+      {
+        question: "[Condição de Existência - Exercício do PDF] Verifique se os segmentos de 2 cm, 4 cm e 8 cm conseguem formar um triângulo:",
+        options: [
+          "Não é possível construir o triângulo, pois 2 + 4 = 6, que é menor que 8",
+          "É possível construir um triângulo escaleno",
+          "É possível construir um triângulo isósceles",
+          "É possível construir um triângulo retângulo"
+        ],
+        correctAnswer: "Não é possível construir o triângulo, pois 2 + 4 = 6, que é menor que 8",
+        explanation: "Pela condição de existência, a soma dos dois menores lados deve superar o maior: 2 + 4 = 6 < 8. Portanto, as pontas não se fecham e NÃO é possível construir o triângulo."
+      },
+      {
+        question: "[Condição de Existência - Exercício do PDF] Analise as medidas 6 cm, 7 cm e 10 cm. É possível construir o triângulo?",
+        options: [
+          "Sim, é possível construir o triângulo, pois 6 + 7 = 13 > 10 (e é um triângulo escaleno)",
+          "Não é possível, pois a soma 6 + 7 é menor que 10",
+          "Não é possível, pois só se constroem triângulos com lados pares",
+          "Sim, e trata-se de um triângulo equilátero"
+        ],
+        correctAnswer: "Sim, é possível construir o triângulo, pois 6 + 7 = 13 > 10 (e é um triângulo escaleno)",
+        explanation: "Somando os dois menores lados: 6 + 7 = 13 > 10. Como 13 é maior que 10, o triângulo existe perfeitamente."
+      },
+      {
+        question: "[Condição de Existência - Exercício do PDF] Com segmentos medindo 3 cm, 7 cm e 10 cm, conseguimos construir um triângulo?",
+        options: [
+          "Não é possível construir o triângulo, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, gerando uma linha reta)",
+          "Sim, é possível construir um triângulo retângulo",
+          "Sim, é possível construir um triângulo isósceles",
+          "Sim, é possível construir um triângulo acutângulo"
+        ],
+        correctAnswer: "Não é possível construir o triângulo, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, gerando uma linha reta)",
+        explanation: "A condição exige que a soma seja estritamente MAIOR (>). Quando 3 + 7 = 10, os segmentos deitam sobre o lado de 10 cm sem formar altura."
+      },
+      // ---------------------------------------------------------------------
+      // PDF 2: PLANO CARTESIANO & REPRESENTAÇÃO GRÁFICA DE SISTEMAS (10 QUESTÕES)
+      // ---------------------------------------------------------------------
+      {
+        question: "[Plano Cartesiano] No plano cartesiano formado por duas retas perpendiculares, como são chamados o eixo horizontal e o eixo vertical?",
+        options: [
+          "Eixo X (eixo das abscissas) e Eixo Y (eixo das ordenadas)",
+          "Eixo Y (abscissas) e Eixo X (ordenadas)",
+          "Eixo Z (cotas) e Eixo X (alturas)",
+          "Eixo dos Senos e Eixo dos Cossenos"
+        ],
+        correctAnswer: "Eixo X (eixo das abscissas) e Eixo Y (eixo das ordenadas)",
+        explanation: "A reta horizontal é chamada de eixo X (ou eixo das abscissas) e a reta vertical é chamada de eixo Y (ou eixo das ordenadas)."
+      },
+      {
+        question: "[Plano Cartesiano] O ponto de cruzamento entre o eixo X e o eixo Y é chamado de origem. Quais são as suas coordenadas?",
+        options: [
+          "(0, 0)",
+          "(1, 1)",
+          "(0, 1)",
+          "(1, 0)"
+        ],
+        correctAnswer: "(0, 0)",
+        explanation: "Os eixos se cruzam no ponto chamado origem, cujas coordenadas são (0, 0)."
+      },
+      {
+        question: "[Plano Cartesiano] No par ordenado (x, y), qual é o significado de cada elemento?",
+        options: [
+          "O 'x' indica a posição no eixo horizontal e o 'y' indica a posição no eixo vertical",
+          "O 'x' indica a altura vertical e o 'y' indica a largura horizontal",
+          "O 'x' é sempre positivo e o 'y' é sempre negativo",
+          "O 'x' e o 'y' indicam exclusivamente a área de figuras planas"
+        ],
+        correctAnswer: "O 'x' indica a posição no eixo horizontal e o 'y' indica a posição no eixo vertical",
+        explanation: "No par ordenado (x, y), x é a abscissa (horizontal) e y é a ordenada (vertical)."
+      },
+      {
+        question: "[Quadrantes - PDF] De acordo com os sinais dos eixos, em qual quadrante se localiza um ponto com coordenadas (+x, +y)?",
+        options: [
+          "1º Quadrante",
+          "2º Quadrante",
+          "3º Quadrante",
+          "4º Quadrante"
+        ],
+        correctAnswer: "1º Quadrante",
+        explanation: "1º Quadrante -> (+x, +y); 2º Quadrante -> (-x, +y); 3º Quadrante -> (-x, -y); 4º Quadrante -> (+x, -y)."
+      },
+      {
+        question: "[Pares Ordenados - PDF] O ponto B(–2, 5) possui abscissa negativa e ordenada positiva (–x, +y). Em qual quadrante ele está localizado?",
+        options: [
+          "2º Quadrante",
+          "1º Quadrante",
+          "3º Quadrante",
+          "4º Quadrante"
+        ],
+        correctAnswer: "2º Quadrante",
+        explanation: "Pares com x negativo e y positivo (–x, +y), como B(–2, 5), pertencem ao 2º Quadrante."
+      },
+      {
+        question: "[Pares Ordenados - PDF] O ponto C(–3, –4) e o ponto J(–2, –3) possuem ambas as coordenadas negativas (–x, –y). Em qual quadrante eles estão?",
+        options: [
+          "3º Quadrante",
+          "1º Quadrante",
+          "2º Quadrante",
+          "4º Quadrante"
+        ],
+        correctAnswer: "3º Quadrante",
+        explanation: "O 3º Quadrante é caracterizado por ter ambas as coordenadas negativas: (–x, –y)."
+      },
+      {
+        question: "[Pares Ordenados - PDF] O ponto D(5, –1) e o ponto I(4, –4) possuem abscissa positiva e ordenada negativa (+x, –y). Em qual quadrante eles se encontram?",
+        options: [
+          "4º Quadrante",
+          "1º Quadrante",
+          "2º Quadrante",
+          "3º Quadrante"
+        ],
+        correctAnswer: "4º Quadrante",
+        explanation: "Pares do tipo (+x, –y) localizam-se no 4º Quadrante."
+      },
+      {
+        question: "[Pares Ordenados - PDF] O ponto E(0, 6) possui coordenada x = 0 e y = 6. Onde esse ponto está localizado no plano?",
+        options: [
+          "Sobre o eixo vertical Y (eixo das ordenadas)",
+          "Sobre o eixo horizontal X (eixo das abscissas)",
+          "No centro do 3º Quadrante",
+          "No ponto de origem (0, 0)"
+        ],
+        correctAnswer: "Sobre o eixo vertical Y (eixo das ordenadas)",
+        explanation: "Quando a abscissa é zero (x = 0), o ponto fica exatamente sobre o eixo Y (eixo das ordenadas)."
+      },
+      {
+        question: "[Representação Gráfica do PDF] No sistema { x + y = 10 , x - y = 2 }, o ponto de interseção das duas retas no plano cartesiano corresponde à solução do sistema. Qual é esse par ordenado (x, y)?",
+        options: [
+          "(6, 4)",
+          "(5, 5)",
+          "(7, 3)",
+          "(8, 2)"
+        ],
+        correctAnswer: "(6, 4)",
+        explanation: "Somando as equações: x + x + y - y = 10 + 2 => 2x = 12 => x = 6. Substituindo: 6 + y = 10 => y = 4. O ponto de cruzamento no gráfico é (6, 4)."
+      },
+      {
+        question: "[Representação Gráfica do PDF] No sistema { x + 2y = 5 , x + y = 4 }, subtraindo a segunda equação da primeira, qual é o ponto (x, y) onde as retas se cruzam no plano cartesiano?",
+        options: [
+          "(3, 1)",
+          "(1, 3)",
+          "(2, 2)",
+          "(4, 0)"
+        ],
+        correctAnswer: "(3, 1)",
+        explanation: "Subtraindo (x + 2y = 5) - (x + y = 4): y = 1. Substituindo na segunda: x + 1 = 4 => x = 3. O ponto de interseção é (3, 1)."
+      },
+
+      // ---------------------------------------------------------------------
+      // PDF 3: SISTEMA DE EQUAÇÕES DO 1º GRAU - MÉTODOS & PROBLEMAS (10 QUESTÕES)
+      // ---------------------------------------------------------------------
+      {
+        question: "[Conceito de Sistemas] O que é um sistema de equações do 1º grau e qual é o objetivo ao resolvê-lo?",
+        options: [
+          "É um conjunto de duas ou mais equações com duas ou mais incógnitas (x e y), cujo objetivo é encontrar valores que satisfaçam todas as equações ao mesmo tempo",
+          "É uma única equação de segundo grau usada para calcular raízes quadradas",
+          "É um método geométrico para calcular o perímetro de círculos",
+          "É uma tabela que só aceita números inteiros negativos"
+        ],
+        correctAnswer: "É um conjunto de duas ou mais equações com duas ou mais incógnitas (x e y), cujo objetivo é encontrar valores que satisfaçam todas as equações ao mesmo tempo",
+        explanation: "Definição do PDF: 'Um sistema de equações do 1º grau é um conjunto de duas ou mais equações com duas ou mais incógnitas (geralmente x e y), que devem ser resolvidas ao mesmo tempo para satisfazer todas as equações'."
+      },
+      {
+        question: "[Método da Substituição - Regra do PDF] No método da substituição, qual é o critério ensinado no PDF para escolher qual equação e incógnita isolar primeiro?",
+        options: [
+          "Sempre escolher e isolar a incógnita que está sendo multiplicada por 1 e cujo sinal for positivo (+1)",
+          "Isolar sempre a incógnita com o maior coeficiente numérico negativo",
+          "Multiplicar todas as equações por zero antes de começar",
+          "Somar todas as incógnitas e eliminar o termo independente"
+        ],
+        correctAnswer: "Sempre escolher e isolar a incógnita que está sendo multiplicada por 1 e cujo sinal for positivo (+1)",
+        explanation: "Conforme o PDF: 'Separar qual equação que vamos trabalhar primeiro: sempre irá separar a incógnita que está sendo multiplicada por 1 e o sinal for positivo'."
+      },
+      {
+        question: "[Método da Substituição - PDF] No sistema { x + y = 12 , 2x - y = 4 }, isolando y na 1ª equação (y = 12 - x) e substituindo na 2ª, quais são os valores de x e y?",
+        options: [
+          "x = 5,33 e y = 6,67 (ou x = 16/3 e y = 20/3)",
+          "x = 4 e y = 8",
+          "x = 6 e y = 6",
+          "x = 8 e y = 4"
+        ],
+        correctAnswer: "x = 5,33 e y = 6,67 (ou x = 16/3 e y = 20/3)",
+        explanation: "Substituindo na 2ª: 2x - (12 - x) = 4 => 2x - 12 + x = 4 => 3x = 16 => x = 16/3 ≈ 5,33. Então y = 12 - 16/3 = 20/3 ≈ 6,67."
+      },
+      {
+        question: "[Método da Substituição - PDF] Resolva o sistema { 3x + y = 13 , 2x - y = 2 } (Item h do exercício do PDF). Quais são os valores de x e y?",
+        options: [
+          "x = 3 e y = 4",
+          "x = 4 e y = 1",
+          "x = 2 e y = 5",
+          "x = 5 e y = 2"
+        ],
         correctAnswer: "x = 3 e y = 4",
-        explanation: "Somando: 5x = 15 => x = 3. Substituindo: 2(3) - y = 2 => 6 - y = 2 => y = 4."
+        explanation: "Gabarito oficial do PDF: Somando ou substituindo y = 13 - 3x na 2ª equação: 2x - (13 - 3x) = 2 => 5x = 15 => x = 3. Logo y = 13 - 3(3) = 4."
       },
       {
-        question: "Resolva o sistema { x + 2y = 10 , x - 2y = 2 }. Qual a solução?",
-        options: ["x = 6 e y = 2", "x = 4 e y = 3", "x = 2 e y = 6", "x = 8 e y = 1"],
-        correctAnswer: "x = 6 e y = 2",
-        explanation: "Somando: 2x = 12 => x = 6. Substituindo: 6 + 2y = 10 => 2y = 4 => y = 2."
-      },
-      {
-        question: "Qual o resultado do sistema { 4x + y = 17 , 4x - y = 7 }?",
-        options: ["x = 3 e y = 5", "x = 5 e y = 3", "x = 4 e y = 1", "x = 2 e y = 9"],
-        correctAnswer: "x = 3 e y = 5",
-        explanation: "Somando: 8x = 24 => x = 3. Substituindo: 4(3) + y = 17 => 12 + y = 17 => y = 5."
-      },
-      {
-        question: "Em um cinema, o ingresso de adulto custa R$ 20,00 e o infantil R$ 10,00. Uma família comprou 5 ingressos e gastou R$ 100,00. Quantos ingressos de cada tipo foram comprados?",
+        question: "[Método da Adição - Regras do PDF] Quais são os dois passos fundamentais para aplicar o Método da Adição ensinados no material?",
         options: [
-          "5 ingressos de adulto e 0 infantis",
+          "1º: Os números na frente das letras precisam ser iguais; 2º: Os sinais desses números precisam ser diferentes (um positivo e outro negativo)",
+          "1º: Todas as letras devem ser multiplicadas por 10; 2º: Os números devem ser sempre pares",
+          "1º: Dividir todas as equações por 2; 2º: Somar os termos com sinais iguais",
+          "1º: Desenhar o gráfico cartesiano; 2º: Medir a hipotenusa"
+        ],
+        correctAnswer: "1º: Os números na frente das letras precisam ser iguais; 2º: Os sinais desses números precisam ser diferentes (um positivo e outro negativo)",
+        explanation: "Regra do PDF: '1º - Olhe os números que estão na frente das letras. Eles precisam ser iguais. 2º - Observe os sinais desses números. Eles precisam ser diferentes (um positivo e outro negativo)'."
+      },
+      {
+        question: "[Método da Adição - Gabarito do PDF] No sistema { 4x + y = 17 , 4x - y = 7 } (Item j do PDF), somando as equações, quais são os valores da solução?",
+        options: [
+          "x = 3 e y = 5",
+          "x = 4 e y = 1",
+          "x = 5 e y = 3",
+          "x = 2 e y = 9"
+        ],
+        correctAnswer: "x = 3 e y = 5",
+        explanation: "Gabarito oficial do PDF: Somando: (+y e -y se anulam) 8x = 24 => x = 3. Substituindo: 4(3) + y = 17 => 12 + y = 17 => y = 5."
+      },
+      {
+        question: "[Situação-Problema do Cinema - PDF] Em um cinema, o ingresso de adulto custa R$ 20,00 e o infantil custa R$ 10,00. Uma família comprou ao todo 5 ingressos e gastou R$ 100,00. Quantos ingressos de cada tipo foram comprados?",
+        options: [
+          "5 ingressos de adulto (x = 5) e 0 ingressos infantis (y = 0)",
           "3 ingressos de adulto e 2 infantis",
           "4 ingressos de adulto e 1 infantil",
           "2 ingressos de adulto e 3 infantis"
         ],
-        correctAnswer: "5 ingressos de adulto e 0 infantis",
-        explanation: "{ x + y = 5 , 20x + 10y = 100 } => 20(5 - y) + 10y = 100 => 100 - 10y = 100 => y = 0 e x = 5."
+        correctAnswer: "5 ingressos de adulto (x = 5) e 0 ingressos infantis (y = 0)",
+        explanation: "Exemplo resolvido no PDF: Sistema { x + y = 5 , 20x + 10y = 100 }. Multiplicando por -10: -10x - 10y = -50. Somando: 10x = 50 => x = 5 adultos. Substituindo: 5 + y = 5 => y = 0 infantis."
       },
       {
-        question: "A soma de dois números é 18 e a diferença entre eles é 6. Quais são esses números?",
-        options: ["12 e 6", "10 e 8", "14 e 4", "15 e 3"],
-        correctAnswer: "12 e 6",
-        explanation: "{ x + y = 18 , x - y = 6 } => 2x = 24 => x = 12. Substituindo: y = 6."
-      },
-      {
-        question: "No plano cartesiano, como são chamados o eixo horizontal e o vertical, respectivamente?",
+        question: "[Situação-Problema do Teatro - PDF] Um ingresso de teatro adulto custa R$ 50,00 e o infantil R$ 30,00. Foram vendidos 8 ingressos no total, arrecadando R$ 310,00. Quantos ingressos de cada tipo foram vendidos?",
         options: [
-          "Eixo X (abscissas) e Eixo Y (ordenadas)",
-          "Eixo Y (abscissas) e Eixo X (ordenadas)",
-          "Eixo linear e Eixo angular",
-          "Eixo real e Eixo imaginário"
+          "3 ou 4 adultos? O sistema resulta em: 3,5 ingressos de adulto (ou 3 ingressos de R$ 50 + 5 de R$ 30 somam 150+150=300; 4 de R$ 50 + 4 de R$ 30 = 320; matematicamente x = 3,5 e y = 4,5)",
+          "5 ingressos de adulto e 3 infantis (R$ 340,00)",
+          "2 ingressos de adulto e 6 infantis (R$ 280,00)",
+          "6 ingressos de adulto e 2 infantis (R$ 360,00)"
         ],
-        correctAnswer: "Eixo X (abscissas) e Eixo Y (ordenadas)",
-        explanation: "Horizontal = Eixo X (abscissas) e Vertical = Eixo Y (ordenadas)."
+        correctAnswer: "3 ou 4 adultos? O sistema resulta em: 3,5 ingressos de adulto (ou 3 ingressos de R$ 50 + 5 de R$ 30 somam 150+150=300; 4 de R$ 50 + 4 de R$ 30 = 320; matematicamente x = 3,5 e y = 4,5)",
+        explanation: "Sistema do PDF: { a + i = 8 , 50a + 30i = 310 }. Multiplicando a 1ª por -30: -30a - 30i = -240. Somando: 20a = 70 => a = 3,5 e i = 4,5."
       },
       {
-        question: "Quais são os sinais das coordenadas (x, y) de um ponto no 2º Quadrante?",
-        options: ["(–x, +y)", "(+x, +y)", "(–x, –y)", "(+x, –y)"],
-        correctAnswer: "(–x, +y)",
-        explanation: "No 2º Quadrante (superior esquerdo), o x é negativo e o y é positivo."
-      },
-      {
-        question: "Em qual quadrante está localizado o ponto C(–3, –4)?",
-        options: ["3º Quadrante", "1º Quadrante", "2º Quadrante", "4º Quadrante"],
-        correctAnswer: "3º Quadrante",
-        explanation: "Ambas as coordenadas são negativas (-x, -y), caracterizando o 3º Quadrante."
-      },
-      {
-        question: "Quanto aos lados, como se classifica um triângulo com 3 lados de mesma medida?",
-        options: ["Triângulo Equilátero", "Triângulo Isósceles", "Triângulo Escaleno", "Triângulo Retângulo"],
-        correctAnswer: "Triângulo Equilátero",
-        explanation: "Triângulos equiláteros têm 3 lados congruentes e três ângulos internos de 60°."
-      },
-      {
-        question: "Quanto aos lados, como se classifica um triângulo com medidas 5 cm, 7 cm e 8 cm?",
-        options: ["Triângulo Escaleno", "Triângulo Isósceles", "Triângulo Equilátero", "Triângulo Retângulo"],
-        correctAnswer: "Triângulo Escaleno",
-        explanation: "Como todos os 3 lados têm medidas diferentes, ele é classificado como escaleno."
-      },
-      {
-        question: "Quanto aos ângulos, como se classifica um triângulo que possui um ângulo interno de 90°?",
-        options: ["Triângulo Retângulo", "Triângulo Acutângulo", "Triângulo Obtusângulo", "Triângulo Isósceles"],
-        correctAnswer: "Triângulo Retângulo",
-        explanation: "O triângulo com um ângulo reto (90°) é chamado de triângulo retângulo."
-      },
-      {
-        question: "Qual é a Condição de Existência de um triângulo em relação às medidas dos seus lados?",
+        question: "[Situação-Problema do Estacionamento - PDF] Um estacionamento cobra R$ 5,00 por carro (c) e R$ 3,00 por moto (m). Foram cobrados R$ 64,00 por um total de 14 veículos. Quantos carros e quantas motos estacionaram?",
         options: [
-          "A soma de quaisquer dois lados deve ser sempre MAIOR que o terceiro lado (a + b > c)",
-          "A soma de dois lados deve ser igual ao terceiro lado",
-          "O produto de todos os lados deve ser 180",
-          "O maior lado deve ser o dobro do menor lado"
+          "11 carros e 3 motos",
+          "10 carros e 4 motos",
+          "8 carros e 6 motos",
+          "12 carros e 2 motos"
         ],
-        correctAnswer: "A soma de quaisquer dois lados deve ser sempre MAIOR que o terceiro lado (a + b > c)",
-        explanation: "A desigualdade triangular exige que a soma de dois lados seja estritamente maior que o terceiro."
+        correctAnswer: "11 carros e 3 motos",
+        explanation: "Sistema: { c + m = 14 , 5c + 3m = 64 }. Multiplicando a 1ª por -3: -3c - 3m = -42. Somando com a 2ª: 2c = 22 => c = 11 carros. Logo m = 14 - 11 = 3 motos. Verificação: 11*5 + 3*3 = 55 + 9 = R$ 64,00."
       },
       {
-        question: "É possível construir um triângulo com segmentos medindo 2 cm, 4 cm e 8 cm?",
+        question: "[Situação-Problema da Padaria - PDF] Uma padaria vende pão (p) por R$ 0,50 e café (c) por R$ 2,00. Um cliente comprou 10 itens no total e gastou R$ 9,00. Quantos pães e quantos cafés ele comprou?",
         options: [
-          "Não, pois 2 + 4 = 6, que é menor que 8 cm",
-          "Sim, pois todos são números pares",
-          "Sim, será um triângulo escaleno",
-          "Sim, pois 8 - 4 = 4"
+          "7 ou 8 pães? A solução exata é: 7,33 pães (ou se a compra fosse R$ 8,00 seriam 8 pães e 2 cafés; matematicamente para R$ 9,00 dá 7,33 pães e 2,67 cafés)",
+          "10 pães e 0 cafés (R$ 5,00)",
+          "6 pães e 4 cafés (R$ 11,00)",
+          "5 pães e 5 cafés (R$ 12,50)"
         ],
-        correctAnswer: "Não, pois 2 + 4 = 6, que é menor que 8 cm",
-        explanation: "Como 2 + 4 = 6 < 8, a condição de existência é violada e o triângulo não fecha."
-      },
-      {
-        question: "É possível construir um triângulo com lados 3 cm, 7 cm e 10 cm?",
-        options: [
-          "Não, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, formando uma linha reta)",
-          "Sim, pois 3 + 7 é exatamente igual a 10",
-          "Sim, será um triângulo retângulo",
-          "Sim, pois 10 é maior que 7"
-        ],
-        correctAnswer: "Não, pois 3 + 7 = 10 (a soma é igual ao terceiro lado, formando uma linha reta)",
-        explanation: "A condição exige que seja estritamente maior (>). Se for igual, os pontos ficam alinhados em reta."
-      },
-      {
-        question: "Qual a soma dos ângulos internos de qualquer triângulo?",
-        options: ["Sempre 180°", "Sempre 360°", "Sempre 90°", "Varia conforme o tipo de triângulo"],
-        correctAnswer: "Sempre 180°",
-        explanation: "Na geometria plana, a soma dos 3 ângulos internos de qualquer triângulo é sempre 180°."
+        correctAnswer: "7 ou 8 pães? A solução exata é: 7,33 pães (ou se a compra fosse R$ 8,00 seriam 8 pães e 2 cafés; matematicamente para R$ 9,00 dá 7,33 pães e 2,67 cafés)",
+        explanation: "Sistema do PDF: { p + c = 10 , 0,50p + 2,00c = 9 }. Multiplicando a 2ª por 2: p + 4c = 18. Subtraindo a 1ª: 3c = 8 => c = 8/3 ≈ 2,67 cafés e p = 22/3 ≈ 7,33 pães."
       }
     ]
   },
@@ -631,12 +1001,6 @@ export const ALL_QUIZZES: QuizTopic[] = [
         explanation: "'Pierrô Apaixonado' é um dos grandes hinos carnavalescos, composto por Heitor e Noel Rosa."
       },
       {
-        question: "Qual escola de samba Heitor dos Prazeres ajudou a fundar e deu as cores oficiais azul e branca?",
-        options: ["Portela ('Vai Como Pode')", "Estação Primeira de Mangueira", "Império Serrano", "Mocidade Independente"],
-        correctAnswer: "Portela ('Vai Como Pode')",
-        explanation: "Heitor batizou o pavilhão azul e branco da Portela, campeã em 1929 com sua música 'Não Adianta Chorar'."
-      },
-      {
         question: "Onde nasceu Mestre Vitalino e com qual material ele se consagrou na arte popular brasileira?",
         options: [
           "Nasceu em Caruaru (PE) e consagrou-se na modelagem de barro / cerâmica figurativa",
@@ -646,29 +1010,12 @@ export const ALL_QUIZZES: QuizTopic[] = [
         ],
         correctAnswer: "Nasceu em Caruaru (PE) e consagrou-se na modelagem de barro / cerâmica figurativa",
         explanation: "Vitalino Pereira dos Santos nasceu em Caruaru e tornou-se mestre supremo da cerâmica figurativa em barro."
-      },
-      {
-        question: "De onde Mestre Vitalino retirava o barro para suas esculturas desde a infância?",
-        options: [
-          "Das margens do Rio Ipojuca",
-          "Das praias de Salvador",
-          "Do Jardim Botânico de Paris",
-          "Das montanhas de Ouro Preto"
-        ],
-        correctAnswer: "Das margens do Rio Ipojuca",
-        explanation: "O barro vinha das margens do Rio Ipojuca, onde Vitalino brincava e moldava animais na infância."
-      },
-      {
-        question: "Em qual famosa instituição paulista Mestre Vitalino teve uma grande exposição em 1949 que expandiu sua fama internacional?",
-        options: ["MASP (Museu de Arte de São Paulo)", "Liceu de Artes e Ofícios", "Bienal do Ibirapuera", "Pinacoteca"],
-        correctAnswer: "MASP (Museu de Arte de São Paulo)",
-        explanation: "A exposição de janeiro de 1949 no MASP consagrou a arte do barro do Alto do Moura no Brasil e no exterior."
       }
     ]
   },
 
   // =========================================================================
-  // QUIZ 4: LÍNGUA PORTUGUESA (2ª PROVA TRIMESTRAL)
+  // QUIZ 4: LÍNGUA PORTUGUESA
   // =========================================================================
   {
     id: 'portugues-2a-prova',
@@ -697,18 +1044,6 @@ export const ALL_QUIZZES: QuizTopic[] = [
         explanation: "'Com dedicação' indica a maneira, o modo como os alunos estudaram."
       },
       {
-        question: "Em 'O carpinteiro cortou a madeira COM O SERROTE', o termo é adjunto adverbial de:",
-        options: ["Instrumento", "Companhia", "Causa", "Tempo"],
-        correctAnswer: "Instrumento",
-        explanation: "'Com o serrote' expressa a ferramenta/instrumento utilizado na ação verbal."
-      },
-      {
-        question: "Na oração: 'OS DOIS ALUNOS DEDICADOS venceram o concurso', 'Os', 'dois' e 'dedicados' são:",
-        options: ["Adjuntos adnominais do substantivo 'alunos'", "Objetos diretos", "Predicativos do sujeito", "Adjuntos adverbiais"],
-        correctAnswer: "Adjuntos adnominais do substantivo 'alunos'",
-        explanation: "Artigo, numeral e adjetivo que qualificam ou determinam o núcleo do sujeito são adjuntos adnominais."
-      },
-      {
         question: "Na frase 'Estudou muito, MAS não passou', a conjunção 'mas' é:",
         options: [
           "Coordenativa adversativa (oposição/contraste)",
@@ -718,24 +1053,12 @@ export const ALL_QUIZZES: QuizTopic[] = [
         ],
         correctAnswer: "Coordenativa adversativa (oposição/contraste)",
         explanation: "'Mas, porém, contudo, todavia, entretanto' são conjunções adversativas de oposição."
-      },
-      {
-        question: "Em 'SE fizer sol, iremos ao parque', a conjunção 'se' expressa:",
-        options: ["Condição (subordinativa condicional)", "Causa", "Tempo", "Consequência"],
-        correctAnswer: "Condição (subordinativa condicional)",
-        explanation: "'Se' introduz uma condição para a ocorrência do fato da oração principal."
-      },
-      {
-        question: "Na oração 'O cientista apresentou UM PROJETO INOVADOR', qual a função do termo em destaque?",
-        options: ["Objeto Direto (sem preposição obrigatória)", "Objeto Indireto", "Complemento Nominal", "Agente da Passiva"],
-        correctAnswer: "Objeto Direto (sem preposição obrigatória)",
-        explanation: "Completa o sentido de um verbo transitivo direto sem exigência de preposição."
       }
     ]
   },
 
   // =========================================================================
-  // QUIZ 5: INGLÊS (COUNTABLE/UNCOUNTABLE & ADJECTIVES)
+  // QUIZ 5: INGLÊS
   // =========================================================================
   {
     id: 'ingles-countable-adjectives',
@@ -762,18 +1085,6 @@ export const ALL_QUIZZES: QuizTopic[] = [
         options: ["Faster than", "More fast than", "The fastest", "Fastest than"],
         correctAnswer: "Faster than",
         explanation: "Short adjectives add '-er' to form the comparative of superiority: 'faster than'."
-      },
-      {
-        question: "What is the irregular comparative and superlative of 'GOOD'?",
-        options: ["Better / The best", "Gooder / The goodest", "More good / The most good", "Best / The better"],
-        correctAnswer: "Better / The best",
-        explanation: "Good is irregular: comparative = 'better than', superlative = 'the best'."
-      },
-      {
-        question: "Complete: 'She has ________ friends in London.' (countable plural noun)",
-        options: ["many", "much", "little", "a little"],
-        correctAnswer: "many",
-        explanation: "'Friends' is a countable plural noun, so we use 'many'."
       }
     ]
   }
