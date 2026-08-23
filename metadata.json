@@ -1,6 +1,6 @@
 {
-  "name": "Gênio Quiz: História & Matérias Escolares do 8º Ano",
-  "description": "Quiz interativo de História com a Vinda da Família Real (1808), Inconfidência Mineira (1789), Conjuração Baiana (1798) e Período Napoleônico, com seletor e biblioteca de quizzes anteriores (Matemática, Artes, Português, Inglês).",
+  "name": "Gênio Quiz: Geografia & Matérias Escolares do 8º Ano",
+  "description": "Quiz interativo de Geografia com 40 questões completas sobre Estados Unidos, Canadá e México (Profª Maria Luiza), acompanhado da biblioteca completa de quizzes (Matemática, História, Artes, Português, Inglês).",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
