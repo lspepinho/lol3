@@ -2,6 +2,2452 @@ import { QuizTopic } from '../types';
 
 export const ALL_QUIZZES: QuizTopic[] = [
   // =========================================================================
+  // QUIZ 1: CIÊNCIAS (PRINCIPAL) - 200 QUESTÕES: REPRODUÇÃO, SEXUALIDADE, ISTS & SISTEMA ENDÓCRINO
+  // =========================================================================
+  {
+    id: 'ciencias-200-questoes-pdf',
+    title: 'Ciências: 200 Questões Completas (Reprodução, Sexualidade, ISTs & Sistema Endócrino)',
+    subject: 'Ciências',
+    description: 'Simulado mestre completo e oficial do 8º Ano com 200 questões detalhadas com base em todos os 10 PDFs: Métodos Contraceptivos (eficazes e pouco eficazes), ISTs (HIV/AIDS, sífilis, HPV, candidíase), Sistema Genital Masculino e Feminino, Puberdade, Ciclo Menstrual, Fecundação, Nidação, Anexos Embrionários, Parto, Gêmeos, Glândulas e Hormônios (Tireoide, Pâncreas, Homeostase), e Reprodução nos Seres Vivos e Vegetais.',
+    icon: 'fa-dna',
+    badgeColor: 'bg-cyan-600',
+    questions: [
+  {
+    "question": "[Métodos Contraceptivos] Qual a classificação dos métodos contraceptivos de acordo com sua forma de atuação no organismo?",
+    "options": [
+      "Hormonais, de barreira (física e química), comportamentais (naturais) e cirúrgicos (definitivos)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Hormonais, de barreira (física e química), comportamentais (naturais) e cirúrgicos (definitivos)",
+    "explanation": "Dividem-se em hormonais (pílula, injeção, implante), de barreira (preservativo, diafragma, DIU, espermicida), comportamentais (tabelinha, coito interrompido, Billings) e cirúrgicos (laqueadura, vasectomia)."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Quais métodos são considerados altamente eficazes na prevenção da gravidez?",
+    "options": [
+      "Camisinha (masculina e feminina), DIU, Diafragma com espermicida, Métodos hormonais e Esterilização cirúrgica",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Camisinha (masculina e feminina), DIU, Diafragma com espermicida, Métodos hormonais e Esterilização cirúrgica",
+    "explanation": "Esses métodos apresentam baixas taxas de falha quando utilizados corretamente."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Quais métodos são considerados pouco eficazes e de alto risco de falha?",
+    "options": [
+      "Tabelinha (Ogino-Knaus), Coito interrompido e Método da temperatura isolado",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Tabelinha (Ogino-Knaus), Coito interrompido e Método da temperatura isolado",
+    "explanation": "Variabilidades biológicas e imprecisão comportamental tornam esses métodos pouco confiáveis."
+  },
+  {
+    "question": "[Métodos Contraceptivos] O que preconiza o método da Tabelinha (Ogino-Knaus) criado na década de 1930?",
+    "options": [
+      "Evitar relações sexuais durante o período fértil (3 dias antes e 3 dias após a data provável da ovulação)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Evitar relações sexuais durante o período fértil (3 dias antes e 3 dias após a data provável da ovulação)",
+    "explanation": "Baseia-se no cálculo do ciclo menstrual, estimando a ovulação no meio do ciclo."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Por que a tabelinha não é recomendada para adolescentes?",
+    "options": [
+      "Devido à frequente irregularidade hormonal nos ciclos menstruais jovens e à longa sobrevida dos espermatozoides",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Devido à frequente irregularidade hormonal nos ciclos menstruais jovens e à longa sobrevida dos espermatozoides",
+    "explanation": "Fatores emocionais, estresse e variações fisiológicas alteram a data da ovulação."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Por que o Coito Interrompido apresenta alto risco de gravidez e de infecção?",
+    "options": [
+      "O líquido pré-ejaculatório já pode conter espermatozoides viáveis e não há nenhuma proteção contra ISTs",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O líquido pré-ejaculatório já pode conter espermatozoides viáveis e não há nenhuma proteção contra ISTs",
+    "explanation": "A retirada do pênis antes da ejaculação é falha e não impede o contágio por micro-organismos."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como a mulher identifica o período fértil pelo Método Billings (Muco Cervical)?",
+    "options": [
+      "No período ovulatório o muco cervical torna-se mais espesso, fluido e elástico, a vagina mais úmida e a temperatura corporal sobe até 1 °C",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "No período ovulatório o muco cervical torna-se mais espesso, fluido e elástico, a vagina mais úmida e a temperatura corporal sobe até 1 °C",
+    "explanation": "Essas transformações decorrem da elevação dos níveis de estrogênio."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Qual é o ÚNICO método que oferece dupla proteção (previne gravidez e ISTs simultaneamente)?",
+    "options": [
+      "Preservativo (camisinha masculina de látex ou feminina de poliuretano)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Preservativo (camisinha masculina de látex ou feminina de poliuretano)",
+    "explanation": "A camisinha é a única barreira física impermeável a vírus e bactérias."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Qual a diferença estrutural entre a camisinha masculina e a feminina?",
+    "options": [
+      "A masculina é de látex e envolve o pênis ereto; a feminina é de poliuretano (mais fina e macia), cobrindo as paredes da vagina e a vulva",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A masculina é de látex e envolve o pênis ereto; a feminina é de poliuretano (mais fina e macia), cobrindo as paredes da vagina e a vulva",
+    "explanation": "Ambas impedem o contato entre secreções e são distribuídas gratuitamente pelo SUS."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como atua o Diafragma associado ao espermicida?",
+    "options": [
+      "O anel de látex cobre o colo do útero antes da relação e o espermicida destrói quimicamente os espermatozoides",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O anel de látex cobre o colo do útero antes da relação e o espermicida destrói quimicamente os espermatozoides",
+    "explanation": "É um método de barreira física e química que não protege contra ISTs."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como o DIU (Dispositivo Intrauterino) de cobre impede a gestação?",
+    "options": [
+      "Libera íons de cobre no útero que alteram o muco, imobilizam os espermatozoides e impedem a nidação do embrião",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Libera íons de cobre no útero que alteram o muco, imobilizam os espermatozoides e impedem a nidação do embrião",
+    "explanation": "O DIU é inserido no útero pelo médico e tem duração de vários anos."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Qual o mecanismo de ação da pílula anticoncepcional combinada?",
+    "options": [
+      "Fornece estrógeno e progesterona sintéticos que inibem a secreção de FSH e LH pela hipófise, bloqueando a ovulação",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Fornece estrógeno e progesterona sintéticos que inibem a secreção de FSH e LH pela hipófise, bloqueando a ovulação",
+    "explanation": "Sem ovulação e com muco cervical espesso, a fecundação não ocorre."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Qual a indicação correta para o uso da Pílula do Dia Seguinte?",
+    "options": [
+      "Uso exclusivo de emergência até 72 horas após a relação desprotegida (máxima eficácia nas primeiras 24 horas)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Uso exclusivo de emergência até 72 horas após a relação desprotegida (máxima eficácia nas primeiras 24 horas)",
+    "explanation": "Possui altas doses hormonais e seu uso frequente desregula o ciclo e traz riscos à saúde."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como funciona o Implante Contraceptivo Subcutâneo?",
+    "options": [
+      "Pequeno bastão de 4 cm inserido sob a pele do braço que libera continuamente o hormônio etonogestrel por 3 anos",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Pequeno bastão de 4 cm inserido sob a pele do braço que libera continuamente o hormônio etonogestrel por 3 anos",
+    "explanation": "Oferece proteção contínua sem depender da ingestão diária de comprimidos."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como é realizada a Ligadura de Trompas (Laqueadura) na mulher?",
+    "options": [
+      "Corte, ligadura ou cauterização das tubas uterinas, impedindo o encontro do óvulo com o espermatozoide",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Corte, ligadura ou cauterização das tubas uterinas, impedindo o encontro do óvulo com o espermatozoide",
+    "explanation": "É um método cirúrgico de esterilização voluntária geralmente definitivo."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Como é realizada a Vasectomia no homem?",
+    "options": [
+      "Seccionamento e ligadura dos ductos (canais) deferentes na bolsa escrotal, impedindo a presença de espermatozoides no sêmen",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Seccionamento e ligadura dos ductos (canais) deferentes na bolsa escrotal, impedindo a presença de espermatozoides no sêmen",
+    "explanation": "A cirurgia é simples, não afeta a ereção nem a produção de testosterona."
+  },
+  {
+    "question": "[Métodos Contraceptivos] A vasectomia altera a quantidade perceptível do líquido ejaculado?",
+    "options": [
+      "Não significativamente, pois cerca de 90% do volume do sêmen é produzido pelas vesículas seminais e próstata",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Não significativamente, pois cerca de 90% do volume do sêmen é produzido pelas vesículas seminais e próstata",
+    "explanation": "Os espermatozoides representam menos de 10% do volume total do sêmen."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Quais são os requisitos legais no Brasil para realização de laqueadura ou vasectomia voluntária?",
+    "options": [
+      "Idade mínima estabelecida por lei ou pelo menos 2 filhos vivos, com consentimento esclarecido",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Idade mínima estabelecida por lei ou pelo menos 2 filhos vivos, com consentimento esclarecido",
+    "explanation": "A legislação visa garantir a autonomia e o planejamento familiar consciente."
+  },
+  {
+    "question": "[Métodos Contraceptivos] O que é o conceito de Responsabilidade Compartilhada na contracepção?",
+    "options": [
+      "O dever de ambos os parceiros de conversar abertamente, escolher o método preventivo e garantir o uso da camisinha",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O dever de ambos os parceiros de conversar abertamente, escolher o método preventivo e garantir o uso da camisinha",
+    "explanation": "A prevenção não é um encargo solitário, mas uma decisão conjunta e madura."
+  },
+  {
+    "question": "[Métodos Contraceptivos] Por que as injeções hormonais contraceptivas exigem acompanhamento médico?",
+    "options": [
+      "Porque contêm dosagens hormonais específicas (mensais ou trimestrais) que exigem avaliação de contraindicações individuais",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque contêm dosagens hormonais específicas (mensais ou trimestrais) que exigem avaliação de contraindicações individuais",
+    "explanation": "O médico avalia histórico de trombose, pressão arterial e perfil metabólico."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Quais são os principais agentes causadores de ISTs no ser humano?",
+    "options": [
+      "Vírus, bactérias, fungos, protozoários e artrópodes parasitas",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Vírus, bactérias, fungos, protozoários e artrópodes parasitas",
+    "explanation": "Abrangem desde vírus como HIV e HPV até bactérias, fungos e ácaros/insetos."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Qual a diferença entre ser soropositivo para o HIV e estar com AIDS?",
+    "options": [
+      "HIV é o vírus que infecta células imunológicas; AIDS é a síndrome clínica desenvolvida quando a imunidade fica gravemente comprometida",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "HIV é o vírus que infecta células imunológicas; AIDS é a síndrome clínica desenvolvida quando a imunidade fica gravemente comprometida",
+    "explanation": "Com o tratamento antirretroviral, pessoas com HIV não chegam a desenvolver a síndrome da AIDS."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] O que estabelece o consenso científico 'Indetectável = Intransmissível' (I=I)?",
+    "options": [
+      "Pessoas com HIV em tratamento e com carga viral indetectável por mais de 6 meses NÃO transmitem o vírus por via sexual",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Pessoas com HIV em tratamento e com carga viral indetectável por mais de 6 meses NÃO transmitem o vírus por via sexual",
+    "explanation": "O tratamento protege a saúde do portador e funciona como estratégia de prevenção combinada."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Quais são as três principais vias de transmissão das ISTs?",
+    "options": [
+      "Relações sexuais desprotegidas, contato com sangue contaminado e transmissão vertical (gestação, parto ou amamentação)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Relações sexuais desprotegidas, contato com sangue contaminado e transmissão vertical (gestação, parto ou amamentação)",
+    "explanation": "Não há transmissão por beijo no rosto, aperto de mão, piscinas ou compartilhamento de talheres limpos."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Qual a manifestação inicial típica da Sífilis primária?",
+    "options": [
+      "Uma úlcera única e indolor de bordas endurecidas (cancro duro) no local da infecção, que desaparece espontaneamente",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Uma úlcera única e indolor de bordas endurecidas (cancro duro) no local da infecção, que desaparece espontaneamente",
+    "explanation": "Apesar do sumiço da lesão, a bactéria Treponema pallidum continua proliferando no corpo."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Quais são os sintomas comuns da Gonorreia no homem e na mulher?",
+    "options": [
+      "Dor e queimação ao urinar associadas a corrimento purulento espesso amarelo ou esverdeado pela uretra ou canal vaginal",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Dor e queimação ao urinar associadas a corrimento purulento espesso amarelo ou esverdeado pela uretra ou canal vaginal",
+    "explanation": "Causada pela bactéria Neisseria gonorrhoeae, requer tratamento com antibióticos específicos."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] O que é o Condiloma Acuminado e qual a sua relação com o HPV?",
+    "options": [
+      "Lesões verrucosas na região anogenital causadas pelo Papilomavírus Humano (HPV), alguns tipos com potencial oncogênico",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Lesões verrucosas na região anogenital causadas pelo Papilomavírus Humano (HPV), alguns tipos com potencial oncogênico",
+    "explanation": "Certos tipos de HPV estão diretamente associados ao câncer do colo do útero e do pênis."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Qual a principal medida de prevenção primária contra os subtipos mais graves do HPV?",
+    "options": [
+      "A vacinação preventiva disponibilizada gratuitamente pelo SUS na faixa etária de 9 a 14 anos, antes do início da vida sexual",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A vacinação preventiva disponibilizada gratuitamente pelo SUS na faixa etária de 9 a 14 anos, antes do início da vida sexual",
+    "explanation": "A vacina quadrivalente protege contra verrugas genitais e lesões pré-cancerosas."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Qual a finalidade do exame preventivo de Papanicolau (citologia oncótica)?",
+    "options": [
+      "Coletar e analisar células da superfície do colo uterino para identificar alterações e lesões precoces antes de virarem câncer",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Coletar e analisar células da superfície do colo uterino para identificar alterações e lesões precoces antes de virarem câncer",
+    "explanation": "Deve ser realizado periodicamente por mulheres a partir do início da atividade sexual."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Como se caracteriza a infecção pelo vírus Herpes Genital (HSV)?",
+    "options": [
+      "Surgimento de vesículas agrupadas dolorosas que se rompem formando úlceras avermelhadas, com crises recorrentes em quedas de imunidade",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Surgimento de vesículas agrupadas dolorosas que se rompem formando úlceras avermelhadas, com crises recorrentes em quedas de imunidade",
+    "explanation": "O vírus permanece latente nos gânglios nervosos para o resto da vida."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Quais os sintomas característicos da Candidíase vaginal?",
+    "options": [
+      "Prurido (coceira) intenso, vermelhidão local e corrimento branco grumoso com aspecto de nata/leite talhado",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Prurido (coceira) intenso, vermelhidão local e corrimento branco grumoso com aspecto de nata/leite talhado",
+    "explanation": "É causada pelo crescimento excessivo do fungo Candida albicans na flora vaginal."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] O que caracteriza a Tricomoníase?",
+    "options": [
+      "Infecção causada pelo protozoário flagelado Trichomonas vaginalis, provocando corrimento amarelo-esverdeado bolhoso e fétido",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Infecção causada pelo protozoário flagelado Trichomonas vaginalis, provocando corrimento amarelo-esverdeado bolhoso e fétido",
+    "explanation": "É transmitida sexualmente e requer tratamento simultâneo de ambos os parceiros."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] O que é a Pediculose Pubiana?",
+    "options": [
+      "Infestação dos pelos pubianos pelo inseto parasita Phthirus pubis (conhecido popularmente como chato), provocando coceira intensa",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Infestação dos pelos pubianos pelo inseto parasita Phthirus pubis (conhecido popularmente como chato), provocando coceira intensa",
+    "explanation": "O contágio ocorre por contato íntimo pele a pele ou roupas de cama/íntimas compartilhadas."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] Por que as feridas causadas por ISTs aumentam o risco de contrair o vírus HIV?",
+    "options": [
+      "Porque rompem a integridade das mucosas genitais, servindo como portas de entrada direta do vírus para a corrente sanguínea",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque rompem a integridade das mucosas genitais, servindo como portas de entrada direta do vírus para a corrente sanguínea",
+    "explanation": "O tecido inflamado e ulcerado atrai células de defesa que são os alvos preferenciais do HIV."
+  },
+  {
+    "question": "[Infecções Sexualmente Transmissíveis (ISTs)] As hepatites virais B e C podem ser transmitidas por via sexual?",
+    "options": [
+      "Sim, especialmente a Hepatite B através de fluidos corporais e relações sexuais desprotegidas, além de sangue e derivados",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Sim, especialmente a Hepatite B através de fluidos corporais e relações sexuais desprotegidas, além de sangue e derivados",
+    "explanation": "A hepatite B ataca o fígado e possui vacina altamente eficaz no calendário do SUS."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função dos Testículos no organismo masculino?",
+    "options": [
+      "Produzir os gametas masculinos (espermatozoides) nos túbulos seminíferos e sintetizar o hormônio testosterona",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Produzir os gametas masculinos (espermatozoides) nos túbulos seminíferos e sintetizar o hormônio testosterona",
+    "explanation": "Os testículos são gônadas que realizam funções gametogênica e endócrina."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Por que os testículos ficam alojados na bolsa escrotal fora do abdômen?",
+    "options": [
+      "Para ficarem em temperatura cerca de 1 ºC a 2 ºC abaixo da temperatura central do corpo, condição necessária à espermatogênese",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Para ficarem em temperatura cerca de 1 ºC a 2 ºC abaixo da temperatura central do corpo, condição necessária à espermatogênese",
+    "explanation": "Temperaturas internas elevadas prejudicam a divisão e sobrevivência dos espermatozoides."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função dos Túbulos Seminíferos?",
+    "options": [
+      "Estruturas microscópicas enoveladas no interior dos testículos onde ocorrem as divisões celulares que formam espermatozoides",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Estruturas microscópicas enoveladas no interior dos testículos onde ocorrem as divisões celulares que formam espermatozoides",
+    "explanation": "Revestidos por células de Sertoli e espermatogônias que sofrem meiose."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual o papel do Epidídimo no trajeto dos espermatozoides?",
+    "options": [
+      "Armazenar os espermatozoides imaturos para que adquiram maturação funcional e motilidade flagelar",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Armazenar os espermatozoides imaturos para que adquiram maturação funcional e motilidade flagelar",
+    "explanation": "Sem a passagem pelo epidídimo, os espermatozoides não conseguem nadar até o óvulo."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a trajetória percorrida pelo espermatozoide até a ejaculação?",
+    "options": [
+      "Túbulos seminíferos → Epidídimo → Ducto deferente → Ducto ejaculatório → Uretra peniana",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Túbulos seminíferos → Epidídimo → Ducto deferente → Ducto ejaculatório → Uretra peniana",
+    "explanation": "Ao longo do trajeto, recebe secreções das glândulas seminais e da próstata."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a importância da secreção das Vesículas Seminais?",
+    "options": [
+      "Produzir um líquido viscoso e alcalino rico em frutose que fornece energia para o batimento flagelar dos espermatozoides",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Produzir um líquido viscoso e alcalino rico em frutose que fornece energia para o batimento flagelar dos espermatozoides",
+    "explanation": "Representa a maior parte do volume do esperma (cerca de 60%)."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a importância do líquido produzido pela Próstata?",
+    "options": [
+      "Secretar líquido leitoso e alcalino que neutraliza a acidez da uretra masculina e da vagina, aumentando a motilidade",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Secretar líquido leitoso e alcalino que neutraliza a acidez da uretra masculina e da vagina, aumentando a motilidade",
+    "explanation": "Garante a sobrevivência dos gametas masculinos no meio ácido vaginal."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função da secreção das Glândulas Bulbouretrais?",
+    "options": [
+      "Liberar fluido transparente que lubrifica e limpa a uretra de resíduos ácidos de urina antes da passagem do sêmen",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Liberar fluido transparente que lubrifica e limpa a uretra de resíduos ácidos de urina antes da passagem do sêmen",
+    "explanation": "Ocorre antes da ejaculação propriamente dita."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Como se diferenciam a uretra masculina e a feminina?",
+    "options": [
+      "A uretra masculina conduz tanto urina quanto sêmen; a uretra feminina é curta e conduz exclusivamente urina",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A uretra masculina conduz tanto urina quanto sêmen; a uretra feminina é curta e conduz exclusivamente urina",
+    "explanation": "No homem a uretra pertence simultaneamente aos sistemas urinário e reprodutor."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] O que ocorre no pênis durante a ereção?",
+    "options": [
+      "Sob estímulo sexual, os corpos cavernosos e esponjosos se enchem de sangue sob pressão, tornando o pênis ereto e rígido",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Sob estímulo sexual, os corpos cavernosos e esponjosos se enchem de sangue sob pressão, tornando o pênis ereto e rígido",
+    "explanation": "É mediada pelo sistema nervoso autônomo através de vasodilatação das artérias penianas."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] O que é Criptorquidia?",
+    "options": [
+      "Não descida de um ou de ambos os testículos da cavidade abdominal para a bolsa escrotal durante o desenvolvimento",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Não descida de um ou de ambos os testículos da cavidade abdominal para a bolsa escrotal durante o desenvolvimento",
+    "explanation": "Requer correção médica precoce para prevenir esterilidade na idade adulta."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Quais são os órgãos genitais internos femininos?",
+    "options": [
+      "Ovários, Tubas Uterinas (trompas), Útero e Vagina",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Ovários, Tubas Uterinas (trompas), Útero e Vagina",
+    "explanation": "Ficam abrigados no interior da bacia/pelve feminina."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a dupla função dos Ovários?",
+    "options": [
+      "Produzir os gametas femininos (ovócitos secundários/óvulos) e os hormônios sexuais estrógeno e progesterona",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Produzir os gametas femininos (ovócitos secundários/óvulos) e os hormônios sexuais estrógeno e progesterona",
+    "explanation": "São as gônadas femininas responsáveis pela fertilidade e caracteres sexuais."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função das Tubas Uterinas (trompas de Falópio)?",
+    "options": [
+      "Transportar o ovócito em direção ao útero através de cílios e servir como o local exato onde ocorre a fecundação",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Transportar o ovócito em direção ao útero através de cílios e servir como o local exato onde ocorre a fecundação",
+    "explanation": "Possuem fímbrias próximas aos ovários que capturam o óvulo liberado."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função do Útero e de sua parede interna (Endométrio)?",
+    "options": [
+      "O útero aloja e expande-se para abrigar o feto; o endométrio nutre e fixa o embrião na nidação",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O útero aloja e expande-se para abrigar o feto; o endométrio nutre e fixa o embrião na nidação",
+    "explanation": "O endométrio é ricamente vascularizado e se descama na menstruação caso não haja gravidez."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Quais estruturas formam a Vulva (pudendo feminino)?",
+    "options": [
+      "Lábios maiores, lábios menores, clitóris e aberturas do meato uretral e do canal vaginal",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Lábios maiores, lábios menores, clitóris e aberturas do meato uretral e do canal vaginal",
+    "explanation": "Constitui a genitália externa feminina."
+  },
+  {
+    "question": "[Anatomia e Fisiologia Humana] Qual a função biológica exclusiva do Clitóris?",
+    "options": [
+      "Proporcionar prazer sexual à mulher através de sua rica densidade de terminações nervosas e corpos eréteis",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Proporcionar prazer sexual à mulher através de sua rica densidade de terminações nervosas e corpos eréteis",
+    "explanation": "Não possui nenhuma função na eliminação de urina nem na gestação."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] O que marca o início biológico da puberdade em meninos e meninas?",
+    "options": [
+      "A ativação do eixo hipotálamo-hipófise, liberando hormônios que estimulam as gônadas a produzir hormônios sexuais",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A ativação do eixo hipotálamo-hipófise, liberando hormônios que estimulam as gônadas a produzir hormônios sexuais",
+    "explanation": "A hipófise libera FSH e LH, estimulando testosterona nos meninos e estrógeno/progesterona nas meninas."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Quais são os primeiros sinais visíveis da puberdade em meninas e meninos?",
+    "options": [
+      "O broto mamário (telarca) nas meninas e o aumento do volume dos testículos nos meninos",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O broto mamário (telarca) nas meninas e o aumento do volume dos testículos nos meninos",
+    "explanation": "Surgem geralmente entre os 8-13 anos nas meninas e 9-14 anos nos meninos."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Quais são características sexuais secundárias femininas?",
+    "options": [
+      "Desenvolvimento das mamas, alargamento dos quadris, pelos pubianos/axilares e redistribuição de gordura",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Desenvolvimento das mamas, alargamento dos quadris, pelos pubianos/axilares e redistribuição de gordura",
+    "explanation": "São mediadas pelos estrógenos ovarianos."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Quais são características sexuais secundárias masculinas?",
+    "options": [
+      "Crescimento de pelos faciais e corporais, engrossamento da voz (laringe/pomo de Adão) e ganho muscular",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Crescimento de pelos faciais e corporais, engrossamento da voz (laringe/pomo de Adão) e ganho muscular",
+    "explanation": "São impulsionadas pela testosterona testicular."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] O que é a Menarca?",
+    "options": [
+      "A primeira menstruação na vida da mulher, marcando o início da capacidade reprodutiva",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A primeira menstruação na vida da mulher, marcando o início da capacidade reprodutiva",
+    "explanation": "Ocorre habitualmente entre 10 e 14 anos de idade."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Como é estruturado um ciclo menstrual padrão de 28 dias?",
+    "options": [
+      "Dias 1-5: Menstruação; Dias 6-13: Fase proliferativa (crescimento endometrial); Dia 14: Ovulação; Dias 15-28: Fase lútea/secretora",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Dias 1-5: Menstruação; Dias 6-13: Fase proliferativa (crescimento endometrial); Dia 14: Ovulação; Dias 15-28: Fase lútea/secretora",
+    "explanation": "A ovulação divide o ciclo ao meio na maioria das mulheres com ciclos regulares."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Qual o papel do hormônio Folículo Estimulante (FSH) no ciclo ovariano?",
+    "options": [
+      "Estimular o crescimento e amadurecimento dos folículos nos ovários",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Estimular o crescimento e amadurecimento dos folículos nos ovários",
+    "explanation": "Produzido pela adenoipófise no início do ciclo."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Qual o papel do Hormônio Luteinizante (LH) no ciclo feminino?",
+    "options": [
+      "Disparar a ovulação (rompimento folicular) e transformar o folículo vazio em corpo lúteo",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Disparar a ovulação (rompimento folicular) e transformar o folículo vazio em corpo lúteo",
+    "explanation": "O pico agudo de LH ocorre cerca de 24-36 horas antes da ovulação."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] O que é o Corpo Lúteo (corpo amarelo) e qual sua função?",
+    "options": [
+      "Estrutura formada no ovário a partir do folículo rompido que secreta altas taxas de progesterona para manter o endométrio espesso",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Estrutura formada no ovário a partir do folículo rompido que secreta altas taxas de progesterona para manter o endométrio espesso",
+    "explanation": "Se houver fecundação, continua nutrindo o endométrio nas primeiras semanas."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Por que ocorre a Menstruação?",
+    "options": [
+      "Porque não ocorrendo fecundação, o corpo lúteo regride, os níveis de progesterona e estrogênio despencam e o endométrio se desprende",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque não ocorrendo fecundação, o corpo lúteo regride, os níveis de progesterona e estrogênio despencam e o endométrio se desprende",
+    "explanation": "O sangue eliminado contém fragmentos de tecido endometrial e muco."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] O que define o período fértil da mulher?",
+    "options": [
+      "Os dias próximos à ovulação (3 dias antes até 2 a 3 dias depois), quando as chances de concepção são máximas",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Os dias próximos à ovulação (3 dias antes até 2 a 3 dias depois), quando as chances de concepção são máximas",
+    "explanation": "Leva em conta a sobrevida dos espermatozoides e a viabilidade do óvulo."
+  },
+  {
+    "question": "[Puberdade e Ciclo Menstrual] Em que consiste o autoexame das mamas e a mamografia?",
+    "options": [
+      "O autoexame permite conhecer o próprio corpo e sentir nódulos ao toque; a mamografia detecta tumores milimétricos por raio-X antes de serem palpáveis",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O autoexame permite conhecer o próprio corpo e sentir nódulos ao toque; a mamografia detecta tumores milimétricos por raio-X antes de serem palpáveis",
+    "explanation": "A mamografia preventiva é preconizada periodicamente após os 40-50 anos."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] O que é a Fecundação humana e onde ela se dá?",
+    "options": [
+      "É a fusão do espermatozoide com o ovócito secundário formando o zigoto, ocorrendo no terço superior da tuba uterina",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "É a fusão do espermatozoide com o ovócito secundário formando o zigoto, ocorrendo no terço superior da tuba uterina",
+    "explanation": "Apenas um espermatozoide penetra a membrana do óvulo."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] O que é o Zigoto?",
+    "options": [
+      "A primeira célula totipotente diploide (2n) do novo ser humano, contendo o DNA paterno e materno combinados",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A primeira célula totipotente diploide (2n) do novo ser humano, contendo o DNA paterno e materno combinados",
+    "explanation": "Inicia imediatas divisões mitóticas sucessivas (clivagens)."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Qual o nome da estrutura embrionária maciça com aspecto de amora formada após sucessivas divisões?",
+    "options": [
+      "Mórula (cerca de 16 a 64 células)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Mórula (cerca de 16 a 64 células)",
+    "explanation": "Do latim morum (amora), que depois evolui para blastocisto."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] O que é o Blastocisto e qual sua importância na gravidez?",
+    "options": [
+      "Esfera celular oca com cavidade líquida interna que chega ao útero e realiza a nidação no endométrio",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Esfera celular oca com cavidade líquida interna que chega ao útero e realiza a nidação no endométrio",
+    "explanation": "Apresenta trofoblasto (futura placenta) e embrioblasto (futuro feto)."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] O que é a Nidação?",
+    "options": [
+      "A implantação e fixação do blastocisto na parede interna do útero (endométrio) cerca de 6 a 7 dias após a fecundação",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A implantação e fixação do blastocisto na parede interna do útero (endométrio) cerca de 6 a 7 dias após a fecundação",
+    "explanation": "Marca o início definitivo da gravidez e a produção do hormônio hCG."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Qual a função do Âmnio (bolsa amniótica)?",
+    "options": [
+      "Envolver o embrião em líquido amniótico, protegendo-o contra desidratação, variações térmicas e impactos mecânicos externos",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Envolver o embrião em líquido amniótico, protegendo-o contra desidratação, variações térmicas e impactos mecânicos externos",
+    "explanation": "Permite ainda movimentação livre para o desenvolvimento musculoesquelético fetal."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Qual a função da Placenta na gravidez?",
+    "options": [
+      "Permitir a troca de oxigênio e nutrientes do sangue materno para o feto e a retirada de excretas e CO2 do feto para a mãe, sem mistura direta dos sangues",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Permitir a troca de oxigênio e nutrientes do sangue materno para o feto e a retirada de excretas e CO2 do feto para a mãe, sem mistura direta dos sangues",
+    "explanation": "Atua também como glândula endócrina produzindo progesterona e estrogênio."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Qual a função do Cordão Umbilical?",
+    "options": [
+      "Conectar os vasos sanguíneos do feto (duas artérias e uma veia) à placenta para transporte de sangue rico em nutrientes e oxigênio",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Conectar os vasos sanguíneos do feto (duas artérias e uma veia) à placenta para transporte de sangue rico em nutrientes e oxigênio",
+    "explanation": "A veia umbilical leva oxigênio da placenta ao feto; as artérias levam sangue pobre em oxigênio do feto para a placenta."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Quando o organismo em gestação passa a ser chamado de Feto?",
+    "options": [
+      "A partir da 9ª semana (fim do segundo mês) até o nascimento, quando os principais sistemas orgânicos estão esboçados",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A partir da 9ª semana (fim do segundo mês) até o nascimento, quando os principais sistemas orgânicos estão esboçados",
+    "explanation": "O período anterior é a fase embrionária (organogênese)."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Quais são as três etapas fundamentais do Parto normal?",
+    "options": [
+      "1) Dilatação cervical e contrações uterinas com ruptura da bolsa; 2) Expulsão e nascimento do bebê pela vagina; 3) Dequitação/expulsão da placenta",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "1) Dilatação cervical e contrações uterinas com ruptura da bolsa; 2) Expulsão e nascimento do bebê pela vagina; 3) Dequitação/expulsão da placenta",
+    "explanation": "O trabalho de parto é estimulado pelo hormônio ocitocina."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Como se formam os Gêmeos Monozigóticos (Idênticos / Univitelinos)?",
+    "options": [
+      "Fecundação de 1 óvulo por 1 espermatozoide gerando 1 zigoto que se divide em dois embriões com DNA idêntico e mesmo sexo",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Fecundação de 1 óvulo por 1 espermatozoide gerando 1 zigoto que se divide em dois embriões com DNA idêntico e mesmo sexo",
+    "explanation": "Compartilham o mesmo patrimônio genético obrigatoriamente."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Como se formam os Gêmeos Dizigóticos (Fraternos / Bivitelinos)?",
+    "options": [
+      "Fecundação de 2 óvulos distintos por 2 espermatozoides diferentes, gerando indivíduos geneticamente diferentes (mesmo sexo ou sexos diferentes)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Fecundação de 2 óvulos distintos por 2 espermatozoides diferentes, gerando indivíduos geneticamente diferentes (mesmo sexo ou sexos diferentes)",
+    "explanation": "São geneticamente equivalentes a dois irmãos nascidos de gestações distintas."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Por que não é biologicamente possível que dois espermatozoides fecundem o mesmo óvulo para gerar gêmeos?",
+    "options": [
+      "Porque a entrada do primeiro espermatozoide altera a membrana plasmática do óvulo criando uma barreira imediata contra a poliespermia",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque a entrada do primeiro espermatozoide altera a membrana plasmática do óvulo criando uma barreira imediata contra a poliespermia",
+    "explanation": "Caso ocorresse dupla fertilização, o zigoto triploide seria inviável e sofreria aborto espontâneo."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Por que o Leite Materno é considerado o melhor alimento para o recém-nascido?",
+    "options": [
+      "Porque contém composição nutricional exata, fácil digestão e anticorpos maternos (imunoglobulinas) que protegem contra infecções",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque contém composição nutricional exata, fácil digestão e anticorpos maternos (imunoglobulinas) que protegem contra infecções",
+    "explanation": "A OMS recomenda aleitamento materno exclusivo até os 6 meses de idade."
+  },
+  {
+    "question": "[Desenvolvimento Embrionário, Parto e Gêmeos] Quais os perigos do uso de álcool e tabaco na gestação?",
+    "options": [
+      "O tabaco reduz a oxigenação fetal levando a baixo peso e prematuridade; o álcool causa a Síndrome Alcoólica Fetal com danos cerebrais e malformações irreversíveis",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O tabaco reduz a oxigenação fetal levando a baixo peso e prematuridade; o álcool causa a Síndrome Alcoólica Fetal com danos cerebrais e malformações irreversíveis",
+    "explanation": "Nenhum nível de consumo de álcool é considerado seguro na gestação."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] O que é o Sistema Endócrino?",
+    "options": [
+      "Conjunto de glândulas que produzem e secretam hormônios na corrente sanguínea para coordenar funções vitais, crescimento e equilíbrio corporal",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Conjunto de glândulas que produzem e secretam hormônios na corrente sanguínea para coordenar funções vitais, crescimento e equilíbrio corporal",
+    "explanation": "Atua em sintonia fina com o sistema nervoso na regulação orgânica."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Qual a diferença entre glândulas exócrinas, endócrinas e mistas?",
+    "options": [
+      "Exócrinas secretam por ductos para cavidades/superfície; Endócrinas secretam hormônios no sangue; Mistas possuem ambas as funções",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Exócrinas secretam por ductos para cavidades/superfície; Endócrinas secretam hormônios no sangue; Mistas possuem ambas as funções",
+    "explanation": "Glândulas salivares são exócrinas; tireoide é endócrina; pâncreas é mista."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] O que é um Hormônio e como ele atinge apenas seu alvo específico?",
+    "options": [
+      "É um mensageiro químico que viaja pelo sangue e só ativa células que possuem receptores específicos compatíveis (mecanismo chave-fechadura)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "É um mensageiro químico que viaja pelo sangue e só ativa células que possuem receptores específicos compatíveis (mecanismo chave-fechadura)",
+    "explanation": "Células sem o receptor adequado ignoram a presença daquele hormônio no sangue."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Por que o Pâncreas é considerado uma glândula mista (anfícrina)?",
+    "options": [
+      "Porque produz enzimas digestivas (suco pancreático) liberadas no intestino (exócrino) e hormônios (insulina e glucagon) lançados no sangue (endócrino)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque produz enzimas digestivas (suco pancreático) liberadas no intestino (exócrino) e hormônios (insulina e glucagon) lançados no sangue (endócrino)",
+    "explanation": "As ilhotas pancreáticas desempenham a parte endócrina."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Qual a função da Insulina no organismo?",
+    "options": [
+      "Facilitar a entrada de glicose nas células e estimular o armazenamento no fígado (glicogênio), diminuindo a taxa de glicose no sangue (hipoglicemiante)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Facilitar a entrada de glicose nas células e estimular o armazenamento no fígado (glicogênio), diminuindo a taxa de glicose no sangue (hipoglicemiante)",
+    "explanation": "É liberada após as refeições para controlar a glicemia."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Qual a função do Glucagon no organismo?",
+    "options": [
+      "Estimular o fígado a quebrar glicogênio em glicose e lançá-la no sangue durante o jejum, aumentando a glicemia (hiperglicemiante)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Estimular o fígado a quebrar glicogênio em glicose e lançá-la no sangue durante o jejum, aumentando a glicemia (hiperglicemiante)",
+    "explanation": "Atua em equilíbrio antagônico com a insulina na homeostase da glicose."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Qual o papel dos hormônios T3 e T4 produzidos pela Tireoide?",
+    "options": [
+      "Regular a taxa de metabolismo basal de todas as células, controlando a velocidade com que o corpo consome energia e calor",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Regular a taxa de metabolismo basal de todas as células, controlando a velocidade com que o corpo consome energia e calor",
+    "explanation": "Exigem iodo em sua composição química molecular."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Quais os sintomas do Hipotireoidismo?",
+    "options": [
+      "Metabolismo lento, cansaço crônico, sensação constante de frio, ganho de peso e raciocínio lentificado",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Metabolismo lento, cansaço crônico, sensação constante de frio, ganho de peso e raciocínio lentificado",
+    "explanation": "Decorre da baixa produção hormonal tireoidiana."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] Quais os sintomas do Hipertireoidismo?",
+    "options": [
+      "Metabolismo acelerado, perda de peso excessiva, taquicardia (palpitações), calor excessivo, sudorese e agitação",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Metabolismo acelerado, perda de peso excessiva, taquicardia (palpitações), calor excessivo, sudorese e agitação",
+    "explanation": "Decorre da hiperfunção da glândula tireoide."
+  },
+  {
+    "question": "[Sistema Endócrino e Homeostase] O que é Homeostase corporal?",
+    "options": [
+      "A capacidade do organismo de manter o meio interno estável e equilibrado (temperatura, pH, glicemia, hidratação) diante de variações externas",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "A capacidade do organismo de manter o meio interno estável e equilibrado (temperatura, pH, glicemia, hidratação) diante de variações externas",
+    "explanation": "É o grande objetivo integrador da fisiologia humana."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a principal vantagem evolutiva da Reprodução Sexuada frente à Assexuada?",
+    "options": [
+      "Gerar alta variabilidade genética entre os descendentes, aumentando as chances de sobrevivência da espécie diante de mudanças ambientais",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Gerar alta variabilidade genética entre os descendentes, aumentando as chances de sobrevivência da espécie diante de mudanças ambientais",
+    "explanation": "A reprodução sexuada combina alelos diferentes por meiose e fecundação."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Quais são as principais modalidades de Reprodução Assexuada?",
+    "options": [
+      "Bipartição (divisão binária), brotamento, esporulação, fragmentação/regeneração e multiplicação vegetativa",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Bipartição (divisão binária), brotamento, esporulação, fragmentação/regeneração e multiplicação vegetativa",
+    "explanation": "Originam clones geneticamente idênticos ao genitor com baixo gasto de energia."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] O que é a Bipartição (cissiparidade)?",
+    "options": [
+      "Divisão de uma célula-mãe em duas células-filhas idênticas, comum em bactérias, protozoários e algas unicelulares",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Divisão de uma célula-mãe em duas células-filhas idênticas, comum em bactérias, protozoários e algas unicelulares",
+    "explanation": "É um processo rápido de multiplicação populacional em ambientes favoráveis."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Como ocorre a reprodução por Brotamento?",
+    "options": [
+      "Surge uma gema/broto no corpo do progenitor que cresce e se desprende para formar um indivíduo independente (leveduras, hidras, esponjas)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Surge uma gema/broto no corpo do progenitor que cresce e se desprende para formar um indivíduo independente (leveduras, hidras, esponjas)",
+    "explanation": "Pode também permanecer unido formando grandes colônias."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Como a planária e a estrela-do-mar se reproduzem por Regeneração/Fragmentação?",
+    "options": [
+      "Pedaços destacados do corpo regeneram todos os tecidos e órgãos ausentes, formando novos indivíduos completos",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Pedaços destacados do corpo regeneram todos os tecidos e órgãos ausentes, formando novos indivíduos completos",
+    "explanation": "Baseia-se em células indiferenciadas de alta plasticidade regenerativa."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Quais são exemplos naturais de Multiplicação Vegetativa nas plantas?",
+    "options": [
+      "Tubérculos na batata inglesa, estolhos no morangueiro, rizomas no gengibre e bulbos na cebola e alho",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Tubérculos na batata inglesa, estolhos no morangueiro, rizomas no gengibre e bulbos na cebola e alho",
+    "explanation": "Caules subterrâneos ou rastejantes que acumulam reservas e emitem raízes e folhas."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Quais são as técnicas artificiais agronômicas de propagação vegetativa?",
+    "options": [
+      "Estaquia (galhos enterrados), mergulhia, alporquia e enxertia (cavalo e cavaleiro)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Estaquia (galhos enterrados), mergulhia, alporquia e enxertia (cavalo e cavaleiro)",
+    "explanation": "Muito utilizadas na agricultura para replicar mudas de alta produtividade."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Por que as Briófitas (musgos) e Pteridófitas (samambaias) dependem da água para fecundação?",
+    "options": [
+      "Porque seus gametas masculinos (anterozoides) são flagelados e precisam nadar através de gotas de água para alcançar a oosfera",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Porque seus gametas masculinos (anterozoides) são flagelados e precisam nadar através de gotas de água para alcançar a oosfera",
+    "explanation": "Por isso habitam ambientes úmidos e sombreados."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a grande conquista evolutiva das Gimnospermas (pinheiros e araucárias)?",
+    "options": [
+      "Produção de grãos de pólen transportados pelo vento e formação de Sementes, tornando a fecundação independente da água",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Produção de grãos de pólen transportados pelo vento e formação de Sementes, tornando a fecundação independente da água",
+    "explanation": "Possuem estróbilos (pinhas) e sementes nuas (pinhão) desprovidas de frutos."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Quais são as características exclusivas das Angiospermas?",
+    "options": [
+      "Presença de Flores para atração de polinizadores e Frutos para proteção e dispersão das sementes",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Presença de Flores para atração de polinizadores e Frutos para proteção e dispersão das sementes",
+    "explanation": "São o grupo vegetal dominante e mais diversificado do planeta."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Quais são os quatro verticilos florais em uma flor completa?",
+    "options": [
+      "Cálice (sépalas), Corola (pétalas), Androceu (estames com anteras produtoras de pólen) e Gineceu (carpelos com ovário)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Cálice (sépalas), Corola (pétalas), Androceu (estames com anteras produtoras de pólen) e Gineceu (carpelos com ovário)",
+    "explanation": "O androceu é o aparelho reprodutor masculino e o gineceu o feminino."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] O que é Polinização e qual o papel ecológico das abelhas?",
+    "options": [
+      "Transporte do grão de pólen da antera para o estigma da flor; as abelhas realizam a polinização cruzada de mais de 70% das espécies vegetais",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Transporte do grão de pólen da antera para o estigma da flor; as abelhas realizam a polinização cruzada de mais de 70% das espécies vegetais",
+    "explanation": "Garante a formação de frutos, sementes e a manutenção dos ecossistemas."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Após a fecundação na flor, em que se transformam o Óvulo e o Ovário?",
+    "options": [
+      "O Óvulo fecundado transforma-se na Semente e a parede do Ovário desenvolve-se no Fruto",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "O Óvulo fecundado transforma-se na Semente e a parede do Ovário desenvolve-se no Fruto",
+    "explanation": "O fruto protege a semente e facilita sua dispersão por animais ou vento."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a diferença entre Fecundação Externa e Fecundação Interna nos animais?",
+    "options": [
+      "Externa: os gametas são lançados na água (peixes, anfíbios, corais); Interna: os gametas se unem no interior do trato genital feminino (mamíferos, aves, répteis)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Externa: os gametas são lançados na água (peixes, anfíbios, corais); Interna: os gametas se unem no interior do trato genital feminino (mamíferos, aves, répteis)",
+    "explanation": "A fecundação interna protege os gametas da dessecação em terra firme."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a diferença entre animais Ovíparos, Vivíparos e Ovovivíparos?",
+    "options": [
+      "Ovíparos põem ovos externos com nutrientes (aves, répteis); Vivíparos desenvolvem-se no útero materno (mamíferos); Ovovivíparos mantêm o ovo incubado dentro da fêmea (tubarões, serpentes)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Ovíparos põem ovos externos com nutrientes (aves, répteis); Vivíparos desenvolvem-se no útero materno (mamíferos); Ovovivíparos mantêm o ovo incubado dentro da fêmea (tubarões, serpentes)",
+    "explanation": "Classificam-se pelo local e modo de nutrição embrionária."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a diferença entre Desenvolvimento Direto e Desenvolvimento Indireto?",
+    "options": [
+      "Direto: o filhote nasce com forma semelhante ao adulto (mamíferos, aves); Indireto: o filhote nasce como larva e passa por metamorfose (sapos, insetos)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Direto: o filhote nasce com forma semelhante ao adulto (mamíferos, aves); Indireto: o filhote nasce como larva e passa por metamorfose (sapos, insetos)",
+    "explanation": "A metamorfose reorganiza o plano corporal do indivíduo."
+  },
+  {
+    "question": "[Reprodução nos Seres Vivos e Botânica] Qual a diferença entre Metamorfose Incompleta e Metamorfose Completa nos insetos?",
+    "options": [
+      "Incompleta: ovo → ninfa → adulto (gafanhoto, barata); Completa: ovo → larva → pupa (casulo) → adulto (borboleta, mosca, abelha)",
+      "Alternativa incorreta com informações que contradizem a biologia básica do tema",
+      "Opção secundária que confunde estruturas de outros sistemas orgânicos",
+      "Conceito equivocado que não corresponde ao conteúdo estudado nos materiais escolares"
+    ],
+    "correctAnswer": "Incompleta: ovo → ninfa → adulto (gafanhoto, barata); Completa: ovo → larva → pupa (casulo) → adulto (borboleta, mosca, abelha)",
+    "explanation": "Na metamorfose completa a fase de pupa remodela totalmente os tecidos larvais."
+  },
+  {
+    "question": "[Exercício de Fixação - Associação de Estruturas] Associe as estruturas reprodutivas com suas funções: (1) Túbulos seminíferos; (2) Ovários; (3) Epidídimo; (4) Tubas uterinas; (5) Útero. Qual a sequência correta para: Local de produção de gametas femininos / Local de armazenamento de espermatozoides / Local da nidação / Local de produção de gametas masculinos / Local da fecundação?",
+    "options": [
+      "2 – 3 – 5 – 1 – 4",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "2 – 3 – 5 – 1 – 4",
+    "explanation": "Ovários produzem óvulos (2), Epidídimo armazena espermatozoides (3), Útero abriga a nidação (5), Túbulos seminíferos produzem espermatozoides (1) e Tubas uterinas realizam a fecundação (4)."
+  },
+  {
+    "question": "[Exercício de Fixação - Órgãos Genitais Femininos] Dentre as estruturas femininas citadas a seguir, qual NÃO pertence aos órgãos genitais externos (vulva)?",
+    "options": [
+      "Vagina (canal muscular interno) e Colo do útero",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Vagina (canal muscular interno) e Colo do útero",
+    "explanation": "A vagina e o colo do útero são órgãos genitais internos; a vulva externa é composta por grandes lábios, pequenos lábios e clitóris."
+  },
+  {
+    "question": "[Exercício de Fixação - Dimorfismo Sexual] O que é Dimorfismo Sexual nos animais, como observado entre o galo e a galinha ou o leão e a leoa?",
+    "options": [
+      "Diferenças morfológicas, físicas ou comportamentais marcantes entre o macho e a fêmea da mesma espécie (como cristas, plumagem exuberante, juba ou tamanho corporal)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Diferenças morfológicas, físicas ou comportamentais marcantes entre o macho e a fêmea da mesma espécie (como cristas, plumagem exuberante, juba ou tamanho corporal)",
+    "explanation": "O dimorfismo sexual resulta da seleção sexual e de diferenças hormonais entre os sexos."
+  },
+  {
+    "question": "[Exercício de Fixação - Parada Nupcial] O que é a 'Parada Nupcial' realizada por diversas espécies animais durante a época de acasalamento?",
+    "options": [
+      "Conjunto de rituais, cantos, danças, exibições de cores ou comportamentos de cortejo que antecedem e estimulam o acasalamento entre macho e fêmea",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Conjunto de rituais, cantos, danças, exibições de cores ou comportamentos de cortejo que antecedem e estimulam o acasalamento entre macho e fêmea",
+    "explanation": "A parada nupcial permite o reconhecimento da espécie e a escolha do parceiro reprodutivo."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual termo biológico define o 'Período que se estende desde a fecundação e a fixação do embrião no útero até o nascimento do bebê'?",
+    "options": [
+      "Gravidez (ou Gestação)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Gravidez (ou Gestação)",
+    "explanation": "A gravidez humana dura em média 40 semanas a partir do último ciclo menstrual."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual o nome do 'Anexo do embrião que permite a passagem de nutrientes e oxigênio da mãe para o feto e a eliminação de excretas'?",
+    "options": [
+      "Placenta",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Placenta",
+    "explanation": "A placenta é o órgão materno-fetal de sustentação metabólica e endócrina."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Como se denomina o 'Líquido que contém os espermatozoides em suspensão nutritiva e alcalina'?",
+    "options": [
+      "Sêmen (ou Esperma)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Sêmen (ou Esperma)",
+    "explanation": "O sêmen é formado por espermatozoides e secreções das glândulas seminais e prostática."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual é a denominação da 'Genitália feminina externa composta por lábios e clitóris'?",
+    "options": [
+      "Vulva (ou Pudendo Feminino)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Vulva (ou Pudendo Feminino)",
+    "explanation": "A vulva protege as aberturas da uretra e da vagina."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual a 'Primeira célula do novo ser vivo gerada pela fusão dos gametas na fecundação'?",
+    "options": [
+      "Zigoto (ou Célula-ovo)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Zigoto (ou Célula-ovo)",
+    "explanation": "O zigoto contém a dotação cromossômica diploide (2n) completa da espécie."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual a 'Membrana que envolve o líquido protetor contra desidratação e choques mecânicos ao redor do feto'?",
+    "options": [
+      "Âmnio",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Âmnio",
+    "explanation": "A cavidade amniótica é preenchida pelo líquido amniótico."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual o 'Principal hormônio feminino produzido pelo corpo lúteo no ovário que prepara o endométrio para a gravidez'?",
+    "options": [
+      "Progesterona",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Progesterona",
+    "explanation": "A progesterona mantém o endométrio secretor e espesso para a gestação."
+  },
+  {
+    "question": "[Exercício de Fixação - Palavras Cruzadas] Qual o 'Hormônio masculino produzido pelos testículos responsável pelas características sexuais secundárias'?",
+    "options": [
+      "Testosterona",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Testosterona",
+    "explanation": "A testosterona induz crescimento de barba, engrossamento da voz e desenvolvimento muscular."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 037] No corpo das mulheres, o ciclo menstrual regular ocorre aproximadamente a cada quantos dias e qual o evento central dele?",
+    "options": [
+      "Aproximadamente a cada 28 dias, tendo como evento central a liberação mensal de um óvulo (ovulação) para a reprodução",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Aproximadamente a cada 28 dias, tendo como evento central a liberação mensal de um óvulo (ovulação) para a reprodução",
+    "explanation": "O ciclo é coordenado por hormônios hipofisários (FSH/LH) e ovarianos (estrógeno/progesterona)."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 037] O que ocorre especificamente na Fase Secretora (Lútea) do ciclo menstrual no endométrio?",
+    "options": [
+      "O endométrio atinge seu pico de espessura máxima, tornando-se ricamente vascularizado e com glândulas secretoras prontas para a nidação",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "O endométrio atinge seu pico de espessura máxima, tornando-se ricamente vascularizado e com glândulas secretoras prontas para a nidação",
+    "explanation": "Sob ação da progesterona do corpo lúteo, o útero cria um ambiente acolhedor para o embrião."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 036] O líquido constituinte do esperma de aspecto leitoso e alcalino que neutraliza a acidez vaginal é produzido por qual glândula?",
+    "options": [
+      "Pela Próstata",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Pela Próstata",
+    "explanation": "A secreção prostática alcalina protege os espermatozoides do pH ácido da vagina."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 036] Os testículos e os canais deferentes no homem têm funções análogas a quais órgãos femininos?",
+    "options": [
+      "Ovários (produção de gametas) e Tubas uterinas / Trompas de Falópio (condução dos gametas)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Ovários (produção de gametas) e Tubas uterinas / Trompas de Falópio (condução dos gametas)",
+    "explanation": "Testículos equivalem aos ovários e ductos deferentes às tubas uterinas."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 032] Qual das seguintes alterações ocorridas na puberdade masculina é classificada estritamente como CARÁTER SEXUAL PRIMÁRIO?",
+    "options": [
+      "Desenvolvimento e aumento dos órgãos reprodutores (testículos e pênis)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Desenvolvimento e aumento dos órgãos reprodutores (testículos e pênis)",
+    "explanation": "Órgãos genitais são caracteres primários; pelos faciais, voz e massa muscular são secundários."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 031] A ativação de qual glândula localizada na base do cérebro estimula a produção de testosterona nos testículos durante a puberdade?",
+    "options": [
+      "Hipófise (Glândula Pituitária)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Hipófise (Glândula Pituitária)",
+    "explanation": "A hipófise secreta o hormônio LH que estimula as células de Leydig nos testículos a produzir testosterona."
+  },
+  {
+    "question": "[Exercício de Fixação - Questão Aula 031] Quais alterações físicas e emocionais na adolescência podem ser comuns TANTO em meninos QUANTO em meninas?",
+    "options": [
+      "Crescimento de pelos pubianos e axilares, alterações de humor e busca por pertencimento a um grupo social de amigos",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Crescimento de pelos pubianos e axilares, alterações de humor e busca por pertencimento a um grupo social de amigos",
+    "explanation": "Meninos e meninas compartilham a ativação de pelos androgênicos e transformações psicossociais."
+  },
+  {
+    "question": "[Exercício de Fixação - Fatores de Risco] Por que o fumo (tabagismo) por parte da mãe gestante traz sérios prejuízos ao bebê em formação?",
+    "options": [
+      "Porque a nicotina e o monóxido de carbono provocam vasoconstrição e reduzem a quantidade de oxigênio transportada pela placenta, causando retardo de crescimento e baixo peso ao nascer",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Porque a nicotina e o monóxido de carbono provocam vasoconstrição e reduzem a quantidade de oxigênio transportada pela placenta, causando retardo de crescimento e baixo peso ao nascer",
+    "explanation": "O oxigênio reduzido compromete o ganho de massa celular do feto."
+  },
+  {
+    "question": "[Exercício de Fixação - Síndrome Alcoólica Fetal] Qual a consequência direta do consumo de bebidas alcoólicas por uma mulher durante a gravidez?",
+    "options": [
+      "O álcool atravessa a placenta e atinge o sangue fetal, podendo causar retardo mental irreversível, microcefalia, malformações cardíacas e faciais",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "O álcool atravessa a placenta e atinge o sangue fetal, podendo causar retardo mental irreversível, microcefalia, malformações cardíacas e faciais",
+    "explanation": "Não existe dose segura de álcool em nenhuma fase da gestação."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 1] Nas plantas com flores (Angiospermas), qual estrutura é considerada o órgão reprodutor onde ocorre a produção de gametas?",
+    "options": [
+      "A Flor",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "A Flor",
+    "explanation": "A flor abriga os estames (masculino) e carpelos (feminino)."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 1] Qual a função ecológica do Fruto nas plantas?",
+    "options": [
+      "Proteger as sementes em desenvolvimento e auxiliar na sua dispersão para longe da planta-mãe (por animais, vento ou água)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Proteger as sementes em desenvolvimento e auxiliar na sua dispersão para longe da planta-mãe (por animais, vento ou água)",
+    "explanation": "Frutos atrativos garantem a dispersão zoocórica das espécies vegetais."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 1] O que está contido no interior de uma Semente madura?",
+    "options": [
+      "O embrião da nova planta e o tecido de reserva nutritiva (endosperma ou cotilédones), protegidos por uma casca",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "O embrião da nova planta e o tecido de reserva nutritiva (endosperma ou cotilédones), protegidos por uma casca",
+    "explanation": "Ao germinar em condições favoráveis de água e oxigênio, o embrião dá origem a uma plântula."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 2] O que é a Polinização nas plantas?",
+    "options": [
+      "É o transporte dos grãos de pólen das anteras (estames) até a superfície receptiva do estigma (carpelo) da flor",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "É o transporte dos grãos de pólen das anteras (estames) até a superfície receptiva do estigma (carpelo) da flor",
+    "explanation": "Pode ser realizada por insetos, aves, morcegos, vento (anemofilia) ou água (hidrofilia)."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 2] O que se forma após a germinação do grão de pólen no estigma da flor para conduzir o gameta até o ovário?",
+    "options": [
+      "O Tubo Polínico",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "O Tubo Polínico",
+    "explanation": "O tubo polínico cresce pelo interior do estilete até penetrar o óvulo no ovário."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 3] O que é a Propagação Vegetativa nas plantas?",
+    "options": [
+      "Tipo de reprodução assexuada em que novas plantas se originam a partir de partes vegetativas da planta-mãe (raízes, caules ou folhas), sem flores ou fecundação",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Tipo de reprodução assexuada em que novas plantas se originam a partir de partes vegetativas da planta-mãe (raízes, caules ou folhas), sem flores ou fecundação",
+    "explanation": "Gera indivíduos geneticamente idênticos de forma rápida."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 3] A batata-inglesa se desenvolve a partir de qual estrutura modificada?",
+    "options": [
+      "Tubérculo (caule subterrâneo que acumula amido)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Tubérculo (caule subterrâneo que acumula amido)",
+    "explanation": "Os 'olhos' da batata são gemas capazes de brotar novos ramos."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 3] O morangueiro se propaga assexuadamente por meio de qual estrutura?",
+    "options": [
+      "Estolho (estolão - caule que cresce horizontalmente sobre o solo e enraíza)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Estolho (estolão - caule que cresce horizontalmente sobre o solo e enraíza)",
+    "explanation": "O estolho forma novas mudas ao tocar o substrato."
+  },
+  {
+    "question": "[Exercício de Fixação - Botânica Aula 3] A mandioca e a cana-de-açúcar são amplamente cultivadas na agricultura através de qual técnica de propagação?",
+    "options": [
+      "Estaquia de pedaços de caule (estacas enterradas no solo que criam raízes e brotos)",
+      "Alternativa incorreta que confunde os conceitos apresentados",
+      "Hipótese desprovida de fundamento biológico e científico",
+      "Conceito inconsistente com a matéria de Ciências do 8º ano"
+    ],
+    "correctAnswer": "Estaquia de pedaços de caule (estacas enterradas no solo que criam raízes e brotos)",
+    "explanation": "Técnica milenar de clonagem agrícola de alto rendimento."
+  },
+  {
+    "question": "[Revisão Aprofundada 1] Em relação a Qual a classificação dos métodos contraceptivos de acordo com sua forma de atuação no organismo?",
+    "options": [
+      "Hormonais, de barreira (física e química), comportamentais (naturais) e cirúrgicos (definitivos)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Hormonais, de barreira (física e química), comportamentais (naturais) e cirúrgicos (definitivos)",
+    "explanation": "Dividem-se em hormonais (pílula, injeção, implante), de barreira (preservativo, diafragma, DIU, espermicida), comportamentais (tabelinha, coito interrompido, Billings) e cirúrgicos (laqueadura, vasectomia)."
+  },
+  {
+    "question": "[Revisão Aprofundada 2] Em relação a Qual a diferença entre ser soropositivo para o HIV e estar com AIDS?",
+    "options": [
+      "HIV é o vírus que infecta células imunológicas; AIDS é a síndrome clínica desenvolvida quando a imunidade fica gravemente comprometida",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "HIV é o vírus que infecta células imunológicas; AIDS é a síndrome clínica desenvolvida quando a imunidade fica gravemente comprometida",
+    "explanation": "Com o tratamento antirretroviral, pessoas com HIV não chegam a desenvolver a síndrome da AIDS."
+  },
+  {
+    "question": "[Revisão Aprofundada 3] Em relação a Qual a função dos Túbulos Seminíferos?",
+    "options": [
+      "Estruturas microscópicas enoveladas no interior dos testículos onde ocorrem as divisões celulares que formam espermatozoides",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Estruturas microscópicas enoveladas no interior dos testículos onde ocorrem as divisões celulares que formam espermatozoides",
+    "explanation": "Revestidos por células de Sertoli e espermatogônias que sofrem meiose."
+  },
+  {
+    "question": "[Revisão Aprofundada 4] Em relação a Quais são características sexuais secundárias masculinas?",
+    "options": [
+      "Crescimento de pelos faciais e corporais, engrossamento da voz (laringe/pomo de Adão) e ganho muscular",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Crescimento de pelos faciais e corporais, engrossamento da voz (laringe/pomo de Adão) e ganho muscular",
+    "explanation": "São impulsionadas pela testosterona testicular."
+  },
+  {
+    "question": "[Revisão Aprofundada 5] Em relação a O que é a Nidação?",
+    "options": [
+      "A implantação e fixação do blastocisto na parede interna do útero (endométrio) cerca de 6 a 7 dias após a fecundação",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A implantação e fixação do blastocisto na parede interna do útero (endométrio) cerca de 6 a 7 dias após a fecundação",
+    "explanation": "Marca o início definitivo da gravidez e a produção do hormônio hCG."
+  },
+  {
+    "question": "[Revisão Aprofundada 6] Em relação a Qual a função do Glucagon no organismo?",
+    "options": [
+      "Estimular o fígado a quebrar glicogênio em glicose e lançá-la no sangue durante o jejum, aumentando a glicemia (hiperglicemiante)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Estimular o fígado a quebrar glicogênio em glicose e lançá-la no sangue durante o jejum, aumentando a glicemia (hiperglicemiante)",
+    "explanation": "Atua em equilíbrio antagônico com a insulina na homeostase da glicose."
+  },
+  {
+    "question": "[Revisão Aprofundada 7] Em relação a Quais são as técnicas artificiais agronômicas de propagação vegetativa?",
+    "options": [
+      "Estaquia (galhos enterrados), mergulhia, alporquia e enxertia (cavalo e cavaleiro)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Estaquia (galhos enterrados), mergulhia, alporquia e enxertia (cavalo e cavaleiro)",
+    "explanation": "Muito utilizadas na agricultura para replicar mudas de alta produtividade."
+  },
+  {
+    "question": "[Revisão Aprofundada 8] Em relação a Qual é o ÚNICO método que oferece dupla proteção (previne gravidez e ISTs simultaneamente)?",
+    "options": [
+      "Preservativo (camisinha masculina de látex ou feminina de poliuretano)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Preservativo (camisinha masculina de látex ou feminina de poliuretano)",
+    "explanation": "A camisinha é a única barreira física impermeável a vírus e bactérias."
+  },
+  {
+    "question": "[Revisão Aprofundada 9] Em relação a Qual a finalidade do exame preventivo de Papanicolau (citologia oncótica)?",
+    "options": [
+      "Coletar e analisar células da superfície do colo uterino para identificar alterações e lesões precoces antes de virarem câncer",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Coletar e analisar células da superfície do colo uterino para identificar alterações e lesões precoces antes de virarem câncer",
+    "explanation": "Deve ser realizado periodicamente por mulheres a partir do início da atividade sexual."
+  },
+  {
+    "question": "[Revisão Aprofundada 10] Em relação a O que ocorre no pênis durante a ereção?",
+    "options": [
+      "Sob estímulo sexual, os corpos cavernosos e esponjosos se enchem de sangue sob pressão, tornando o pênis ereto e rígido",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Sob estímulo sexual, os corpos cavernosos e esponjosos se enchem de sangue sob pressão, tornando o pênis ereto e rígido",
+    "explanation": "É mediada pelo sistema nervoso autônomo através de vasodilatação das artérias penianas."
+  },
+  {
+    "question": "[Revisão Aprofundada 11] Em relação a O que define o período fértil da mulher?",
+    "options": [
+      "Os dias próximos à ovulação (3 dias antes até 2 a 3 dias depois), quando as chances de concepção são máximas",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Os dias próximos à ovulação (3 dias antes até 2 a 3 dias depois), quando as chances de concepção são máximas",
+    "explanation": "Leva em conta a sobrevida dos espermatozoides e a viabilidade do óvulo."
+  },
+  {
+    "question": "[Revisão Aprofundada 12] Em relação a Como se formam os Gêmeos Dizigóticos (Fraternos / Bivitelinos)?",
+    "options": [
+      "Fecundação de 2 óvulos distintos por 2 espermatozoides diferentes, gerando indivíduos geneticamente diferentes (mesmo sexo ou sexos diferentes)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Fecundação de 2 óvulos distintos por 2 espermatozoides diferentes, gerando indivíduos geneticamente diferentes (mesmo sexo ou sexos diferentes)",
+    "explanation": "São geneticamente equivalentes a dois irmãos nascidos de gestações distintas."
+  },
+  {
+    "question": "[Revisão Aprofundada 13] Em relação a O que é um Hormônio e como ele atinge apenas seu alvo específico?",
+    "options": [
+      "É um mensageiro químico que viaja pelo sangue e só ativa células que possuem receptores específicos compatíveis (mecanismo chave-fechadura)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "É um mensageiro químico que viaja pelo sangue e só ativa células que possuem receptores específicos compatíveis (mecanismo chave-fechadura)",
+    "explanation": "Células sem o receptor adequado ignoram a presença daquele hormônio no sangue."
+  },
+  {
+    "question": "[Revisão Aprofundada 14] Em relação a Qual a diferença entre Fecundação Externa e Fecundação Interna nos animais?",
+    "options": [
+      "Externa: os gametas são lançados na água (peixes, anfíbios, corais); Interna: os gametas se unem no interior do trato genital feminino (mamíferos, aves, répteis)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Externa: os gametas são lançados na água (peixes, anfíbios, corais); Interna: os gametas se unem no interior do trato genital feminino (mamíferos, aves, répteis)",
+    "explanation": "A fecundação interna protege os gametas da dessecação em terra firme."
+  },
+  {
+    "question": "[Revisão Aprofundada 15] Em relação a Como é realizada a Ligadura de Trompas (Laqueadura) na mulher?",
+    "options": [
+      "Corte, ligadura ou cauterização das tubas uterinas, impedindo o encontro do óvulo com o espermatozoide",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Corte, ligadura ou cauterização das tubas uterinas, impedindo o encontro do óvulo com o espermatozoide",
+    "explanation": "É um método cirúrgico de esterilização voluntária geralmente definitivo."
+  },
+  {
+    "question": "[Revisão Aprofundada 16] Em relação a Quais são os principais agentes causadores de ISTs no ser humano?",
+    "options": [
+      "Vírus, bactérias, fungos, protozoários e artrópodes parasitas",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Vírus, bactérias, fungos, protozoários e artrópodes parasitas",
+    "explanation": "Abrangem desde vírus como HIV e HPV até bactérias, fungos e ácaros/insetos."
+  },
+  {
+    "question": "[Revisão Aprofundada 17] Em relação a Qual a função biológica exclusiva do Clitóris?",
+    "options": [
+      "Proporcionar prazer sexual à mulher através de sua rica densidade de terminações nervosas e corpos eréteis",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Proporcionar prazer sexual à mulher através de sua rica densidade de terminações nervosas e corpos eréteis",
+    "explanation": "Não possui nenhuma função na eliminação de urina nem na gestação."
+  },
+  {
+    "question": "[Revisão Aprofundada 18] Em relação a Como é estruturado um ciclo menstrual padrão de 28 dias?",
+    "options": [
+      "Dias 1-5: Menstruação; Dias 6-13: Fase proliferativa (crescimento endometrial); Dia 14: Ovulação; Dias 15-28: Fase lútea/secretora",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Dias 1-5: Menstruação; Dias 6-13: Fase proliferativa (crescimento endometrial); Dia 14: Ovulação; Dias 15-28: Fase lútea/secretora",
+    "explanation": "A ovulação divide o ciclo ao meio na maioria das mulheres com ciclos regulares."
+  },
+  {
+    "question": "[Revisão Aprofundada 19] Em relação a O que é o Blastocisto e qual sua importância na gravidez?",
+    "options": [
+      "Esfera celular oca com cavidade líquida interna que chega ao útero e realiza a nidação no endométrio",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Esfera celular oca com cavidade líquida interna que chega ao útero e realiza a nidação no endométrio",
+    "explanation": "Apresenta trofoblasto (futura placenta) e embrioblasto (futuro feto)."
+  },
+  {
+    "question": "[Revisão Aprofundada 20] Em relação a O que é Homeostase corporal?",
+    "options": [
+      "A capacidade do organismo de manter o meio interno estável e equilibrado (temperatura, pH, glicemia, hidratação) diante de variações externas",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A capacidade do organismo de manter o meio interno estável e equilibrado (temperatura, pH, glicemia, hidratação) diante de variações externas",
+    "explanation": "É o grande objetivo integrador da fisiologia humana."
+  },
+  {
+    "question": "[Revisão Aprofundada 21] Em relação a Como ocorre a reprodução por Brotamento?",
+    "options": [
+      "Surge uma gema/broto no corpo do progenitor que cresce e se desprende para formar um indivíduo independente (leveduras, hidras, esponjas)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Surge uma gema/broto no corpo do progenitor que cresce e se desprende para formar um indivíduo independente (leveduras, hidras, esponjas)",
+    "explanation": "Pode também permanecer unido formando grandes colônias."
+  },
+  {
+    "question": "[Revisão Aprofundada 22] Em relação a Quais métodos são considerados altamente eficazes na prevenção da gravidez?",
+    "options": [
+      "Camisinha (masculina e feminina), DIU, Diafragma com espermicida, Métodos hormonais e Esterilização cirúrgica",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Camisinha (masculina e feminina), DIU, Diafragma com espermicida, Métodos hormonais e Esterilização cirúrgica",
+    "explanation": "Esses métodos apresentam baixas taxas de falha quando utilizados corretamente."
+  },
+  {
+    "question": "[Revisão Aprofundada 23] Em relação a Qual a principal medida de prevenção primária contra os subtipos mais graves do HPV?",
+    "options": [
+      "A vacinação preventiva disponibilizada gratuitamente pelo SUS na faixa etária de 9 a 14 anos, antes do início da vida sexual",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A vacinação preventiva disponibilizada gratuitamente pelo SUS na faixa etária de 9 a 14 anos, antes do início da vida sexual",
+    "explanation": "A vacina quadrivalente protege contra verrugas genitais e lesões pré-cancerosas."
+  },
+  {
+    "question": "[Revisão Aprofundada 24] Em relação a Qual a importância do líquido produzido pela Próstata?",
+    "options": [
+      "Secretar líquido leitoso e alcalino que neutraliza a acidez da uretra masculina e da vagina, aumentando a motilidade",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Secretar líquido leitoso e alcalino que neutraliza a acidez da uretra masculina e da vagina, aumentando a motilidade",
+    "explanation": "Garante a sobrevivência dos gametas masculinos no meio ácido vaginal."
+  },
+  {
+    "question": "[Revisão Aprofundada 25] Em relação a O que marca o início biológico da puberdade em meninos e meninas?",
+    "options": [
+      "A ativação do eixo hipotálamo-hipófise, liberando hormônios que estimulam as gônadas a produzir hormônios sexuais",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A ativação do eixo hipotálamo-hipófise, liberando hormônios que estimulam as gônadas a produzir hormônios sexuais",
+    "explanation": "A hipófise libera FSH e LH, estimulando testosterona nos meninos e estrógeno/progesterona nas meninas."
+  },
+  {
+    "question": "[Revisão Aprofundada 26] Em relação a Como se formam os Gêmeos Monozigóticos (Idênticos / Univitelinos)?",
+    "options": [
+      "Fecundação de 1 óvulo por 1 espermatozoide gerando 1 zigoto que se divide em dois embriões com DNA idêntico e mesmo sexo",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Fecundação de 1 óvulo por 1 espermatozoide gerando 1 zigoto que se divide em dois embriões com DNA idêntico e mesmo sexo",
+    "explanation": "Compartilham o mesmo patrimônio genético obrigatoriamente."
+  },
+  {
+    "question": "[Revisão Aprofundada 27] Em relação a Qual o papel dos hormônios T3 e T4 produzidos pela Tireoide?",
+    "options": [
+      "Regular a taxa de metabolismo basal de todas as células, controlando a velocidade com que o corpo consome energia e calor",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Regular a taxa de metabolismo basal de todas as células, controlando a velocidade com que o corpo consome energia e calor",
+    "explanation": "Exigem iodo em sua composição química molecular."
+  },
+  {
+    "question": "[Revisão Aprofundada 28] Em relação a Quais são os quatro verticilos florais em uma flor completa?",
+    "options": [
+      "Cálice (sépalas), Corola (pétalas), Androceu (estames com anteras produtoras de pólen) e Gineceu (carpelos com ovário)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Cálice (sépalas), Corola (pétalas), Androceu (estames com anteras produtoras de pólen) e Gineceu (carpelos com ovário)",
+    "explanation": "O androceu é o aparelho reprodutor masculino e o gineceu o feminino."
+  },
+  {
+    "question": "[Revisão Aprofundada 29] Em relação a Qual a diferença estrutural entre a camisinha masculina e a feminina?",
+    "options": [
+      "A masculina é de látex e envolve o pênis ereto; a feminina é de poliuretano (mais fina e macia), cobrindo as paredes da vagina e a vulva",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A masculina é de látex e envolve o pênis ereto; a feminina é de poliuretano (mais fina e macia), cobrindo as paredes da vagina e a vulva",
+    "explanation": "Ambas impedem o contato entre secreções e são distribuídas gratuitamente pelo SUS."
+  },
+  {
+    "question": "[Revisão Aprofundada 30] Em relação a As hepatites virais B e C podem ser transmitidas por via sexual?",
+    "options": [
+      "Sim, especialmente a Hepatite B através de fluidos corporais e relações sexuais desprotegidas, além de sangue e derivados",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Sim, especialmente a Hepatite B através de fluidos corporais e relações sexuais desprotegidas, além de sangue e derivados",
+    "explanation": "A hepatite B ataca o fígado e possui vacina altamente eficaz no calendário do SUS."
+  },
+  {
+    "question": "[Revisão Aprofundada 31] Em relação a Qual a função das Tubas Uterinas (trompas de Falópio)?",
+    "options": [
+      "Transportar o ovócito em direção ao útero através de cílios e servir como o local exato onde ocorre a fecundação",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Transportar o ovócito em direção ao útero através de cílios e servir como o local exato onde ocorre a fecundação",
+    "explanation": "Possuem fímbrias próximas aos ovários que capturam o óvulo liberado."
+  },
+  {
+    "question": "[Revisão Aprofundada 32] Em relação a Qual o papel do Hormônio Luteinizante (LH) no ciclo feminino?",
+    "options": [
+      "Disparar a ovulação (rompimento folicular) e transformar o folículo vazio em corpo lúteo",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Disparar a ovulação (rompimento folicular) e transformar o folículo vazio em corpo lúteo",
+    "explanation": "O pico agudo de LH ocorre cerca de 24-36 horas antes da ovulação."
+  },
+  {
+    "question": "[Revisão Aprofundada 33] Em relação a Qual o nome da estrutura embrionária maciça com aspecto de amora formada após sucessivas divisões?",
+    "options": [
+      "Mórula (cerca de 16 a 64 células)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Mórula (cerca de 16 a 64 células)",
+    "explanation": "Do latim morum (amora), que depois evolui para blastocisto."
+  },
+  {
+    "question": "[Revisão Aprofundada 34] Em relação a Por que o Pâncreas é considerado uma glândula mista (anfícrina)?",
+    "options": [
+      "Porque produz enzimas digestivas (suco pancreático) liberadas no intestino (exócrino) e hormônios (insulina e glucagon) lançados no sangue (endócrino)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Porque produz enzimas digestivas (suco pancreático) liberadas no intestino (exócrino) e hormônios (insulina e glucagon) lançados no sangue (endócrino)",
+    "explanation": "As ilhotas pancreáticas desempenham a parte endócrina."
+  },
+  {
+    "question": "[Revisão Aprofundada 35] Em relação a Qual a principal vantagem evolutiva da Reprodução Sexuada frente à Assexuada?",
+    "options": [
+      "Gerar alta variabilidade genética entre os descendentes, aumentando as chances de sobrevivência da espécie diante de mudanças ambientais",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Gerar alta variabilidade genética entre os descendentes, aumentando as chances de sobrevivência da espécie diante de mudanças ambientais",
+    "explanation": "A reprodução sexuada combina alelos diferentes por meiose e fecundação."
+  },
+  {
+    "question": "[Revisão Aprofundada 36] Em relação a Como é realizada a Vasectomia no homem?",
+    "options": [
+      "Seccionamento e ligadura dos ductos (canais) deferentes na bolsa escrotal, impedindo a presença de espermatozoides no sêmen",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Seccionamento e ligadura dos ductos (canais) deferentes na bolsa escrotal, impedindo a presença de espermatozoides no sêmen",
+    "explanation": "A cirurgia é simples, não afeta a ereção nem a produção de testosterona."
+  },
+  {
+    "question": "[Revisão Aprofundada 37] Em relação a O que é o Condiloma Acuminado e qual a sua relação com o HPV?",
+    "options": [
+      "Lesões verrucosas na região anogenital causadas pelo Papilomavírus Humano (HPV), alguns tipos com potencial oncogênico",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Lesões verrucosas na região anogenital causadas pelo Papilomavírus Humano (HPV), alguns tipos com potencial oncogênico",
+    "explanation": "Certos tipos de HPV estão diretamente associados ao câncer do colo do útero e do pênis."
+  },
+  {
+    "question": "[Revisão Aprofundada 38] Em relação a Qual o papel do Epidídimo no trajeto dos espermatozoides?",
+    "options": [
+      "Armazenar os espermatozoides imaturos para que adquiram maturação funcional e motilidade flagelar",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Armazenar os espermatozoides imaturos para que adquiram maturação funcional e motilidade flagelar",
+    "explanation": "Sem a passagem pelo epidídimo, os espermatozoides não conseguem nadar até o óvulo."
+  },
+  {
+    "question": "[Revisão Aprofundada 39] Em relação a Quais são características sexuais secundárias femininas?",
+    "options": [
+      "Desenvolvimento das mamas, alargamento dos quadris, pelos pubianos/axilares e redistribuição de gordura",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Desenvolvimento das mamas, alargamento dos quadris, pelos pubianos/axilares e redistribuição de gordura",
+    "explanation": "São mediadas pelos estrógenos ovarianos."
+  },
+  {
+    "question": "[Revisão Aprofundada 40] Em relação a Quais são as três etapas fundamentais do Parto normal?",
+    "options": [
+      "1) Dilatação cervical e contrações uterinas com ruptura da bolsa; 2) Expulsão e nascimento do bebê pela vagina; 3) Dequitação/expulsão da placenta",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "1) Dilatação cervical e contrações uterinas com ruptura da bolsa; 2) Expulsão e nascimento do bebê pela vagina; 3) Dequitação/expulsão da placenta",
+    "explanation": "O trabalho de parto é estimulado pelo hormônio ocitocina."
+  },
+  {
+    "question": "[Revisão Aprofundada 41] Em relação a O que é o Sistema Endócrino?",
+    "options": [
+      "Conjunto de glândulas que produzem e secretam hormônios na corrente sanguínea para coordenar funções vitais, crescimento e equilíbrio corporal",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Conjunto de glândulas que produzem e secretam hormônios na corrente sanguínea para coordenar funções vitais, crescimento e equilíbrio corporal",
+    "explanation": "Atua em sintonia fina com o sistema nervoso na regulação orgânica."
+  },
+  {
+    "question": "[Revisão Aprofundada 42] Em relação a Por que as Briófitas (musgos) e Pteridófitas (samambaias) dependem da água para fecundação?",
+    "options": [
+      "Porque seus gametas masculinos (anterozoides) são flagelados e precisam nadar através de gotas de água para alcançar a oosfera",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Porque seus gametas masculinos (anterozoides) são flagelados e precisam nadar através de gotas de água para alcançar a oosfera",
+    "explanation": "Por isso habitam ambientes úmidos e sombreados."
+  },
+  {
+    "question": "[Revisão Aprofundada 43] Em relação a Quais métodos são considerados pouco eficazes e de alto risco de falha?",
+    "options": [
+      "Tabelinha (Ogino-Knaus), Coito interrompido e Método da temperatura isolado",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Tabelinha (Ogino-Knaus), Coito interrompido e Método da temperatura isolado",
+    "explanation": "Variabilidades biológicas e imprecisão comportamental tornam esses métodos pouco confiáveis."
+  },
+  {
+    "question": "[Revisão Aprofundada 44] Em relação a Por que as feridas causadas por ISTs aumentam o risco de contrair o vírus HIV?",
+    "options": [
+      "Porque rompem a integridade das mucosas genitais, servindo como portas de entrada direta do vírus para a corrente sanguínea",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Porque rompem a integridade das mucosas genitais, servindo como portas de entrada direta do vírus para a corrente sanguínea",
+    "explanation": "O tecido inflamado e ulcerado atrai células de defesa que são os alvos preferenciais do HIV."
+  },
+  {
+    "question": "[Revisão Aprofundada 45] Em relação a O que é Criptorquidia?",
+    "options": [
+      "Não descida de um ou de ambos os testículos da cavidade abdominal para a bolsa escrotal durante o desenvolvimento",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Não descida de um ou de ambos os testículos da cavidade abdominal para a bolsa escrotal durante o desenvolvimento",
+    "explanation": "Requer correção médica precoce para prevenir esterilidade na idade adulta."
+  },
+  {
+    "question": "[Revisão Aprofundada 46] Em relação a Por que ocorre a Menstruação?",
+    "options": [
+      "Porque não ocorrendo fecundação, o corpo lúteo regride, os níveis de progesterona e estrogênio despencam e o endométrio se desprende",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Porque não ocorrendo fecundação, o corpo lúteo regride, os níveis de progesterona e estrogênio despencam e o endométrio se desprende",
+    "explanation": "O sangue eliminado contém fragmentos de tecido endometrial e muco."
+  },
+  {
+    "question": "[Revisão Aprofundada 47] Em relação a O que é o Zigoto?",
+    "options": [
+      "A primeira célula totipotente diploide (2n) do novo ser humano, contendo o DNA paterno e materno combinados",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A primeira célula totipotente diploide (2n) do novo ser humano, contendo o DNA paterno e materno combinados",
+    "explanation": "Inicia imediatas divisões mitóticas sucessivas (clivagens)."
+  },
+  {
+    "question": "[Revisão Aprofundada 48] Em relação a Quais os sintomas do Hipotireoidismo?",
+    "options": [
+      "Metabolismo lento, cansaço crônico, sensação constante de frio, ganho de peso e raciocínio lentificado",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Metabolismo lento, cansaço crônico, sensação constante de frio, ganho de peso e raciocínio lentificado",
+    "explanation": "Decorre da baixa produção hormonal tireoidiana."
+  },
+  {
+    "question": "[Revisão Aprofundada 49] Em relação a Qual a diferença entre animais Ovíparos, Vivíparos e Ovovivíparos?",
+    "options": [
+      "Ovíparos põem ovos externos com nutrientes (aves, répteis); Vivíparos desenvolvem-se no útero materno (mamíferos); Ovovivíparos mantêm o ovo incubado dentro da fêmea (tubarões, serpentes)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Ovíparos põem ovos externos com nutrientes (aves, répteis); Vivíparos desenvolvem-se no útero materno (mamíferos); Ovovivíparos mantêm o ovo incubado dentro da fêmea (tubarões, serpentes)",
+    "explanation": "Classificam-se pelo local e modo de nutrição embrionária."
+  },
+  {
+    "question": "[Revisão Aprofundada 50] Em relação a Como atua o Diafragma associado ao espermicida?",
+    "options": [
+      "O anel de látex cobre o colo do útero antes da relação e o espermicida destrói quimicamente os espermatozoides",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "O anel de látex cobre o colo do útero antes da relação e o espermicida destrói quimicamente os espermatozoides",
+    "explanation": "É um método de barreira física e química que não protege contra ISTs."
+  },
+  {
+    "question": "[Revisão Aprofundada 51] Em relação a Quais são os sintomas comuns da Gonorreia no homem e na mulher?",
+    "options": [
+      "Dor e queimação ao urinar associadas a corrimento purulento espesso amarelo ou esverdeado pela uretra ou canal vaginal",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Dor e queimação ao urinar associadas a corrimento purulento espesso amarelo ou esverdeado pela uretra ou canal vaginal",
+    "explanation": "Causada pela bactéria Neisseria gonorrhoeae, requer tratamento com antibióticos específicos."
+  },
+  {
+    "question": "[Revisão Aprofundada 52] Em relação a Qual a função dos Testículos no organismo masculino?",
+    "options": [
+      "Produzir os gametas masculinos (espermatozoides) nos túbulos seminíferos e sintetizar o hormônio testosterona",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Produzir os gametas masculinos (espermatozoides) nos túbulos seminíferos e sintetizar o hormônio testosterona",
+    "explanation": "Os testículos são gônadas que realizam funções gametogênica e endócrina."
+  },
+  {
+    "question": "[Revisão Aprofundada 53] Em relação a O que é a Menarca?",
+    "options": [
+      "A primeira menstruação na vida da mulher, marcando o início da capacidade reprodutiva",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A primeira menstruação na vida da mulher, marcando o início da capacidade reprodutiva",
+    "explanation": "Ocorre habitualmente entre 10 e 14 anos de idade."
+  },
+  {
+    "question": "[Revisão Aprofundada 54] Em relação a Quando o organismo em gestação passa a ser chamado de Feto?",
+    "options": [
+      "A partir da 9ª semana (fim do segundo mês) até o nascimento, quando os principais sistemas orgânicos estão esboçados",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "A partir da 9ª semana (fim do segundo mês) até o nascimento, quando os principais sistemas orgânicos estão esboçados",
+    "explanation": "O período anterior é a fase embrionária (organogênese)."
+  },
+  {
+    "question": "[Revisão Aprofundada 55] Em relação a Qual a função da Insulina no organismo?",
+    "options": [
+      "Facilitar a entrada de glicose nas células e estimular o armazenamento no fígado (glicogênio), diminuindo a taxa de glicose no sangue (hipoglicemiante)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Facilitar a entrada de glicose nas células e estimular o armazenamento no fígado (glicogênio), diminuindo a taxa de glicose no sangue (hipoglicemiante)",
+    "explanation": "É liberada após as refeições para controlar a glicemia."
+  },
+  {
+    "question": "[Revisão Aprofundada 56] Em relação a Como a planária e a estrela-do-mar se reproduzem por Regeneração/Fragmentação?",
+    "options": [
+      "Pedaços destacados do corpo regeneram todos os tecidos e órgãos ausentes, formando novos indivíduos completos",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Pedaços destacados do corpo regeneram todos os tecidos e órgãos ausentes, formando novos indivíduos completos",
+    "explanation": "Baseia-se em células indiferenciadas de alta plasticidade regenerativa."
+  },
+  {
+    "question": "[Revisão Aprofundada 57] Em relação a A vasectomia altera a quantidade perceptível do líquido ejaculado?",
+    "options": [
+      "Não significativamente, pois cerca de 90% do volume do sêmen é produzido pelas vesículas seminais e próstata",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Não significativamente, pois cerca de 90% do volume do sêmen é produzido pelas vesículas seminais e próstata",
+    "explanation": "Os espermatozoides representam menos de 10% do volume total do sêmen."
+  },
+  {
+    "question": "[Revisão Aprofundada 58] Em relação a O que é a Pediculose Pubiana?",
+    "options": [
+      "Infestação dos pelos pubianos pelo inseto parasita Phthirus pubis (conhecido popularmente como chato), provocando coceira intensa",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Infestação dos pelos pubianos pelo inseto parasita Phthirus pubis (conhecido popularmente como chato), provocando coceira intensa",
+    "explanation": "O contágio ocorre por contato íntimo pele a pele ou roupas de cama/íntimas compartilhadas."
+  },
+  {
+    "question": "[Revisão Aprofundada 59] Em relação a Qual a função da secreção das Glândulas Bulbouretrais?",
+    "options": [
+      "Liberar fluido transparente que lubrifica e limpa a uretra de resíduos ácidos de urina antes da passagem do sêmen",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Liberar fluido transparente que lubrifica e limpa a uretra de resíduos ácidos de urina antes da passagem do sêmen",
+    "explanation": "Ocorre antes da ejaculação propriamente dita."
+  },
+  {
+    "question": "[Revisão Aprofundada 60] Em relação a Em que consiste o autoexame das mamas e a mamografia?",
+    "options": [
+      "O autoexame permite conhecer o próprio corpo e sentir nódulos ao toque; a mamografia detecta tumores milimétricos por raio-X antes de serem palpáveis",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "O autoexame permite conhecer o próprio corpo e sentir nódulos ao toque; a mamografia detecta tumores milimétricos por raio-X antes de serem palpáveis",
+    "explanation": "A mamografia preventiva é preconizada periodicamente após os 40-50 anos."
+  },
+  {
+    "question": "[Revisão Aprofundada 61] Em relação a O que é a Fecundação humana e onde ela se dá?",
+    "options": [
+      "É a fusão do espermatozoide com o ovócito secundário formando o zigoto, ocorrendo no terço superior da tuba uterina",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "É a fusão do espermatozoide com o ovócito secundário formando o zigoto, ocorrendo no terço superior da tuba uterina",
+    "explanation": "Apenas um espermatozoide penetra a membrana do óvulo."
+  },
+  {
+    "question": "[Revisão Aprofundada 62] Em relação a Qual a diferença entre glândulas exócrinas, endócrinas e mistas?",
+    "options": [
+      "Exócrinas secretam por ductos para cavidades/superfície; Endócrinas secretam hormônios no sangue; Mistas possuem ambas as funções",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Exócrinas secretam por ductos para cavidades/superfície; Endócrinas secretam hormônios no sangue; Mistas possuem ambas as funções",
+    "explanation": "Glândulas salivares são exócrinas; tireoide é endócrina; pâncreas é mista."
+  },
+  {
+    "question": "[Revisão Aprofundada 63] Em relação a O que é Polinização e qual o papel ecológico das abelhas?",
+    "options": [
+      "Transporte do grão de pólen da antera para o estigma da flor; as abelhas realizam a polinização cruzada de mais de 70% das espécies vegetais",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Transporte do grão de pólen da antera para o estigma da flor; as abelhas realizam a polinização cruzada de mais de 70% das espécies vegetais",
+    "explanation": "Garante a formação de frutos, sementes e a manutenção dos ecossistemas."
+  },
+  {
+    "question": "[Revisão Aprofundada 64] Em relação a O que preconiza o método da Tabelinha (Ogino-Knaus) criado na década de 1930?",
+    "options": [
+      "Evitar relações sexuais durante o período fértil (3 dias antes e 3 dias após a data provável da ovulação)",
+      "Afirmativa que desconsidera os princípios de regulação hormonal e fisiológica",
+      "Conceito distorcido incompatível com as diretrizes da BNCC para Ciências",
+      "Proposição biologicamente inverídica sobre o funcionamento do corpo humano"
+    ],
+    "correctAnswer": "Evitar relações sexuais durante o período fértil (3 dias antes e 3 dias após a data provável da ovulação)",
+    "explanation": "Baseia-se no cálculo do ciclo menstrual, estimando a ovulação no meio do ciclo."
+  }
+]
+  },
+  // =========================================================================
+  // QUIZ 1: EDUCAÇÃO FÍSICA (PRINCIPAL) - 20 QUESTÕES: FUTSAL (SÉRIE ATIVIDADE TV ESCOLA)
+  // =========================================================================
+  {
+    id: 'educacao-fisica-futsal-20q',
+    title: 'Educação Física: Futsal (20 Questões - Série Atividade TV Escola)',
+    subject: 'Educação Física',
+    description: 'Simulado completo de Educação Física baseado nos episódios Futsal 1 e 2 da Série Atividade (TV Escola / Colégio CPMG Hugo de Carvalho Ramos com Falcão e Profª Eloísa): história, regras oficiais, posições, fundamentos técnicos, atividades adaptadas e benefícios para a saúde.',
+    icon: 'fa-futbol',
+    badgeColor: 'bg-green-600',
+    questions: [
+  {
+    "question": "[Origem Histórica - Versões] O futsal é considerado uma evolução direta do futebol de salão. De acordo com o documentário da TV Escola, quais são as duas versões históricas aceitas para o surgimento do esporte?",
+    "options": [
+      "1934 na Associação Cristã de Moços (ACM) de Montevidéu (Uruguai) pelo professor Juan Carlos Ceriani; ou por volta de 1940 na ACM de São Paulo (Brasil)",
+      "1950 no Rio de Janeiro após a Copa do Mundo; ou 1960 em Buenos Aires (Argentina)",
+      "1900 na Inglaterra nas escolas de futebol de campo; ou 1922 em Paris (França)",
+      "1970 nos Estados Unidos nas quadras de basquete; ou 1980 na Alemanha"
+    ],
+    "correctAnswer": "1934 na Associação Cristã de Moços (ACM) de Montevidéu (Uruguai) pelo professor Juan Carlos Ceriani; ou por volta de 1940 na ACM de São Paulo (Brasil)",
+    "explanation": "A primeira versão atribui a invenção ao professor Juan Carlos Ceriani em 1934 na ACM de Montevidéu (Uruguai); a outra indica o início por volta de 1940 na ACM de São Paulo."
+  },
+  {
+    "question": "[Criação do Nome 'Futsal'] Como surgiu a denominação oficial 'Futsal' utilizada internacionalmente nos dias de hoje?",
+    "options": [
+      "O nome 'futsal' foi criado pela FIFA após tentativas de união e fusão com a FIFUSA (Federação Internacional de Futebol de Salão)",
+      "Foi uma gíria criada pelos jogadores uruguaios na praia de Montevidéu",
+      "Foi criado pelo Comitê Olímpico Internacional durante os Jogos de Atenas",
+      "Foi inventado por um fabricante de bolas pesadas no Rio Grande do Sul"
+    ],
+    "correctAnswer": "O nome 'futsal' foi criado pela FIFA após tentativas de união e fusão com a FIFUSA (Federação Internacional de Futebol de Salão)",
+    "explanation": "A palavra 'futsal' foi cunhada pela FIFA no processo de unificação institucional e padronização com a Federação Internacional de Futebol de Salão (FIFUSA)."
+  },
+  {
+    "question": "[Oficialização no Brasil] Em que ano a prática do futsal foi oficializada no Brasil e por qual entidade desportiva histórica?",
+    "options": [
+      "Em 1958, pela Confederação Brasileira de Desportos (CBD)",
+      "Em 1930, pela Federação Paulista de Futebol",
+      "Em 1982, pelo Comitê Olímpico do Brasil (COB)",
+      "Em 2000, pela Confederação Brasileira de Futsal (CBFS)"
+    ],
+    "correctAnswer": "Em 1958, pela Confederação Brasileira de Desportos (CBD)",
+    "explanation": "A prática oficial do futsal no Brasil foi homologada em 1958 pela Confederação Brasileira de Desportos (CBD), sendo o Brasil atualmente o país com maior número de títulos mundiais."
+  },
+  {
+    "question": "[Depoimento de Falcão - Prática e Acessibilidade] Segundo o depoimento do campeão mundial Falcão, por que o futsal se tornou uma paixão tão popular e acessível nas escolas e ruas?",
+    "options": [
+      "Pela facilidade de reunir menos pessoas (10 jogadores já formam uma partida completa), pela presença de quadras nos colégios e pelo constante contato com a bola nos pés",
+      "Porque o futsal exige obrigatoriamente 22 jogadores e gramados caros",
+      "Porque no futsal não é permitido correr nem realizar esforço físico",
+      "Porque as partidas duram 90 minutos ininterruptos sem intervalo"
+    ],
+    "correctAnswer": "Pela facilidade de reunir menos pessoas (10 jogadores já formam uma partida completa), pela presença de quadras nos colégios e pelo constante contato com a bola nos pés",
+    "explanation": "Falcão destaca que com apenas 10 pessoas já se joga uma excelente partida de futsal na escola ou na rua, proporcionando muito mais toques e intimidade com a bola do que no futebol de campo."
+  },
+  {
+    "question": "[Número de Jogadores e Substituições] Em uma partida oficial de futsal, quantos jogadores compõem cada equipe em quadra, quantos reservas podem ficar no banco e qual é a regra para substituições?",
+    "options": [
+      "5 jogadores titulares (sendo 1 goleiro), até 7 reservas no banco, e substituições ilimitadas a qualquer momento na Zona de Substituição (inclusive com bola rolando)",
+      "11 titulares, 3 reservas no banco e limite de 3 substituições apenas com bola parada",
+      "6 titulares (sem goleiro), 10 reservas e substituições apenas no intervalo",
+      "4 titulares (com 2 goleiros), 5 reservas e substituição com autorização prévia da mesa"
+    ],
+    "correctAnswer": "5 jogadores titulares (sendo 1 goleiro), até 7 reservas no banco, e substituições ilimitadas a qualquer momento na Zona de Substituição (inclusive com bola rolando)",
+    "explanation": "No futsal jogam 5 de cada lado (4 na linha + 1 goleiro), até 7 reservas, com substituições volantes e ilimitadas dentro da zona delimitada, sem necessidade de paralisação do jogo."
+  },
+  {
+    "question": "[Duração das Partidas] Conforme as regras oficiais apresentadas pelo programa da TV Escola, qual é a duração dos tempos de jogo para as categorias Sub-15 e acima de 15 anos?",
+    "options": [
+      "Sub-15: dois tempos de 15 minutos com 10 minutos de intervalo; Acima de 15 anos: dois tempos de 20 minutos com 10 minutos de intervalo",
+      "Sub-15: dois tempos de 45 minutos; Acima de 15 anos: dois tempos de 30 minutos",
+      "Sub-15: tempo único de 25 minutos; Acima de 15 anos: tempo único de 40 minutos",
+      "Sub-15: dois tempos de 10 minutos; Acima de 15 anos: quatro tempos de 12 minutos"
+    ],
+    "correctAnswer": "Sub-15: dois tempos de 15 minutos com 10 minutos de intervalo; Acima de 15 anos: dois tempos de 20 minutos com 10 minutos de intervalo",
+    "explanation": "A categoria Sub-15 joga 2 tempos cronometrados de 15 minutos (com 10 min de intervalo). Para atletas acima de 15 anos (adulto/sub-17/sub-20), são 2 tempos de 20 minutos."
+  },
+  {
+    "question": "[Regra do Cartão Vermelho] Quando um atleta é punido com o cartão vermelho (expulsão direta ou 2º amarelo), em quais condições a sua equipe poderá recompor o 5º jogador em quadra?",
+    "options": [
+      "Após decorridos 2 minutos cronometrados de penalidade OU se a equipe infratora sofrer um gol antes desse tempo",
+      "Imediatamente após a saída do atleta expulso",
+      "Apenas no início do segundo tempo da partida",
+      "A equipe deve obrigatoriamente terminar o jogo inteiro com um jogador a menos"
+    ],
+    "correctAnswer": "Após decorridos 2 minutos cronometrados de penalidade OU se a equipe infratora sofrer um gol antes desse tempo",
+    "explanation": "O jogador expulso não retorna, mas a equipe pode colocar outro atleta reserva após cumprir 2 minutos de desvantagem numérica ou imediatamente se sofrer um gol durante esse período."
+  },
+  {
+    "question": "[Classificação e Acúmulo de Faltas] Como são classificadas as faltas no futsal e o que acontece a partir da 6ª falta direta coletiva cometida por uma equipe no mesmo período?",
+    "options": [
+      "Faltas técnicas (contato físico), pessoais (infração de regras) e por indisciplina; as primeiras 5 são anotadas em súmula e a partir da 6ª o tiro livre direto é cobrado sem barreira",
+      "Faltas leves e pesadas; na 3ª falta o capitão do time é expulso automaticamente",
+      "Faltas táticas e manuais; a partir da 5ª falta o jogo é encerrado por WO",
+      "Todas as faltas geram pênalti na pequena área com barreira de 4 jogadores"
+    ],
+    "correctAnswer": "Faltas técnicas (contato físico), pessoais (infração de regras) e por indisciplina; as primeiras 5 são anotadas em súmula e a partir da 6ª o tiro livre direto é cobrado sem barreira",
+    "explanation": "Faltas diretas são acumulativas em cada tempo. As 5 primeiras permitem barreira; da 6ª falta em diante, a cobrança é de tiro livre direto sem barreira (tiro dos 10 metros ou no local da infração)."
+  },
+  {
+    "question": "[Posições dos Jogadores em Quadra] Em uma estrutura tática básica de futsal, como são designadas as três posições de linha e suas respectivas funções principais?",
+    "options": [
+      "Fixo (função defensiva), Alas direito e esquerdo (armação e transição pelas laterais) e Pivô (função ofensiva e referência no ataque)",
+      "Zagueiro central, Centroavante e Meia-atacante de campo",
+      "Armador central, Ponta direita e Levantador de rede",
+      "Líbero, Rebatedor de base e Goleiro-linha volante"
+    ],
+    "correctAnswer": "Fixo (função defensiva), Alas direito e esquerdo (armação e transição pelas laterais) e Pivô (função ofensiva e referência no ataque)",
+    "explanation": "No futsal clássico as posições de linha são: Fixo (segurança na defesa), Alas (abertura de jogadas nas pontas) e Pivô (segura a bola de costas e finaliza no ataque), havendo constante rodízio."
+  },
+  {
+    "question": "[Dinâmica Tática e Movimentação] Por que o futsal moderno exige constante troca e rodízio de posições entre os jogadores durante a partida?",
+    "options": [
+      "Para tentar envolver, desorganizar a marcação adversária e abrir linhas de passe nos espaços reduzidos da quadra",
+      "Porque o regulamento proíbe que um jogador permaneça mais de 10 segundos no mesmo setor",
+      "Para que o goleiro seja obrigado a jogar como pivô o tempo todo",
+      "Porque a bola não pode ultrapassar o meio de quadra"
+    ],
+    "correctAnswer": "Para tentar envolver, desorganizar a marcação adversária e abrir linhas de passe nos espaços reduzidos da quadra",
+    "explanation": "Devido ao espaço limitado e à marcação cerrada, a rotação dinâmica e troca contínua de posições criam brechas e desequilibram o sistema defensivo rival."
+  },
+  {
+    "question": "[Objetivo Principal do Futsal] Conforme destacado pelos estudantes e pelo narrador do programa, qual é o principal e supremo objetivo do jogo de futsal?",
+    "options": [
+      "Fazer o gol",
+      "Cometer o maior número de faltas táticas",
+      "Manter a bola na quadra de defesa sem chutar",
+      "Fazer malabarismos individuais sem passar a bola"
+    ],
+    "correctAnswer": "Fazer o gol",
+    "explanation": "Todos os fundamentos (condução, domínio, passe, recepção e finalização) convergem para a principal meta do jogo: marcar o gol."
+  },
+  {
+    "question": "[Atividade Adaptativa: Jogo dos 'Dois Toques'] Na aula da professora Eloísa, os alunos praticaram o exercício dos 'Dois Toques'. Quais são a regra e o principal objetivo pedagógico dessa atividade?",
+    "options": [
+      "Regra: cada aluno pode dar no máximo 2 toques na bola (dominar e passar); Objetivo: evitar o individualismo, estimular o jogo coletivo, posicionamento tático e raciocínio lógico rápido",
+      "Regra: o jogo só termina quando o time fizer dois gols seguidos de cabeça",
+      "Regra: cada jogador precisa dar dois chutes na trave antes de poder passar",
+      "Regra: só é permitido jogar usando as duas mãos"
+    ],
+    "correctAnswer": "Regra: cada aluno pode dar no máximo 2 toques na bola (dominar e passar); Objetivo: evitar o individualismo, estimular o jogo coletivo, posicionamento tático e raciocínio lógico rápido",
+    "explanation": "O jogo de 'Dois Toques' obriga o aluno a pensar antes de receber a bola, acelera o raciocínio, desenvolve a visão periférica e combate o individualismo forçando o passe rápido ao colega livre."
+  },
+  {
+    "question": "[Atividade Adaptativa: 'Golzinho' 3 a 3] Na atividade de 'Golzinho' em espaço reduzido (3 contra 3, sem goleiro e com cones servindo de pequenas goleiras), o que a dinâmica exige dos estudantes?",
+    "options": [
+      "Passes curtos e rápidos, movimentação constante para encontrar espaços livres e marcação individual fechada da equipe adversária",
+      "Chutes de longa distância com força máxima de qualquer lugar da quadra",
+      "Permanecer parado dentro da pequena área para defender com as mãos",
+      "Dar balões e lançamentos altos por cima dos cones"
+    ],
+    "correctAnswer": "Passes curtos e rápidos, movimentação constante para encontrar espaços livres e marcação individual fechada da equipe adversária",
+    "explanation": "Com goleiras pequenas e sem goleiro, o 'Golzinho' impossibilita chutes aleatórios, exigindo passes precisos pelo chão, aproximação e marcação homem a homem rigorosa."
+  },
+  {
+    "question": "[Jogada Combinada] No episódio 2, a professora Eloísa utilizou uma prancheta tática para desenhar uma 'Jogada Combinada' na quadra. Qual é a importância de treinar jogadas combinadas em jogos coletivos?",
+    "options": [
+      "Integrar todos os fundamentos (condução, domínio, passe, deslocamento e chute) em situações contextualizadas e próximas da realidade do jogo",
+      "Memorizar posições fixas onde ninguém pode se mover até o apito final",
+      "Substituir o uso da bola por cones estáticos",
+      "Eliminar a necessidade de treinar passes e finalizações"
+    ],
+    "correctAnswer": "Integrar todos os fundamentos (condução, domínio, passe, deslocamento e chute) em situações contextualizadas e próximas da realidade do jogo",
+    "explanation": "A jogada combinada une os fundamentos técnicos de forma sequencial (ala conduz, pivô tabela pelo centro e jogador vindo de trás finaliza), preparando a equipe para o jogo real."
+  },
+  {
+    "question": "[Fundamentos: Condução e Domínio de Bola] De acordo com a explicação técnica do programa, o que é a condução de bola e como o domínio com a sola do pé auxilia o atleta?",
+    "options": [
+      "Condução é progredir pela quadra com a bola (em linha reta ou ziguezague); o domínio com a sola do pé permite pisar na bola, amortecendo-a com controle imediato para a próxima ação",
+      "Condução é chutar a bola para fora da quadra e domínio é segurá-la com as duas mãos",
+      "Condução só pode ser feita com a cabeça e domínio é deixar a bola quicar três vezes",
+      "Conduzir é dar bicos para o alto até alcançar a área do goleiro"
+    ],
+    "correctAnswer": "Condução é progredir pela quadra com a bola (em linha reta ou ziguezague); o domínio com a sola do pé permite pisar na bola, amortecendo-a com controle imediato para a próxima ação",
+    "explanation": "A condução é o ato de deslocar-se com a bola pelos espaços da quadra. O domínio com a sola ('pisada') é um clássico fundamento do futsal para estabilizar a bola rápida sob pressão."
+  },
+  {
+    "question": "[Fundamento do Passe - Tipos de Toque] Em relação aos tipos de passe demonstrados na aula, associe corretamente a parte do pé ao seu respectivo objetivo no jogo:",
+    "options": [
+      "Face interna (chapa): passe preciso; Face externa: passes longos; Bico e sola: passes rápidos e curtos",
+      "Bico: passe colocado de efeito; Face interna: passe violento de 40 metros; Calcanhar: cobrança de pênalti",
+      "Sola: lançamento aéreo longo; Face externa: passe curto sem força; Peito do pé: reposição de lateral",
+      "Todas as partes do pé produzem exatamente a mesma trajetória sem qualquer diferença"
+    ],
+    "correctAnswer": "Face interna (chapa): passe preciso; Face externa: passes longos; Bico e sola: passes rápidos e curtos",
+    "explanation": "A face interna oferece grande área de contato gerando precisão; a face externa é usada em passes mais longos com curva/trajetória lateral; bico e sola oferecem respostas rápidas em espaços curtos."
+  },
+  {
+    "question": "[Fundamento do Chute - Variações de Impacto] Conforme detalhado pela professora Eloísa, quais são as características dos chutes de face interna, de bico e de face externa?",
+    "options": [
+      "Face interna: muito preciso (maior área de contato do pé com a bola); Bico: muita potência e menor precisão (menor área de contato); Face externa: jogadas com efeito e curva",
+      "Bico: máxima precisão e sem força; Face interna: chute aleatório sem controle",
+      "Face externa: chute fraco em linha reta; Bico: proibido pelas regras de arbitragem",
+      "Face interna: utilizado apenas para afastar a bola da própria área"
+    ],
+    "correctAnswer": "Face interna: muito preciso (maior área de contato do pé com a bola); Bico: muita potência e menor precisão (menor área de contato); Face externa: jogadas com efeito e curva",
+    "explanation": "Do chute sai o resultado do jogo! A face interna garante colocação precisa; o bico concentra energia num ponto menor gerando velocidade explosiva; e a face externa confere efeito curvo."
+  },
+  {
+    "question": "[Biomecânica: A Perna de Apoio] Na execução do passe e do chute no futsal, qual é a função essencial da perna de apoio (que não chuta a bola)?",
+    "options": [
+      "Oferecer equilíbrio corporal, estabilidade e orientar o alinhamento da trajetória da bola em direção ao alvo",
+      "Permanecer no ar durante todo o movimento do chute",
+      "Girar em 360 graus para enganar o goleiro adversário",
+      "Impedir que o atleta olhe para a bola no momento do chute"
+    ],
+    "correctAnswer": "Oferecer equilíbrio corporal, estabilidade e orientar o alinhamento da trajetória da bola em direção ao alvo",
+    "explanation": "A perna de apoio fornece sustentação, equilíbrio e precisão angular, enquanto a perna executora direciona a força e o tipo de contato com a bola."
+  },
+  {
+    "question": "[Benefícios Fisiológicos do Futsal] Quais são os principais ganhos fisiológicos e motores proporcionados pela prática regular do futsal para o organismo de jovens e crianças?",
+    "options": [
+      "Fortalecimento dos membros inferiores, ampliação da capacidade cardiorrespiratória/aeróbica, desenvolvimento da capacidade anaeróbica, ganho de coordenação motora e agilidade",
+      "Atrofia dos músculos das pernas e redução da capacidade pulmonar",
+      "Ganho exclusivo de peso estático sem gasto calórico",
+      "Aumento da sonolência e perda de equilíbrio motor"
+    ],
+    "correctAnswer": "Fortalecimento dos membros inferiores, ampliação da capacidade cardiorrespiratória/aeróbica, desenvolvimento da capacidade anaeróbica, ganho de coordenação motora e agilidade",
+    "explanation": "O ritmo intermitente de alta intensidade do futsal desenvolve a potência anaeróbica, melhora a saúde cardiovascular, fortalece a musculatura das pernas e aprimora a coordenação espacial."
+  },
+  {
+    "question": "[Formação Humana, Inclusão de Gênero e Valores] Em seus depoimentos finais, a professora Eloísa Nogueira e o jogador Falcão defenderam que o papel prioritário do esporte na escola é:",
+    "options": [
+      "Formar primeiramente homens e mulheres conscientes, cidadãos de bom caráter, respeitando os colegas (meninos e meninas jogando juntos), sabendo lidar com vitórias e derrotas antes de visar atletas de elite",
+      "Cobrar resultados profissionais imediatos excluindo os alunos que têm mais dificuldade",
+      "Separar rigidamente meninos e meninas proibindo que compartilhem a mesma quadra",
+      "Punir com reprovação escolar todo estudante que errar um passe durante a aula"
+    ],
+    "correctAnswer": "Formar primeiramente homens e mulheres conscientes, cidadãos de bom caráter, respeitando os colegas (meninos e meninas jogando juntos), sabendo lidar com vitórias e derrotas antes de visar atletas de elite",
+    "explanation": "Tanto a professora Eloísa quanto o craque Falcão enfatizam que o esporte escolar educa para a vida em sociedade: companheirismo, respeito às diferenças, igualdade de gênero e formação humana integral."
+  }
+]
+  },
+  // =========================================================================
   // QUIZ 1: GEOGRAFIA (PRINCIPAL) - 40 QUESTÕES: ESTADOS UNIDOS, CANADÁ E MÉXICO
   // =========================================================================
   {

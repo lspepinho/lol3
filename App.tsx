@@ -27,7 +27,7 @@ export default function App() {
     setError(null);
     setQuizState(QuizState.LOADING);
     try {
-      const newQuestions = await generateQuizQuestions(currentQuiz.id);
+      const newQuestions = await generateQuizQuestions(currentQuiz.id, currentQuiz.questions);
       setQuestions(newQuestions);
       setUserAnswers(Array(newQuestions.length).fill(null));
       setCurrentQuestionIndex(0);
@@ -36,7 +36,7 @@ export default function App() {
       setError(err instanceof Error ? err.message : 'Ocorreu um erro desconhecido.');
       setQuizState(QuizState.IDLE);
     }
-  }, [currentQuiz.id]);
+  }, [currentQuiz]);
 
   const handleAnswer = (answer: string) => {
     const newUserAnswers = [...userAnswers];

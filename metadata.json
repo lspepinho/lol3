@@ -1,6 +1,6 @@
 {
-  "name": "Gênio Quiz: Geografia & Matérias Escolares do 8º Ano",
-  "description": "Quiz interativo de Geografia com 40 questões completas sobre Estados Unidos, Canadá e México (Profª Maria Luiza), acompanhado da biblioteca completa de quizzes (Matemática, História, Artes, Português, Inglês).",
+  "name": "Gênio Quiz: Educação Física & Matérias Escolares do 8º Ano",
+  "description": "Simulado completo e interativo para o 8º Ano com destaque para o Quiz Mestre de Ciências (200 questões sobre Reprodução, Sexualidade, ISTs, Fisiologia e Sistema Endócrino), Futsal (Educação Física), Geografia, Matemática, História, Artes, Português, Inglês e o Modo Gênio para gerar simulados com quantidade personalizada de questões igualmente distribuídas entre todas as matérias.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
