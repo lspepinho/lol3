@@ -1,3 +1,4 @@
+
 export interface Question {
   question: string;
   options: string[];
@@ -5,23 +6,13 @@ export interface Question {
   explanation: string;
 }
 
-export interface QuizTopic {
-  id: string;
-  title: string;
-  subject: string;
-  description: string;
-  icon: string;
-  badgeColor?: string;
-  questions: Question[];
-}
-
 export interface QuizData {
-  questions: Question[];
+    questions: Question[];
 }
 
 export enum QuizState {
-  IDLE = 'IDLE',
-  LOADING = 'LOADING',
-  IN_PROGRESS = 'IN_PROGRESS',
-  RESULTS = 'RESULTS'
+    IDLE = 'IDLE',
+    LOADING = 'LOADING',
+    IN_PROGRESS = 'IN_PROGRESS',
+    RESULTS = 'RESULTS'
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Gênio Quiz: Educação Física & Matérias Escolares do 8º Ano",
-  "description": "Simulado completo e interativo para o 8º Ano com destaque para o Quiz Mestre de Ciências (200 questões sobre Reprodução, Sexualidade, ISTs, Fisiologia e Sistema Endócrino), Futsal (Educação Física), Geografia, Matemática, História, Artes, Português, Inglês e o Modo Gênio para gerar simulados com quantidade personalizada de questões igualmente distribuídas entre todas as matérias.",
+  "name": "Quiz de Ciências: 8º Ano - Reprodução, Genética e Saúde",
+  "description": "Quiz completo com 100 questões (10 de cada assunto) abordando reprodução sexuada e assexuada, anatomia humana, hormônios, ciclo menstrual, fecundação, embriologia, gêmeos, métodos contraceptivos e ISTs.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
